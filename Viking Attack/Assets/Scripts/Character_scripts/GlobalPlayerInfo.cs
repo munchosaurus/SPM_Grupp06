@@ -32,10 +32,5 @@ public class GlobalPlayerInfo : MonoBehaviour
     {
         return skinColor;
     }
-
-    private void Awake()
-    {
-        print(GetName());
-        print(GetSkinColor());
-    }
+    
 }
