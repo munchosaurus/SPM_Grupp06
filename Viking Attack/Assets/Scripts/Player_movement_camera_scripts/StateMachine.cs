@@ -10,6 +10,7 @@ public class StateMachine
     public StateMachine(object controller, State[] states)
     {
         stateList = new State[states.Length];
+        //Instantiate all states and add them to local list
         for (int i = 0; i < states.Length; i++)
         {
             State temp = UnityEngine.Object.Instantiate(states[i]);
@@ -22,6 +23,7 @@ public class StateMachine
     }
     public void Update()
     {
+        //Updated states in the order of addition
         if(stateQueue.Count > 0)
         {
             State temp = stateQueue.Dequeue();
@@ -30,9 +32,8 @@ public class StateMachine
         }
         else
             currentState.Update();
-        Debug.Log(currentState);
-
     }
+    //Changes state
     public void ChangeState<T>() where T : State
     {
         foreach(State s in stateList)
