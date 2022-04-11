@@ -12,35 +12,42 @@ public class MyRigidbody3D : MonoBehaviour
     private float groundCheckDistance = 0.01f;
     private CapsuleCollider capsuleCollider;
     private LayerMask collisionMask;
-    public Vector3 velocity;
     private Vector3 point1;
     private Vector3 point2;
-    private bool onGround;
+    public Vector3 velocity;
+
     void Awake()
     {
+        //Set collisionMask to hit everything except self
         collisionMask = ~(1 << gameObject.layer);
         capsuleCollider = GetComponent<CapsuleCollider>();
     }
 
     void Update()
-    {        
+    {   
+        //Add gravity     
         velocity +=  Vector3.down * gravity;
 
+        //Add air resistance
         velocity *= Mathf.Pow(airResistance, Time.deltaTime);
         
+        //Updates capsule (Collider hitbox) circle component position.
         point1 = gameObject.transform.position + capsuleCollider.center + Vector3.up * (capsuleCollider.height / 2 - capsuleCollider.radius);
         point2 = gameObject.transform.position + capsuleCollider.center + Vector3.down * (capsuleCollider.height / 2 - capsuleCollider.radius);
 
         PhysicsObjectFrictionFunction();
         UpdateVelocity();
 
+        //Add velocity variable to object position
         transform.position += velocity * Time.deltaTime;
     }
+    //Check if object is on ground (on another collider) returns a bool
     public bool GroundedBool()
     {
         RaycastHit hit = new RaycastHit();
         return Physics.CapsuleCast(point1, point2, capsuleCollider.radius, Vector3.down, out hit ,(groundCheckDistance + colliderMargin),collisionMask);
     }
+    //Check if object is on ground (on another collider) returns a RaycastHit veribal
     public RaycastHit Grounded()
     {
         RaycastHit hit = new RaycastHit();
@@ -49,35 +56,55 @@ public class MyRigidbody3D : MonoBehaviour
     }
     private void UpdateVelocity()
     {
+        //If velocity is really slow set velocity to 0
         if(velocity.magnitude  < 0.0001f)
         {
             velocity = Vector3.zero;
             return;
         }
-        RaycastHit hit1;
+
         Vector3 normalForce = Vector3.zero;
-        if(Physics.CapsuleCast(point1, point2, capsuleCollider.radius, velocity.normalized, out hit1 ,Mathf.Infinity,collisionMask))
+        //Exits function if object can move with no obstructions
+        if(UpdateVelocityForCast(normalForce) == Vector3.zero)
+            return;
+        normalForce += UpdateVelocityForCast(normalForce);
+        normalForce += UpdateVelocityForOverlap(normalForce);
+        FrictionFunction(normalForce);
+    }
+    //Checks for collision with a cast
+    private Vector3 UpdateVelocityForCast(Vector3 normalForce)
+    {
+        RaycastHit hit;
+        if(Physics.CapsuleCast(point1, point2, capsuleCollider.radius, velocity.normalized, out hit ,Mathf.Infinity,collisionMask))
         {
-            float distanceToColliderNeg = colliderMargin / Vector3.Dot(velocity.normalized, hit1.normal);
-            float allowedMovementDistance = hit1.distance + distanceToColliderNeg;
+            float distanceToColliderNeg = colliderMargin / Vector3.Dot(velocity.normalized, hit.normal);
+            float allowedMovementDistance = hit.distance + distanceToColliderNeg;
+            //Returns Vector3.zero which also exits UpdateVelocity() if the object can move without obstructions
             if (allowedMovementDistance > velocity.magnitude * Time.deltaTime) 
             {
-                return;
+                return Vector3.zero;
             }
+            //Sets velocity variable to the allowed distance 
             if (allowedMovementDistance > 0.0f) 
             {
                 velocity += velocity.normalized * allowedMovementDistance;
             }
-            normalForce += GetComponent<GeneralHelpFunctions3D>().CalculateNormalForce(velocity,hit1.normal);
+            normalForce += GetComponent<GeneralHelpFunctions3D>().CalculateNormalForce(velocity,hit.normal);
             velocity += normalForce;
             UpdateVelocity();
         }
+        return normalForce;
+    }
+    //Checks for collision with Overlap
+    private Vector3 UpdateVelocityForOverlap(Vector3 normalForce)
+    {
         Collider[] hitList = Physics.OverlapCapsule(point1, point2, capsuleCollider.radius, collisionMask);
         if(hitList.Length > 0)
         {
             Vector3 direction;
             float distance = Mathf.Infinity;
             Collider colliderToStartWith = null;
+            //Iterate through overlapping colliders and gets the closest one
             foreach(Collider hit2 in hitList)
             {
                 Vector3 tempDirection;
@@ -89,18 +116,20 @@ public class MyRigidbody3D : MonoBehaviour
                     colliderToStartWith = hit2;
                 }
             }
+            //Sets direction and distance variable with closest collider
             Physics.ComputePenetration(capsuleCollider,capsuleCollider.transform.position,capsuleCollider.transform.rotation,colliderToStartWith,colliderToStartWith.transform.position,colliderToStartWith.transform.rotation,out direction,out distance);
 
             Vector3 separationVector = direction * distance;
+            //Sets object position to outside overlapped collider
             transform.position += separationVector + direction.normalized * colliderMargin * Time.deltaTime;
 
             normalForce += GetComponent<GeneralHelpFunctions3D>().CalculateNormalForce(velocity, direction.normalized);
             velocity += normalForce;
             UpdateVelocity();
         }
-        FrictionFunction(normalForce);
-
+        return normalForce;
     }
+    //Gives friction to velovity with given normalforce
     private void FrictionFunction(Vector3 normalForce)
     {
         if (velocity.magnitude < normalForce.magnitude * staticFrictionCoefficient)
@@ -108,6 +137,7 @@ public class MyRigidbody3D : MonoBehaviour
         else
             velocity -= velocity.normalized * normalForce.magnitude * kineticFrictionCoefficient;
     }
+    //Gives friction to velovity with collided PhysicsObject (object with MyRigidbody3D)
     private void PhysicsObjectFrictionFunction()
     {
         if(GroundedBool() && Grounded().transform.gameObject.GetComponent<MyRigidbody3D>() != null)

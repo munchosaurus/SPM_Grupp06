@@ -4,27 +4,28 @@ using UnityEngine;
 
 public class CameraMovement3D : MonoBehaviour
 {
-
-    [SerializeField] private GameObject firstPersonPos;
-    [SerializeField] private GameObject thirdPersonPos;
+    [SerializeField] private GameObject firstPersonPosition;
+    [SerializeField] private GameObject thirdPersonPosition;
     [SerializeField] float mouseSensitivity = 1;
     private float rotationX = 0;
     private float rotationY = 0;
-    private Vector3 cameraPos;
+    private Vector3 cameraPosition;
 
 
     void Start()
     {
+        //Sets camera position to firstperson if variable is true in PlayerScript3D
         if(GetComponentInParent<PlayerScript3D>().firstPerson)
         {
-            cameraPos = firstPersonPos.transform.localPosition;
+            cameraPosition = firstPersonPosition.transform.localPosition;
         }else
         {
-            cameraPos = thirdPersonPos.transform.localPosition;
+            cameraPosition = thirdPersonPosition.transform.localPosition;
         }
     }
     void Update()
     {
+        //Sets rotation to camera depending on mouse position and movement
         rotationX -= Input.GetAxisRaw("Mouse Y") * mouseSensitivity;
         rotationY += Input.GetAxisRaw("Mouse X") * mouseSensitivity;
         rotationX = Mathf.Clamp(rotationX,-89,89);
@@ -32,7 +33,8 @@ public class CameraMovement3D : MonoBehaviour
     }
     void LateUpdate()
     {
-        Vector3 cameraOffset = transform.rotation * cameraPos;
+        //Looks if camera hits a collider and if it's true change position of camera to hit position
+        Vector3 cameraOffset = transform.rotation * cameraPosition;
         RaycastHit hit;
         if(Physics.SphereCast(transform.parent.transform.position, 0.1f, cameraOffset, out hit ,cameraOffset.magnitude,~(1 << transform.parent.gameObject.layer)))
         {

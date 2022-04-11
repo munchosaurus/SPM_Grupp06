@@ -4,28 +4,27 @@ using UnityEngine;
 
 public class PlayerScript3D : MonoBehaviour
 {
-    private MyRigidbody3D rb;
     [SerializeField] private State[] states;
+    private MyRigidbody3D myRigidbody;
+    private StateMachine stateMachine;
     public float jumpForce = 10f;
     public float acceleration  = 10f;
     public Camera mainCamera;
     public bool firstPerson;
-    private StateMachine st;
+    
     void Awake()
     {
-        rb = GetComponent<MyRigidbody3D>();
+        myRigidbody = GetComponent<MyRigidbody3D>();
         if(states.Length > 0)    
-            st = new StateMachine(this,states);
+            stateMachine = new StateMachine(this,states);
     }
 
     void Update()
     {  
+        //If there are any added states in the unity inspector
         if(states.Length > 0)      
-            st.Update();
+            stateMachine.Update();
     }
-
-    public MyRigidbody3D getMyRigidbody3D()
-    {
-        return rb;
-    }
+    //Returns myRigidbody
+    public MyRigidbody3D MyRigidbody3D => myRigidbody;
 }
