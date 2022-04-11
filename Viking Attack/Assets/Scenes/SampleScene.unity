@@ -269,7 +269,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b67ef9b689dad1a44ab396f08916aa91, type: 2}
   - {fileID: 11400000, guid: 4e4bfb8b1a8ce0b4b86d45adb98c4ec1, type: 2}
   jumpForce: 30
-  acceleration: 1
+  acceleration: 0.5
   mainCamera: {fileID: 963194227}
   firstPerson: 0
 --- !u!114 &627251805
