@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Base class to all states
 public abstract class State : ScriptableObject
 {   
     public object owner;

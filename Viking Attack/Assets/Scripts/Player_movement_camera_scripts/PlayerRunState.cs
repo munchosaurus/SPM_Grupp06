@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "PlayerState/RunState")]
-//Used as a state when the player inputs for Horizontal and Vertical movement
 public class PlayerRunState : PlayerState
 {
     private Vector3 input;
@@ -13,16 +12,14 @@ public class PlayerRunState : PlayerState
     }
     public override void Update()
     {
-        //get player input
         input = Vector3.right * Input.GetAxisRaw("Horizontal") + Vector3.forward * Input.GetAxisRaw("Vertical");
-        input = Player.mainCamera.transform.rotation * input;
-        input = Vector3.ProjectOnPlane(input,Player.MyRigidbody3D.Grounded().normal);
-        input = input.normalized * Player.acceleration;
+        input = player.mainCamera.transform.rotation * input;
+        input = Vector3.ProjectOnPlane(input,player.getMyRigidbody3D().Grounded().normal);
+        input = input.normalized * player.acceleration;
 
-        //If player is grounded set input vector to follow the ground 
-        if(!Player.MyRigidbody3D.GroundedBool())
+        if(!player.getMyRigidbody3D().GroundedBool())
             input = new Vector3(input.x,0f,input.z);
-        Player.MyRigidbody3D.velocity += input * Player.acceleration;
+        player.getMyRigidbody3D().velocity += input * player.acceleration;
 
         if(Input.GetKeyDown(KeyCode.Space))
             stateMachine.ChangeState<PlayerJumpState>();
