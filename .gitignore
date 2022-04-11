@@ -9,3 +9,6 @@ Viking Attack/Library/SourceAssetDB
 Viking Attack/Temp/UnityLockfile
 Viking Attack/Temp/workerlic
 *.log
+Viking Attack/Library/SourceAssetDB
+*.dwlt
+*.log
