@@ -3,3 +3,9 @@ Viking Attack/Library/ArtifactDB
 Viking Attack/Library/CurrentLayout-default.dwlt
 Viking Attack/Library/SourceAssetDB
 Viking Attack/Logs/AssetImportWorker0-prev.log
+Viking Attack/Library/ArtifactDB
+*.json
+Viking Attack/Library/SourceAssetDB
+Viking Attack/Temp/UnityLockfile
+Viking Attack/Temp/workerlic
+*.log
