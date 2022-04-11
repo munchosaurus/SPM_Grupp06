@@ -1,10 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
+// Who to blame: Martin Kings
 
+// The script handles user input in terms of skin color and name choices, ships the chosen
+// data to the GlobalPlayerInfo container.
 public class MainMenuButtonManager : MonoBehaviour
 {
     [SerializeField] private GameObject customizationScreen;
+    [SerializeField] private Text chosenName;
+    [SerializeField] private Image displayedImage;
     
     // opens player customization page
     public void NewGame()
@@ -24,9 +30,11 @@ public class MainMenuButtonManager : MonoBehaviour
         Application.Quit();
     }
     
-    // launches a new run of game
+    // launches a new run of game, ships the current inserted name and the chosen color to the GlobalPlayerInfo container
     public void LaunchGame()
     {
+        GlobalPlayerInfo.SetSkinColor(displayedImage.color);
+        GlobalPlayerInfo.SetPlayerName(chosenName.text);
         SceneManager.LoadScene(1);
     }
 }

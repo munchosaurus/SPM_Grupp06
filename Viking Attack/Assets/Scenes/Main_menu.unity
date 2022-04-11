@@ -432,6 +432,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customizationScreen: {fileID: 1697601842}
+  chosenName: {fileID: 651438580}
+  displayedImage: {fileID: 11556751}
 --- !u!1 &551257633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,13 +1188,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 629091662}
   skinColor: {fileID: 11556751}
-  animators:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &1217602481
 GameObject:
   m_ObjectHideFlags: 0

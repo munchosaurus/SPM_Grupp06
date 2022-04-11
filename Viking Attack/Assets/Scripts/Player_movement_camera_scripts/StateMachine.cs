@@ -30,7 +30,7 @@ public class StateMachine
         }
         else
             currentState.Update();
-        Debug.Log(currentState);
+        //Debug.Log(currentState);
 
     }
     public void ChangeState<T>() where T : State
