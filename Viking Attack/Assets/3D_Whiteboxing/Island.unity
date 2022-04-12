@@ -174,6 +174,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 409c230eb1295de4ba1cdb31d9396baf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91b823a5e90a24145b334fcd6fba204b, type: 2}
     - target: {fileID: 919132149155446097, guid: 409c230eb1295de4ba1cdb31d9396baf, type: 3}
       propertyPath: m_Name
       value: Skeleton
@@ -304,6 +308,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cb3274990d7303640a7b3fc2d0e8f6e1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d033791922b7b6c4a9c3d68c5e0470e6, type: 2}
     - target: {fileID: 919132149155446097, guid: cb3274990d7303640a7b3fc2d0e8f6e1, type: 3}
       propertyPath: m_Name
       value: Bear
@@ -361,6 +369,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5acf9ac456c95ab4ca6c3e0907ad1546, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6bef43f348269cf4596e1450fee6b99a, type: 2}
     - target: {fileID: 919132149155446097, guid: 5acf9ac456c95ab4ca6c3e0907ad1546, type: 3}
       propertyPath: m_Name
       value: Player
@@ -418,6 +430,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5f01636ec5e12a54dbb8c4f250bde001, type: 2}
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree
@@ -475,6 +491,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0c292d893ae2cb74bbb2d56a16dcdab3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 40c1bdf9db27502468163a12abb611f8, type: 2}
     - target: {fileID: 919132149155446097, guid: 0c292d893ae2cb74bbb2d56a16dcdab3, type: 3}
       propertyPath: m_Name
       value: Abandoned_House
@@ -708,6 +728,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b6e632545238f6b4fa8ffed9db290a51, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b00479134f0f0aa42a176536a58caace, type: 2}
     - target: {fileID: 919132149155446097, guid: b6e632545238f6b4fa8ffed9db290a51, type: 3}
       propertyPath: m_Name
       value: Chest
@@ -765,6 +789,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aa7a93f8374cac04e8685df635202838, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a71623a53a4f1409fa2e8610d17821, type: 2}
     - target: {fileID: 919132149155446097, guid: aa7a93f8374cac04e8685df635202838, type: 3}
       propertyPath: m_Name
       value: Armor
@@ -822,6 +850,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: db41db656c54b744b97c4cacde7152a4, type: 2}
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush
@@ -879,6 +911,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a148629f17fcd434fa2f3166e8fbd4d0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f3813cf3431ec6c40b4cbbb3e2faca66, type: 2}
     - target: {fileID: 919132149155446097, guid: a148629f17fcd434fa2f3166e8fbd4d0, type: 3}
       propertyPath: m_Name
       value: Gravestone
@@ -936,6 +972,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5e07477502583774893b21023c13eade, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b2bc2ff77a48c84ab78eec5a8992531, type: 2}
     - target: {fileID: 919132149155446097, guid: 5e07477502583774893b21023c13eade, type: 3}
       propertyPath: m_Name
       value: Runestone
@@ -993,6 +1033,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 85.108
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b14890e7bce86f54eafe885b7d6486f7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 21d6cca9c0f58624d84d39430f73f59d, type: 2}
     - target: {fileID: 919132149155446097, guid: b14890e7bce86f54eafe885b7d6486f7, type: 3}
       propertyPath: m_Name
       value: Relic
@@ -1050,6 +1094,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d3bccc3f49ba9cb4abaa5c21dfea86c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4fbb6fef826173d429372fc781a8b737, type: 2}
     - target: {fileID: 919132149155446097, guid: d3bccc3f49ba9cb4abaa5c21dfea86c8, type: 3}
       propertyPath: m_Name
       value: Sword
