@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7864fb255c5cf9b4791cfbd67a9da827, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roatitionSpeed: 100
+  rotationSpeed: 100
 --- !u!1 &2244535017234825746
 GameObject:
   m_ObjectHideFlags: 0
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 2244535017234825744}
   - component: {fileID: 2244535017234825745}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,7 +105,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b00479134f0f0aa42a176536a58caace, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
