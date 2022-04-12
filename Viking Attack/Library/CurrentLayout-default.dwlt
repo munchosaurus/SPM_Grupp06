@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 83
+  controlID: 81
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 57
+  controlID: 82
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 58
+  controlID: 83
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,22 +369,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Whitebox 3D meshes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Whitebox 3D meshes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Projects\Game Development\SPM_Grupp06\Viking Attack
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a4a0000
-    m_LastClickedID: 19050
-    m_ExpandedIDs: 000000004c4a00004e4a0000584a000000ca9a3b
+    m_SelectedIDs: 54440000
+    m_LastClickedID: 17492
+    m_ExpandedIDs: 000000004844000054440000c0450000d045000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004c4a00004e4a0000
+    m_ExpandedIDs: 00000000484400004a440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,9 +533,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 48440000
       m_LastClickedID: 0
-      m_ExpandedIDs: ccf0ffff1e4a0000
+      m_ExpandedIDs: 56d5ffff54d7ffff6efbffffd04300005e470000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -595,9 +595,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.28344, y: -153.11137, z: -36.96068}
+    m_Target: {x: -87.844925, y: -18.17033, z: 175.4932}
     speed: 2
-    m_Value: {x: -13.28344, y: -153.11137, z: -36.96068}
+    m_Value: {x: -87.844925, y: -18.17033, z: 175.4932}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -644,13 +644,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.04595318, y: -0.94833666, z: 0.26891118, w: -0.16200873}
+    m_Target: {x: -0.0656797, y: -0.9332322, z: 0.2722056, w: -0.22511584}
     speed: 2
-    m_Value: {x: -0.046356168, y: -0.9480859, z: 0.26884007, w: -0.16342992}
+    m_Value: {x: -0.066016994, y: -0.9328186, z: 0.2736039, w: -0.22501606}
   m_Size:
-    m_Target: 164.68489
+    m_Target: 40.7123
     speed: 2
-    m_Value: 172.44492
+    m_Value: 42.63068
   m_Ortho:
     m_Target: 0
     speed: 2

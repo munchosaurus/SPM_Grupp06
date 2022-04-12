@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/3DArtist/Whiteboxing/Island.unity
+- path: Assets/3D_Whiteboxing/Island.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
