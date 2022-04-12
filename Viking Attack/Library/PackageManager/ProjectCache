@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637853008930157647
-    m_Hash: 337556849
+      ticks: 637853491895355050
+    m_Hash: 4212405099
   m_LockFileStatus:
     m_FilePath: F:/Projects/Game Development/SPM_Grupp06/Viking Attack/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637853008930527713
-    m_Hash: 4166872281
+      ticks: 637853491895355050
+    m_Hash: 3215723683
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
