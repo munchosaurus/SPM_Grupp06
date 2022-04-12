@@ -1,4 +1,5 @@
 using System;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +10,7 @@ public class GlobalPlayerInfo : MonoBehaviour
 {
     public static string name;
     public static Color skinColor;
+    public ItemBase[] items;
 
     // Gets called upon during game launch, the main menu sets the player name
     public static void SetPlayerName(string insertedName)
@@ -33,5 +35,5 @@ public class GlobalPlayerInfo : MonoBehaviour
     {
         return skinColor;
     }
-    
+
 }

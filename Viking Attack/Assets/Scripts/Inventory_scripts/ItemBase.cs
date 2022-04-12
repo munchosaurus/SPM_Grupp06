@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 namespace DefaultNamespace
 {
     // Creates the ScriptableObject function for the Item objects.
@@ -40,6 +42,18 @@ namespace DefaultNamespace
         public string GetDescription()
         {
             return description;
+        }
+        
+        // Returns the 2D image for the item
+        public Sprite GetSprite()
+        {
+            return sprite;
+        }
+        
+        // Returns this type
+        public Type GetType()
+        {
+            return type;
         }
 
         // Contains the different item type, add a new line to the enum in order to add an item type.
