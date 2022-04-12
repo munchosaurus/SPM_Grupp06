@@ -2894,9 +2894,23 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
         - 1.0.3
+        - 2.0.0
+        - 2.0.1
         compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
         - 1.0.3
+        - 2.0.0
+        - 2.0.1
         verified: 1.0.3
       dependencies: []
       resolvedDependencies: []
@@ -2913,12 +2927,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637300096300000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
         revision: 473664ccba1496294b741cf169740a5d54b3d0b6
         path: 
     - packageId: com.unity.services.core@1.0.1
