@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using UnityEngine;
 namespace DefaultNamespace
 {
@@ -9,7 +7,7 @@ namespace DefaultNamespace
     // Contains the base information for all characters.
     public class CharacterBase : ScriptableObject
     {
-        [SerializeField] private List<Type> types;
+        [SerializeField] private Type type;
         [SerializeField] private string name;
         [SerializeField] private string description;
 
@@ -26,7 +24,7 @@ namespace DefaultNamespace
         }
 
         // Contains the different item type, add a new line to the enum in order to add an item type.
-        public enum Types
+        public enum Type
         {
             Player,
             Enemy,
