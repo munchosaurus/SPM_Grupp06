@@ -26,6 +26,6 @@ public class InteractableObjectScript : MonoBehaviour
         else
             interactionDescription = interactionDescriptionPositiv;
         //Calls the object to interact with (uses the BaseObjectInteraction so i can call different objects)
-        interactableGameObject.GetComponent<BaseObjectInteraction>().interactedWith();
+        interactableGameObject.GetComponent<BaseObjectInteraction>().InteractedWith();
     }
 }
