@@ -6,9 +6,9 @@ public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] private int moveSpeed;
     [SerializeField] private int maxMoveDistans;
-    [SerializeField] private Transform responPosition;
-    private Vector3 responPosWithoutY;
-    private Rigidbody rigibody;
+    //[SerializeField] private Transform respawnPosition;
+    private Vector3 respawnPosWithoutY;
+    private Rigidbody rigidBody;
     private Vector3 movingDirection;
 
     [Header("GroudCheck Settings")]
@@ -22,7 +22,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float chasingSpeed;
     private bool isGuarding;
     private bool isChasing;
-    private bool backToDefalut;
+    private bool backToDefault;
     private Vector3 posBeforeChasing; //save the position when enemy detected player
     private Collider[] sphereColliders;
     private GameObject chasingObject;
@@ -35,11 +35,11 @@ public class EnemyMovement : MonoBehaviour
     {
 
         isGuarding = true;
-        rigibody = GetComponent<Rigidbody>();
+        rigidBody = GetComponent<Rigidbody>();
         ground = LayerMask.GetMask("Ground");
         movingDirection = Vector3.forward;
-        responPosWithoutY = new Vector3(responPosition.position.x, responPosition.position.y, responPosition.position.z);
-        transform.position = responPosWithoutY;
+        respawnPosWithoutY = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        transform.position = respawnPosWithoutY;
     }
 
     // Update is called once per frame
@@ -51,25 +51,25 @@ public class EnemyMovement : MonoBehaviour
             isGrounded = true;
 
         }
-        if (isGrounded) //start patroling
+        if (isGrounded) //start patrolling
         {
 
             if (isGuarding)
             {
-                if (Vector3.Distance(transform.position, responPosition.position) >= maxMoveDistans)
+                if (Vector3.Distance(transform.position, respawnPosWithoutY) >= maxMoveDistans)
                 {
                     movingDirection = -movingDirection;
-                    //transform.LookAt(movingDirection);
+                    
                 }
-                rigibody.velocity = movingDirection * moveSpeed * Time.fixedDeltaTime;
+                rigidBody.velocity = movingDirection * moveSpeed * Time.fixedDeltaTime;
             }
 
             if (isChasing)
             {
-                if (Vector3.Distance(transform.position, responPosition.position) >= maxMoveDistans) //if enemy chasing too far, back to the position before chasing
+                if (Vector3.Distance(transform.position, respawnPosWithoutY) >= maxMoveDistans) //if enemy chasing too far, back to the position before chasing
                 {
                     isChasing = false;
-                    backToDefalut = true;
+                    backToDefault = true;
                 }
                 else
                 {
@@ -80,33 +80,28 @@ public class EnemyMovement : MonoBehaviour
             }
             else
             {
-                checkForPlayer();
+                CheckForPlayer();
             }
-
-
-
         }
 
-        if (backToDefalut)
+        if (backToDefault)
         {
-            //transform.position += responPosWithoutY.normalized * chasingSpeed * Time.fixedDeltaTime;
-
-            if (Vector3.Distance(transform.position, responPosWithoutY) <= 0)
+            if (Vector3.Distance(transform.position, respawnPosWithoutY) <= 3f)
             {
-                backToDefalut = false;
+                backToDefault = false;
                 isGuarding = true;
 
             }
             else
             {
-                transform.position = Vector3.MoveTowards(transform.position, responPosWithoutY, chasingSpeed * 1.5f * Time.deltaTime);
+                transform.position = Vector3.MoveTowards(transform.position, respawnPosWithoutY, chasingSpeed * 1.5f * Time.deltaTime);
             }
 
         }
 
     }
 
-    private void checkForPlayer()
+    private void CheckForPlayer()
     {
         sphereColliders = Physics.OverlapSphere(transform.position, detectScopeRadius);
         foreach (var coll in sphereColliders)

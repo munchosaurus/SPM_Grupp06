@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 // Who to blame: Martin Kings
 
@@ -22,13 +23,13 @@ public class GlobalPlayerInfo : MonoBehaviour
     }
 
     // Returns the player name
-    public string GetName()
+    public static string GetName()
     {
         return name;
     }
 
     // Returns the player skin color
-    public Color GetSkinColor()
+    public static Color GetSkinColor()
     {
         return skinColor;
     }
