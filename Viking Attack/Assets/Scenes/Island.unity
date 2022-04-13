@@ -7145,7 +7145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5988590173649968409, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: firstPerson
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5988590173649968409, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: acceleration
