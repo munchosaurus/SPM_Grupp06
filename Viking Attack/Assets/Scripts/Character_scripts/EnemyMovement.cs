@@ -1,33 +1,24 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using DefaultNamespace;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] private int moveSpeed;
-
-    [SerializeField] private int maxMoveDistans;
-
-    //[SerializeField] private Transform respawnPosition;
+    [SerializeField] private int patrolRange;
     private Vector3 respawnPosWithoutY;
     private Rigidbody rigidBody;
     private Vector3 movingDirection;
-
     [Header("GroudCheck Settings")] [SerializeField]
     private GameObject groundCheck;
-
     private bool isGrounded;
     private LayerMask ground;
     private Collider[] colliders;
-
-
     [Header("Patrol Settnings")] [SerializeField]
     private float detectScopeRadius;
-
-    [SerializeField] private float chasingSpeed;
     private bool isGuarding;
     private bool isChasing;
     private bool backToDefault;
@@ -35,19 +26,41 @@ public class EnemyMovement : MonoBehaviour
     private Collider[] sphereColliders;
     private GameObject chasingObject;
 
+    
+    [Header("MARTIN BELOW")]
     // Martin variables down
     [SerializeField] LayerMask playerMask;
+    [SerializeField] private GameObject player;
+    private GlobalPlayerInfo globalPlayerInfo;
+
     // TODO: Fetch enemy information in prefab that determines range, cooldown, damage
     // PLACEHOLDER BELOW
-    [SerializeField] private float range = 1f;
-    [SerializeField] private float attackCooldown = 0.9f;
-    [SerializeField] private int damage = 10;
-    [SerializeField] private float cooldown;
+    [SerializeField] private float range;  // The range of the enemy attacks
+    [SerializeField] private float attackCooldown; // the cooldown of the enemy attacks
+    [SerializeField] private int damage; // the damage of the enemy attacks
+    [SerializeField] private float cooldown; // float that will be reset to 0 after hitting the attackCooldown variable
+    [SerializeField] private CharacterBase characterBase; // the scriptable object that we fetch all the variables from
+    [SerializeField] private float chasingSpeedMultiplier; // the multiplier for the movement speed of the enemy (1 if to move at same pace as the regular movement speed)
+    [SerializeField] private int moveSpeed; // movement speed of the enemy
+
 
     void Start()
     {
-        isGuarding = true;
+        // START OF MARTIN
+        // Updates the variables using the scriptable object
+
+        globalPlayerInfo = player.GetComponent<GlobalPlayerInfo>();
+        globalPlayerInfo.IsAlive();
+        range = characterBase.GetRange();
+        attackCooldown = characterBase.GetAttackCooldown();
+        damage = characterBase.GetDamage();
         rigidBody = GetComponent<Rigidbody>();
+        chasingSpeedMultiplier = characterBase.GetChasingSpeed();
+
+
+        // END OF MARTIN
+
+        isGuarding = true;
         ground = LayerMask.GetMask("Ground");
         movingDirection = Vector3.forward;
         var position = transform.position; // Enemy starting position 
@@ -55,48 +68,54 @@ public class EnemyMovement : MonoBehaviour
         position = respawnPosWithoutY;
         transform.position = position;
     }
-
+    
+    
     private void FixedUpdate()
     {
         /*
         * START OF RAYCAST, MARTINS CODE
-         * handles raycasting towards player and checks if a hit is performed
+         * handles raycasting towards player and checks if a hit is performed and will then if cooldown condition is met attack the player with the damage.
         */
-        if (cooldown < attackCooldown)
+        if (cooldown < attackCooldown) // adds to cooldown if attackCooldown hasn't been met
         {
             cooldown += Time.fixedDeltaTime;
-            //Debug.Log(cooldown);
         }
+
         RaycastHit hit;
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity,
                 playerMask))
         {
+            // Prints a line of the raycast if a player is detected.
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance,
                 Color.yellow);
-            //Debug.Log("Did Hit");
-            if (hit.distance < range && cooldown > attackCooldown)
+            
+            if (hit.distance < range && cooldown > attackCooldown) // If in range and if cooldown has been passed.
             {
-                cooldown = 0;
-                Debug.Log("JAG KAN ATTACKERA NU");
-                //EnemyAttack.Attack(damage);
-                //Debug.Log("SPELARE TAR SKADA");
+                StartCoroutine("ResetCoolDown");
+                StartCoroutine("Attack"); // Attacks player
             }
-        }
-        else
-        {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
-            //Debug.Log("Did not Hit");
         }
         /*
          * END OF RAYCAST, MARTINS CODE
          */
     }
 
-    // private RaycastHit CheckAttackRange()
-    // {
-    //     return null;
-    // }
+    // Resets the attack cooldown
+    private void ResetCoolDown()
+    {
+        cooldown = 0;
+    }
+
+    // Attacks with the damage of the object.
+    private void Attack()
+    {
+        if (globalPlayerInfo.IsAlive()) // checks if the player is even alive
+        {   
+            // Tests if the correct player is attacked.
+            globalPlayerInfo.UpdateHealth(-damage);
+        }
+    }
 
     void Update()
     {
@@ -111,7 +130,7 @@ public class EnemyMovement : MonoBehaviour
         {
             if (isGuarding)
             {
-                if (Vector3.Distance(transform.position, respawnPosWithoutY) >= maxMoveDistans)
+                if (Vector3.Distance(transform.position, respawnPosWithoutY) >= patrolRange)
                 {
                     movingDirection = -movingDirection;
                 }
@@ -122,7 +141,7 @@ public class EnemyMovement : MonoBehaviour
             if (isChasing)
             {
                 if (Vector3.Distance(transform.position, respawnPosWithoutY) >=
-                    maxMoveDistans) //if enemy chasing too far, back to the position before chasing
+                    patrolRange) //if enemy chasing too far, back to the position before chasing
                 {
                     isChasing = false;
                     backToDefault = true;
@@ -133,8 +152,7 @@ public class EnemyMovement : MonoBehaviour
                         chasingObject.transform.position.z);
                     transform.LookAt(facePlayer);
                     transform.position = Vector3.MoveTowards(transform.position, facePlayer,
-                        chasingSpeed * Time.fixedDeltaTime);
-                    // If the enemy is close enough to the player to swing attack (PLACEHOLDER CODE) it will damage the player
+                        chasingSpeedMultiplier * Time.fixedDeltaTime);
                 }
             }
             else
@@ -153,7 +171,7 @@ public class EnemyMovement : MonoBehaviour
             else
             {
                 transform.position = Vector3.MoveTowards(transform.position, respawnPosWithoutY,
-                    chasingSpeed * 1.5f * Time.deltaTime);
+                    chasingSpeedMultiplier * 1.5f * Time.deltaTime);
             }
         }
     }

@@ -25,6 +25,8 @@ public class PlayerScript3D : MonoBehaviour
         if(states.Length > 0)      
             stateMachine.Update();
     }
+    
+    
     //Returns myRigidbody
     public MyRigidbody3D MyRigidbody3D => myRigidbody;
 }

@@ -4262,17 +4262,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &447190944 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4494002274352960386, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
-  m_PrefabInstance: {fileID: 703250861}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0e0e120985fc5d4faeaaadf1a135feb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &449535511 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -7159,9 +7148,13 @@ PrefabInstance:
       value: Health_bar_slider
       objectReference: {fileID: 0}
     - target: {fileID: 4494002274352960386, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1521999385}
+    - target: {fileID: 4494002274352960386, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: playerHealth
       value: 
-      objectReference: {fileID: 1521999386}
+      objectReference: {fileID: 0}
     - target: {fileID: 5988590173448251952, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: mouseSensitivity
       value: 1.5
@@ -15551,7 +15544,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5988590173649968415, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
   m_PrefabInstance: {fileID: 703250861}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1521999386
+--- !u!114 &1521999394
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15560,12 +15553,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1521999385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 092cf9c498d5a974d9956b880bd75dc1, type: 3}
+  m_Script: {fileID: 11500000, guid: cab9fe883b7e0eb408de94931c043a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curHealth: 0
-  maxHealth: 100
-  healthBar: {fileID: 447190944}
+  name: 
+  skinColor: {r: 0, g: 0, b: 0, a: 0}
+  health: 0
+  maxHealth: 0
+  items: []
+  alive: 1
 --- !u!1 &1530060821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -16530,9 +16526,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 702296479}
     m_Modifications:
+    - target: {fileID: -6679967843059415626, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1521999385}
     - target: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_Name
-      value: Enemy_display
+      value: Bear_display
       objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318908, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16543,12 +16543,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.7187958
       objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22206306
+      value: 1.86
       objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16582,6 +16594,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6653956862289318911, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1521999385}
     - target: {fileID: 6653956862289318911, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: maxMoveDistans
       value: 30

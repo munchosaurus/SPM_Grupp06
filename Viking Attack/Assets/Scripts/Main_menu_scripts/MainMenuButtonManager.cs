@@ -33,8 +33,8 @@ public class MainMenuButtonManager : MonoBehaviour
     // launches a new run of game, ships the current inserted name and the chosen color to the GlobalPlayerInfo container
     public void LaunchGame()
     {
-        GlobalPlayerInfo.SetSkinColor(displayedImage.color);
-        GlobalPlayerInfo.SetPlayerName(chosenName.text);
+        //GlobalPlayerInfo.SetSkinColor(displayedImage.color);
+        //GlobalPlayerInfo.SetPlayerName(chosenName.text);
         SceneManager.LoadScene(1);
     }
 }
