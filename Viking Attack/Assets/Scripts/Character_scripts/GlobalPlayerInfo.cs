@@ -19,7 +19,7 @@ public class GlobalPlayerInfo : MonoBehaviour
     {
         health = 100;
         maxHealth = 100;
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked; // Locks the mouse cursor
     }
 
     // Gets called upon during game launch, the main menu sets the player name
@@ -66,6 +66,7 @@ public class GlobalPlayerInfo : MonoBehaviour
     public void UpdateHealth(float difference)
     {
         health += difference;
+        gameObject.transform.Find("UI").gameObject.transform.Find("Health_bar").gameObject.transform.Find("Health_bar_slider").gameObject.GetComponent<PlayerHealthBar>().SetHealth();
     }
 
 }

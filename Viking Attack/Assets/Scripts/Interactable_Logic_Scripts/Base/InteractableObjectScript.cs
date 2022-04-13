@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class InteractableObjectScript : MonoBehaviour
 {
-    //The button to press to interact with the object
-    [SerializeField] private char buttonToPress;
-    //The text with information about a uninteracted object
-    [SerializeField] private string interactionDescriptionPositiv;
-    //The text with information about a interacted object
-    [SerializeField] private string interactionDescriptionNegative;
-    //The object that is interacted with
-    [SerializeField] private GameObject interactableGameObject;
+    
+    [SerializeField] private char buttonToPress; //The button to press to interact with the object
+    [SerializeField] private string interactionDescriptionPositiv; //The text with information about a uninteracted object
+    [SerializeField] private string interactionDescriptionNegative; //The text with information about a interacted object
+    [SerializeField] private GameObject interactableGameObject; //The object that is interacted with
     private string interactionDescription;
     public char ButtonToPress => System.Char.ToUpper(buttonToPress);
     public string InteractionDescription => interactionDescription;

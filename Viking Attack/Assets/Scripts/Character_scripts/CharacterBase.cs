@@ -15,11 +15,17 @@ namespace DefaultNamespace
         [SerializeField] private int damage;
         [SerializeField] private float chasingSpeedMultiplier;
         [SerializeField] private int moveSpeed;
+        [SerializeField] private float health;
 
         // Returns name of the item
         public string GetName()
         {
             return name;
+        }
+
+        public float GetHealth()
+        {
+            return health;
         }
 
         // Returns the description of the item

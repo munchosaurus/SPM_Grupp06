@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 5988590173185455046}
   - component: {fileID: 5988590173185455047}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -500,6 +500,7 @@ GameObject:
   - component: {fileID: 5988590173649968414}
   - component: {fileID: 5988590173649968423}
   - component: {fileID: 1008048771508749607}
+  - component: {fileID: 993307644473226796}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -668,6 +669,19 @@ MonoBehaviour:
   maxHealth: 0
   items: []
   alive: 1
+--- !u!114 &993307644473226796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988590173649968415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57979c8c9df5bfb44ba2238c97615231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemBase: {fileID: 11400000, guid: e42a76ee5900ffc4f93a5fbaf0dadbb4, type: 2}
 --- !u!1 &5988590174005083855
 GameObject:
   m_ObjectHideFlags: 0

@@ -42,6 +42,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private CharacterBase characterBase; // the scriptable object that we fetch all the variables from
     [SerializeField] private float chasingSpeedMultiplier; // the multiplier for the movement speed of the enemy (1 if to move at same pace as the regular movement speed)
     [SerializeField] private int moveSpeed; // movement speed of the enemy
+    [SerializeField] private float health;
 
 
     void Start()
@@ -55,6 +56,7 @@ public class EnemyMovement : MonoBehaviour
         rigidBody = GetComponent<Rigidbody>();
         chasingSpeedMultiplier = characterBase.GetChasingSpeed();
         moveSpeed = characterBase.GetMovementSpeed();
+        health = characterBase.GetHealth();
 
 
         // END OF MARTIN
@@ -195,5 +197,12 @@ public class EnemyMovement : MonoBehaviour
     {
         Gizmos.color = Color.black;
         Gizmos.DrawWireSphere(transform.position, detectScopeRadius);
+    }
+
+    public void UpdateHealth(float difference)
+    {
+        
+        health += difference;
+        Debug.Log(health);
     }
 }
