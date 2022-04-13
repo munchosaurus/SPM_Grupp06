@@ -19,6 +19,7 @@ public class GlobalPlayerInfo : MonoBehaviour
     {
         health = 100;
         maxHealth = 100;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Gets called upon during game launch, the main menu sets the player name

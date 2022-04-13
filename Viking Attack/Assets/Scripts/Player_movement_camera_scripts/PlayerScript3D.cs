@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Mirror;
+//using Mirror;
 
-public class PlayerScript3D : NetworkBehaviour
+public class PlayerScript3D : MonoBehaviour
 {
     [SerializeField] private State[] states;
     private MyRigidbody3D myRigidbody;
@@ -15,23 +15,23 @@ public class PlayerScript3D : NetworkBehaviour
     
     void Start()
     {
-        //Vi ser om det inte är lokala spelaren, om det inte är det så förstör vi kameran som sitter på, optimering skulle ha en kamera i scenen som i sin tur används när spelaren laddas in
-        if (!isLocalPlayer)
-        {
-            Destroy(mainCamera.gameObject);
-            return;
-        }
+        //Vi ser om det inte ï¿½r lokala spelaren, om det inte ï¿½r det sï¿½ fï¿½rstï¿½r vi kameran som sitter pï¿½, optimering skulle ha en kamera i scenen som i sin tur anvï¿½nds nï¿½r spelaren laddas in
+        // if (!isLocalPlayer)
+        // {
+        //     Destroy(mainCamera.gameObject);
+        //     return;
+        // }
         myRigidbody = GetComponent<MyRigidbody3D>();
         if(states.Length > 0)    
             stateMachine = new StateMachine(this,states);
     }
 
     void Update()
-    { //Avbryter alla uppdateringar som inte är den lokala spelaren
-        if (!isLocalPlayer)
-        {
-            return;
-        }
+    { //Avbryter alla uppdateringar som inte ï¿½r den lokala spelaren
+        // if (!isLocalPlayer)
+        // {
+        //     return;
+        // }
         //If there are any added states in the unity inspector
         if (states.Length > 0)      
             stateMachine.Update();

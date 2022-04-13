@@ -26,11 +26,11 @@ public class EnemyMovement : MonoBehaviour
     private Collider[] sphereColliders;
     private GameObject chasingObject;
 
-    
     [Header("MARTIN BELOW")]
     // Martin variables down
     [SerializeField] LayerMask playerMask;
     [SerializeField] private GameObject player;
+    [SerializeField]
     private GlobalPlayerInfo globalPlayerInfo;
 
     // TODO: Fetch enemy information in prefab that determines range, cooldown, damage
@@ -48,14 +48,13 @@ public class EnemyMovement : MonoBehaviour
     {
         // START OF MARTIN
         // Updates the variables using the scriptable object
-
-        globalPlayerInfo = player.GetComponent<GlobalPlayerInfo>();
-        globalPlayerInfo.IsAlive();
+        
         range = characterBase.GetRange();
         attackCooldown = characterBase.GetAttackCooldown();
         damage = characterBase.GetDamage();
         rigidBody = GetComponent<Rigidbody>();
         chasingSpeedMultiplier = characterBase.GetChasingSpeed();
+        moveSpeed = characterBase.GetMovementSpeed();
 
 
         // END OF MARTIN
@@ -83,15 +82,16 @@ public class EnemyMovement : MonoBehaviour
 
         RaycastHit hit;
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity,
-                playerMask))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
         {
             // Prints a line of the raycast if a player is detected.
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance,
                 Color.yellow);
             
-            if (hit.distance < range && cooldown > attackCooldown) // If in range and if cooldown has been passed.
+            if (hit.distance < range && cooldown > attackCooldown && hit.collider.CompareTag("Player")) // If in range and if cooldown has been passed and if the object that the raycast connects with has the tag Player.
             {
+                player = hit.collider.gameObject; // updates which player object to attack and to 
+                globalPlayerInfo = player.GetComponent<GlobalPlayerInfo>();
                 StartCoroutine("ResetCoolDown");
                 StartCoroutine("Attack"); // Attacks player
             }
