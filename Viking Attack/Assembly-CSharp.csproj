@@ -36,16 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
-    <Analyzer Include="F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
-    <Analyzer Include="F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
-    <Analyzer Include="F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\Scripts\Inventory_scripts\ItemBase.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\PlayerInteractionScript.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\MyRigidbody3D.cs" />
      <Compile Include="Assets\Scripts\Main_menu_scripts\MainMenuColorSelection.cs" />
+     <Compile Include="Assets\DuoTest\Examples\CustomArgumentExample.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\BaseObjectInteraction.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\BridgeActivation.cs" />
@@ -71,7 +66,6 @@
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerRunState.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\Camera\CameraMovement3D.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\GeneralHelpFunctions3D.cs" />
-     <Compile Include="Assets\DuoTest\Examples\CustomArgumentExample.cs" />
      <None Include="Assets\Network\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\Network\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
      <None Include="Assets\Network\Mirror\Version.txt" />
@@ -307,6 +301,12 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>E:\Program Files\Unity Editors\2020.3.32f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.CecilX">
         <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
     </Reference>
@@ -316,17 +316,11 @@
     <Reference Include="NSubstitute">
         <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Tests\Common\NSubstitute.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Mdb">
-        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
-    </Reference>
     <Reference Include="System.Threading.Tasks.Extensions">
         <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Tests\Common\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
+    <Reference Include="Mono.CecilX.Mdb">
+        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Assets\Network\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>E:\Program Files\Unity Editors\2020.3.32f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -676,9 +670,6 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -687,9 +678,6 @@
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
         <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -715,51 +703,57 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>F:\Projects\Game Development\SPM_Grupp06\Viking Attack\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ParrelSync.csproj">
-      <Project>{d638a71e-1341-e8b7-2681-32616cc336f9}</Project>
-      <Name>ParrelSync</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Authenticators.csproj">
-      <Project>{76f33460-f2b3-532b-8a3f-954e99f493e3}</Project>
-      <Name>Mirror.Authenticators</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{92ecf980-0086-fbde-26f3-c95ad1695dac}</Project>
-      <Name>Mirror.Components</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{1ee8914d-e63c-4772-1911-d3fd5bc56fca}</Project>
-      <Name>Mirror.CompilerSymbols</Name>
-    </ProjectReference>
-    <ProjectReference Include="where-allocations.csproj">
-      <Project>{91ec39da-8541-0bd2-09fb-786a59282d77}</Project>
-      <Name>where-allocations</Name>
-    </ProjectReference>
-    <ProjectReference Include="Telepathy.csproj">
-      <Project>{e01939e8-bd6b-fb18-f430-2c6a5eb1facf}</Project>
-      <Name>Telepathy</Name>
-    </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
       <Project>{79e5308e-c4a0-6c5f-9e24-9bb26daf71eb}</Project>
       <Name>Mirror</Name>
-    </ProjectReference>
-    <ProjectReference Include="WeaverTestExtraAssembly.csproj">
-      <Project>{edd9c3ec-0549-22b6-e29a-1096c6bd7a7c}</Project>
-      <Name>WeaverTestExtraAssembly</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{f384edbd-a82d-eea7-d798-a2f77d9d2d23}</Project>
-      <Name>Mirror.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="kcp2k.csproj">
       <Project>{edafa063-bcae-0c95-50b3-a7af6fbc0b0f}</Project>
       <Name>kcp2k</Name>
     </ProjectReference>
+    <ProjectReference Include="ParrelSync.csproj">
+      <Project>{d638a71e-1341-e8b7-2681-32616cc336f9}</Project>
+      <Name>ParrelSync</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Editor.csproj">
+      <Project>{f384edbd-a82d-eea7-d798-a2f77d9d2d23}</Project>
+      <Name>Mirror.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="WeaverTestExtraAssembly.csproj">
+      <Project>{edd9c3ec-0549-22b6-e29a-1096c6bd7a7c}</Project>
+      <Name>WeaverTestExtraAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
+      <Project>{1ee8914d-e63c-4772-1911-d3fd5bc56fca}</Project>
+      <Name>Mirror.CompilerSymbols</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Authenticators.csproj">
+      <Project>{76f33460-f2b3-532b-8a3f-954e99f493e3}</Project>
+      <Name>Mirror.Authenticators</Name>
+    </ProjectReference>
+    <ProjectReference Include="Telepathy.csproj">
+      <Project>{e01939e8-bd6b-fb18-f430-2c6a5eb1facf}</Project>
+      <Name>Telepathy</Name>
+    </ProjectReference>
+    <ProjectReference Include="where-allocations.csproj">
+      <Project>{91ec39da-8541-0bd2-09fb-786a59282d77}</Project>
+      <Name>where-allocations</Name>
+    </ProjectReference>
     <ProjectReference Include="SimpleWebTransport.csproj">
       <Project>{b5e63501-12a4-eea4-ca38-9af035eccba6}</Project>
       <Name>SimpleWebTransport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Components.csproj">
+      <Project>{92ecf980-0086-fbde-26f3-c95ad1695dac}</Project>
+      <Name>Mirror.Components</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
