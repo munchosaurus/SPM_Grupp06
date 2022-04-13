@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
-public class MyRigidbody3D : MonoBehaviour
+public class MyRigidbody3D : NetworkBehaviour
 {
     [SerializeField] private float gravity = 3f;
     [SerializeField] private float staticFrictionCoefficient = 0.3f;
@@ -16,6 +17,11 @@ public class MyRigidbody3D : MonoBehaviour
     private Vector3 point2;
     public Vector3 velocity;
 
+    //syncPosition är till för att synkronisera alla spelarpositioner gentemot servern
+    [SyncVar] private Vector3 syncPosition;
+    //syncRotation ser till synkronisera alla rotationer, quaternion istället för gimbal för att kunna rotera på x-axeln men inte y-axeln
+    [SyncVar] private Quaternion syncRotation;
+
     void Awake()
     {
         //Set collisionMask to hit everything except self
@@ -24,7 +30,15 @@ public class MyRigidbody3D : MonoBehaviour
     }
 
     void Update()
-    {   
+    {
+
+        //Här ser vi om det är lokal spelare eller inte, om det inte är det så uppdaterar vi vyn för den andra och avbryter.
+        if (!base.isLocalPlayer)
+        {
+            transform.position = syncPosition;
+            transform.rotation = syncRotation;
+            return;
+        }
         //Add gravity     
         velocity +=  Vector3.down * gravity;
 
@@ -40,7 +54,18 @@ public class MyRigidbody3D : MonoBehaviour
 
         //Add velocity variable to object position
         transform.position += velocity * Time.deltaTime;
+
+        //Följande 2 rader skickar ett kommando till servern och då ändrar antingen positionen eller rotationen.
+        CmdSetSynchedPosition(this.transform.position);
+        CmdSetSynchedRotation(this.transform.rotation);
     }
+
+    //Kommandlinjer för att be servern om uppdateringar på rotation och position
+    [Command]
+    void CmdSetSynchedPosition(Vector3 position) => syncPosition = position;
+    [Command]
+    void CmdSetSynchedRotation(Quaternion rotation) => syncRotation = rotation;
+
     //Check if object is on ground (on another collider) returns a bool
     public bool GroundedBool()
     {
