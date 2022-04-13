@@ -1,7 +1,6 @@
-using System;
 using DefaultNamespace;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 // Who to blame: Martin Kings
 
@@ -10,6 +9,7 @@ public class GlobalPlayerInfo : MonoBehaviour
 {
     public static string name;
     public static Color skinColor;
+    [SerializeField] private static int health;
     public ItemBase[] items;
 
     // Gets called upon during game launch, the main menu sets the player name

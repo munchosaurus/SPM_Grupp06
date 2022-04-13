@@ -77,6 +77,8 @@
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerRunState.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\Camera\CameraMovement3D.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\GeneralHelpFunctions3D.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\HealthMeter.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Healthcontroller.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
