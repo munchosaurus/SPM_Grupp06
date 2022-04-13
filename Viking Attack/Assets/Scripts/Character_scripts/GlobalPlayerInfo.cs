@@ -9,7 +9,7 @@ public class GlobalPlayerInfo : MonoBehaviour
 {
     public static string name;
     public static Color skinColor;
-    [SerializeField] private static int health;
+    private static int health;
     public ItemBase[] items;
 
     // Gets called upon during game launch, the main menu sets the player name

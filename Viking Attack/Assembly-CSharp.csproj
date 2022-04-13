@@ -59,10 +59,12 @@
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\BaseObjectInteraction.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\BridgeActivation.cs" />
      <Compile Include="Assets\Scripts\Inventory_scripts\ItemContainer.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Health.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerBaseState.cs" />
      <Compile Include="Assets\Scripts\SaveScripter.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerScript3D.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\CharacterBase.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\HealthMeter.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\StateMachine.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\InteractableObjectScript.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerJumpState.cs" />
@@ -77,8 +79,8 @@
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerRunState.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\Camera\CameraMovement3D.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\GeneralHelpFunctions3D.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\HealthMeter.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\Healthcontroller.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\PlayerHealthBar.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\EnemyAttack.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
