@@ -13,8 +13,7 @@ public class EnemyMovement : MonoBehaviour
 
     //[SerializeField] private Transform respawnPosition;
     private Vector3 respawnPosWithoutY;
-    private Rigidbody rigidBody;
-    private Vector3 movingDirection;
+
 
     [Header("GroudCheck Settings")] [SerializeField]
     private GameObject groundCheck;
@@ -26,6 +25,10 @@ public class EnemyMovement : MonoBehaviour
 
     [Header("Patrol Settnings")] [SerializeField]
     private float detectScopeRadius;
+    private Vector3 nevMovePosition; //uppdate when isGuarding 
+    //private LayerMask skogMask;
+    [SerializeField] private float maxDetectDis;
+    [SerializeField] private Collider collider;
 
     [SerializeField] private float chasingSpeed;
     private bool isGuarding;
@@ -47,13 +50,13 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
         isGuarding = true;
-        rigidBody = GetComponent<Rigidbody>();
         ground = LayerMask.GetMask("Ground");
-        movingDirection = Vector3.forward;
+        //skogMask = LayerMask.GetMask("Skog");
         var position = transform.position; // Enemy starting position 
         respawnPosWithoutY = new Vector3(position.x, position.y, position.z);
         position = respawnPosWithoutY;
         transform.position = position;
+        nevMovePosition = RandomVector(-maxMoveDistans,maxMoveDistans,transform.position);
     }
 
     private void FixedUpdate()
@@ -72,8 +75,8 @@ public class EnemyMovement : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity,
                 playerMask))
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance,
-                Color.yellow);
+           // Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance,
+              //  Color.yellow);
             //Debug.Log("Did Hit");
             if (hit.distance < range && cooldown > attackCooldown)
             {
@@ -85,7 +88,7 @@ public class EnemyMovement : MonoBehaviour
         }
         else
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
+            //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
             //Debug.Log("Did not Hit");
         }
         /*
@@ -107,22 +110,40 @@ public class EnemyMovement : MonoBehaviour
             isGrounded = true;
         }
 
-        if (isGrounded) //start patrolling
+        if (isGrounded) 
         {
-            if (isGuarding)
+            if (isGuarding) //start patrolling 
             {
-                if (Vector3.Distance(transform.position, respawnPosWithoutY) >= maxMoveDistans)
+                //if (Vector3.Distance(transform.position, respawnPosWithoutY) >= maxMoveDistans) // if too far from start 
+                //{
+                //    movingDirection = -movingDirection;
+                //}
+
+                //rigidBody.velocity = movingDirection * moveSpeed * Time.fixedDeltaTime;
+      
+                if (Vector3.Distance(transform.position, respawnPosWithoutY) <=   maxMoveDistans)
                 {
-                    movingDirection = -movingDirection;
+                  
+                        transform.position += nevMovePosition.normalized * moveSpeed * 0.1f * Time.deltaTime;
+                    
+                   
+                }
+                else //when enemy move too far 
+                {
+                    
+                    nevMovePosition =  RandomVector(-maxMoveDistans, maxMoveDistans, new Vector3(transform.position.x,0f,transform.position.y));
+                    transform.position += nevMovePosition.normalized * moveSpeed * 0.1f * Time.deltaTime;
                 }
 
-                rigidBody.velocity = movingDirection * moveSpeed * Time.fixedDeltaTime;
+                
+              
+
             }
 
             if (isChasing)
             {
                 if (Vector3.Distance(transform.position, respawnPosWithoutY) >=
-                    maxMoveDistans) //if enemy chasing too far, back to the position before chasing
+                    maxMoveDistans) //if enemy chasing too far, back to the position before chasing (see if(backToDefault))
                 {
                     isChasing = false;
                     backToDefault = true;
@@ -148,12 +169,13 @@ public class EnemyMovement : MonoBehaviour
             if (Vector3.Distance(transform.position, respawnPosWithoutY) <= 3f)
             {
                 backToDefault = false;
+                nevMovePosition = RandomVector(-maxMoveDistans, maxMoveDistans, transform.position);
                 isGuarding = true;
             }
             else
             {
                 transform.position = Vector3.MoveTowards(transform.position, respawnPosWithoutY,
-                    chasingSpeed * 1.5f * Time.deltaTime);
+                    chasingSpeed * 3.5f * Time.deltaTime);
             }
         }
     }
@@ -172,7 +194,16 @@ public class EnemyMovement : MonoBehaviour
             }
         }
     }
-
+    private Vector3 RotateRound(Vector3 position, Vector3 center, Vector3 axis, float angle)
+    {
+        Vector3 point = Quaternion.AngleAxis(angle, axis) * (position - center);
+        Vector3 resultVec3 = center + point;
+        return resultVec3;
+    }
+    private Vector3 RandomVector(float min, float max, Vector3 currentPosition) //version1 lock enemy's y-axel
+    {
+        return new Vector3(UnityEngine.Random.Range(min, max), currentPosition.y, UnityEngine.Random.Range(min, max));
+    }
     void OnDrawGizmos()
     {
         Gizmos.color = Color.black;

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6653956862289318910}
   - component: {fileID: 6653956862289318909}
   - component: {fileID: 6653956862289318908}
-  - component: {fileID: 6653956862289318907}
   - component: {fileID: 6653956862289318911}
-  - component: {fileID: 6653956862289318896}
+  - component: {fileID: 5439580458580297478}
+  - component: {fileID: 8821076851303506833}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -85,19 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6653956862289318907
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6653956862289318906}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &6653956862289318911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,8 +101,17 @@ MonoBehaviour:
   maxMoveDistans: 10
   groundCheck: {fileID: 6653956863877352429}
   detectScopeRadius: 5
+  maxDetectDis: 0
+  collider: {fileID: 0}
   chasingSpeed: 1.5
---- !u!54 &6653956862289318896
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  range: 1
+  attackCooldown: 0.9
+  damage: 10
+  cooldown: 0
+--- !u!54 &5439580458580297478
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,6 +127,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!65 &8821076851303506833
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653956862289318906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6653956863877352429
 GameObject:
   m_ObjectHideFlags: 0
