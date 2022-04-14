@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,19 +8,18 @@ using UnityEngine.UI;
 public class PlayerHealthBar : MonoBehaviour
 {
     public Slider healthBar; // the slider 
-    public Health health;    // the health of the player
-    
+    private GlobalPlayerInfo globalPlayerInfo;
+    [SerializeField] private GameObject player;
     
     private void Start()
     {
-        health = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
+        globalPlayerInfo = player.GetComponent<GlobalPlayerInfo>();
         healthBar = GetComponent<Slider>();
-        healthBar.maxValue = health.maxHealth;
-        healthBar.value = health.maxHealth;
+        healthBar.value = globalPlayerInfo.GetHealth();
     }
 
-    public void SetHealth(int hp)
+    public void SetHealth()
     {
-        healthBar.value = hp;
+        healthBar.value = globalPlayerInfo.health;
     }
 }

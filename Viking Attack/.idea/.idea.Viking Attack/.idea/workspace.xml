@@ -2,45 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a06ba6d-4c30-4cf4-b2a8-0693737cc81f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyAttack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Viking Attack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Viking Attack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Bear.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Bear.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Island.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Island.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Movement_test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Movement_test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Bear.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Bear.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/CharacterBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/CharacterBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyHealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyHealthBar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/GlobalPlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/GlobalPlayerInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/Healthcontroller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/Healthcontroller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/Health.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/PlayerActivateEnemyHealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/PlayerActivateEnemyHealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/PlayerHealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/PlayerHealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/PlayerItemInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/PlayerItemInteraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory_scripts/ItemContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory_scripts/ItemContainer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/CharacterBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main_menu_scripts/MainMenuButtonManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/GlobalPlayerInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/PlayerScript3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/PlayerRunState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/PlayerJumpState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/MyRigidbody3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactable_Logic_Scripts/Base/PlayerInteractionScript.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27ePE6zGBEjUU8D4WNAiesBJfkv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="rider.run.widget.enabled.cache" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -81,6 +101,9 @@
       <workItem from="1649700634022" duration="34000" />
       <workItem from="1649791969753" duration="5873000" />
       <workItem from="1649835818950" duration="1469000" />
+      <workItem from="1649859023690" duration="1004000" />
+      <workItem from="1649883674057" duration="9513000" />
+      <workItem from="1649923269377" duration="2034000" />
     </task>
     <servers />
   </component>
@@ -102,6 +125,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
