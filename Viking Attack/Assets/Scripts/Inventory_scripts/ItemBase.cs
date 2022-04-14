@@ -9,6 +9,11 @@ namespace DefaultNamespace
     // Contains the base information for all items. Will later on be used to determine action when used.
     public class ItemBase : ScriptableObject
     {
+        
+        
+        // WHO TO BLAME: Martin Kings
+        
+        
         [SerializeField] private Type type;
         [SerializeField] private string name;
         [SerializeField] private string description;

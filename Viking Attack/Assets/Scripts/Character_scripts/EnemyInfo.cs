@@ -1,17 +1,15 @@
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
+// WHO TO BLAME: Martin Kings
+
 namespace DefaultNamespace
 {
     public class EnemyInfo : MonoBehaviour
     {
-        [SerializeField] private CharacterBase characterBase;
-
         public void Kill()
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
-
-    
 }

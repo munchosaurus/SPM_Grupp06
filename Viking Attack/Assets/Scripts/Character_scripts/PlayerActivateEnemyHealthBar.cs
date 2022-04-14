@@ -1,65 +1,51 @@
 using System;
+using System.Linq;
 using System.Security;
 using UnityEngine;
 
 namespace DefaultNamespace
 {
+    
+    // WHO TO BLAME: Martin Kings
     public class PlayerActivateEnemyHealthBar : MonoBehaviour
     {
-        private GameObject targetHealthBar;
-        private bool hitting = false;
-        private GameObject hitObject;
-        [SerializeField] private LayerMask layerMask;
+        [SerializeField] private LayerMask layerMask; // The layermask of the enemies
+        private RaycastHit[] hits; // the hits detected by the spherecast
+        private RaycastHit[] previousHits; // the previous hits by the spherecast, used for comparison to determine what objects to enable and disable
 
-        void Update()
+
+        private void Awake()
         {
-            RaycastHit hit;
+            previousHits = new RaycastHit[] { };
+        }
 
-            if (Physics.SphereCast(gameObject.transform.Find("Main Camera").transform.position, 2f,
-                    gameObject.transform.Find("Main Camera").transform.forward, out hit, 100))
+        void FixedUpdate()
+        {
+            hits = Physics.SphereCastAll(gameObject.transform.Find("Main Camera").transform.position, 3,
+                gameObject.transform.Find("Main Camera").transform.forward, 10, layerMask);
+
+            if (previousHits.Length > 0) // makes sure that the previousHits array contains objects before iterating through it.
             {
-                GameObject go = hit.transform.gameObject;
-                if (go.CompareTag("Enemy"))
+                foreach (var hit in previousHits)
                 {
-                    if (hitObject.GetInstanceID() != go.GetInstanceID())
+                    if (!hits.Contains(hit))
                     {
-                        Debug.Log(hitObject);
-                        try
+                        if (hit.collider != null)
                         {
-                            go.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject
-                                .SetActive(true);
-                        }
-                        catch (Exception e)
-                        {
-                            Debug.Log("Funkar ej bra");
+                            hit.collider.gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar")
+                                .gameObject.SetActive(false);
                         }
                     }
-                    else if (hitObject.GetInstanceID() == go.GetInstanceID())
-                    {
-                        go.transform.Find("Parent").gameObject.transform.Find("Health_bar")
-                            .SendMessage("Display", SendMessageOptions.DontRequireReceiver);
-                    }
-                    else
-                    {
-                        go.transform.Find("Parent").gameObject.transform.Find("Health_bar")
-                            .SendMessage("Deactivate", SendMessageOptions.DontRequireReceiver);
-                    }
                 }
-                else
-                {
-                    try
-                    {
-                        hitObject.transform.Find("Parent").gameObject.transform.Find("Health_bar")
-                            .SendMessage("Deactivate", SendMessageOptions.DontRequireReceiver);
-                    }
-                    catch (Exception e)
-                    {
-                    }
-                }
-
-                hitting = true;
-                hitObject = go;
             }
+
+            foreach (var hit in hits)
+            {
+                hit.collider.gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject
+                    .SetActive(true);
+            }
+
+            previousHits = hits;
         }
     }
 }

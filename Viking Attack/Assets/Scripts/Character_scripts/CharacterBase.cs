@@ -1,5 +1,7 @@
 using UnityEngine;
 namespace DefaultNamespace
+
+// WHO TO BLAME: Martin Kings
 {
     // Creates the ScriptableObject function for the Item objects.
     [CreateAssetMenu(fileName = "Character", menuName = "ScriptableObjects/Create new character")]

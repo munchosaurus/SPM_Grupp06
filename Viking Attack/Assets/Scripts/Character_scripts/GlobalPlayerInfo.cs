@@ -3,7 +3,7 @@ using DefaultNamespace;
 using UnityEngine;
 
 
-// Who to blame: Martin Kings
+// WHO TO BLAME: Martin Kings
 
 // Container for all player specifics, will add experience gained, HP, level, items owned etc...
 public class GlobalPlayerInfo : MonoBehaviour
