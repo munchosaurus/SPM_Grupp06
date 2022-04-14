@@ -10,6 +10,12 @@ namespace DefaultNamespace
         [SerializeField] private Type type;
         [SerializeField] private string name;
         [SerializeField] private string description;
+        [SerializeField] private float range;
+        [SerializeField] private float attackCooldown;
+        [SerializeField] private int damage;
+        [SerializeField] private float chasingSpeedMultiplier;
+        [SerializeField] private int moveSpeed;
+        [SerializeField] private float health;
 
         // Returns name of the item
         public string GetName()
@@ -17,10 +23,44 @@ namespace DefaultNamespace
             return name;
         }
 
+        public float GetHealth()
+        {
+            return health;
+        }
+
         // Returns the description of the item
         public string GetDescription()
         {
             return description;
+        }
+
+        // Returns the range of the character
+        public float GetRange()
+        {
+            return range;
+        }
+
+        // Returns the attack cooldown of the character
+        public float GetAttackCooldown()
+        {
+            return attackCooldown;
+        }
+
+        
+        // Returns the base damage of the character
+        public int GetDamage()
+        {
+            return damage;
+        }
+
+        public float GetChasingSpeed()
+        {
+            return chasingSpeedMultiplier;
+        }
+
+        public int GetMovementSpeed()
+        {
+            return moveSpeed;
         }
 
         // Contains the different item type, add a new line to the enum in order to add an item type.
