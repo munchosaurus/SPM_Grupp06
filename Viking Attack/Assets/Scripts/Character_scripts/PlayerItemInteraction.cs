@@ -11,7 +11,7 @@ public class PlayerItemInteraction : MonoBehaviour
     {
         //Sends a raycast to check for colliders in the Enemy layer
         RaycastHit hit;
-        if (Physics.SphereCast(gameObject.transform.Find("Main Camera").transform.position, 0.5f,
+        if (Physics.SphereCast(gameObject.transform.Find("Main Camera").transform.position, 1f,
                 gameObject.transform.Find("Main Camera").transform.forward, out hit, itemBase.GetRange(), LayerMask.GetMask("Enemy")))
         {
             //Calls the function to say that the object is interacted with

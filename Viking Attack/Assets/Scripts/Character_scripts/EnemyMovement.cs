@@ -203,6 +203,10 @@ public class EnemyMovement : MonoBehaviour
     {
         
         health += difference;
+        if (health <= 0)
+        {
+            gameObject.GetComponent<EnemyInfo>().Kill();
+        }
         Debug.Log(health);
     }
 }

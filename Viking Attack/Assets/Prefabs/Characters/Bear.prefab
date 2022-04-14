@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d741505c76ef91e41b274629750696c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 6653956862289318910}
+  target: {fileID: 919227921691166055}
 --- !u!1 &1042335887772077725
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,6 +189,36 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &3168914006196405709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 919227921691166055}
+  m_Layer: 8
+  m_Name: Overhead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &919227921691166055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3168914006196405709}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6653956862289318910}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6653956862289318906
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,6 +232,7 @@ GameObject:
   - component: {fileID: 6653956862289318908}
   - component: {fileID: 6653956862289318907}
   - component: {fileID: 6653956862289318911}
+  - component: {fileID: -6392840626969825405}
   - component: {fileID: 6653956862289318896}
   m_Layer: 8
   m_Name: Bear
@@ -223,6 +254,7 @@ Transform:
   m_Children:
   - {fileID: 6653956863877352430}
   - {fileID: 8766234760932164248}
+  - {fileID: 919227921691166055}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -316,6 +348,19 @@ MonoBehaviour:
   chasingSpeedMultiplier: 0
   moveSpeed: 0
   health: 0
+--- !u!114 &-6392840626969825405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6653956862289318906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d56cb9ca2fcf4fe9a8a8a9a9a558fa6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterBase: {fileID: 0}
 --- !u!54 &6653956862289318896
 Rigidbody:
   m_ObjectHideFlags: 0

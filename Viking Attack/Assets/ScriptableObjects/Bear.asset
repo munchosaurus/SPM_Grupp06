@@ -20,4 +20,4 @@ MonoBehaviour:
   damage: 15
   chasingSpeedMultiplier: 1.5
   moveSpeed: 200
-  health: 10
+  health: 15

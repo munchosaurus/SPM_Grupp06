@@ -53,6 +53,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Inventory_scripts\ItemBase.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\PlayerInteractionScript.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\MyRigidbody3D.cs" />
      <Compile Include="Assets\Scripts\Main_menu_scripts\MainMenuColorSelection.cs" />
@@ -82,7 +83,7 @@
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerRunState.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\Camera\CameraMovement3D.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\GeneralHelpFunctions3D.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\EnemyInfo.cs" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
      <None Include="Assets\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
@@ -659,46 +660,46 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

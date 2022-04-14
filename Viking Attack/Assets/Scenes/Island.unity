@@ -16542,7 +16542,7 @@ PrefabInstance:
       objectReference: {fileID: 1993397788}
     - target: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_Name
-      value: Bear_display
+      value: Bear_demo
       objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_Layer
