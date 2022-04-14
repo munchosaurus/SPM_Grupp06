@@ -19,12 +19,21 @@ public class EnemyMovement : MonoBehaviour
     private Collider[] colliders;
     [Header("Patrol Settnings")] [SerializeField]
     private float detectScopeRadius;
+    [SerializeField] private float maxMoveDistans;
     private bool isGuarding;
     private bool isChasing;
     private bool backToDefault;
-    private Vector3 posBeforeChasing; //save the position when enemy detected player
+    private Vector3 startPos; //save the position when enemy detected player
+    private Vector3 nevMovePosition;
     private Collider[] sphereColliders;
     private GameObject chasingObject;
+    private CapsuleCollider capsuleCollider;
+    private BoxCollider boxCollider;
+    private LayerMask skogLayer;
+    private LayerMask collisionMask;
+    private Vector3 point1;
+    private Vector3 point2;
+    private bool needChangeDire;
 
     [Header("MARTIN BELOW")]
     // Martin variables down
@@ -45,12 +54,15 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float health;
     [SerializeField] private float maxHealth;
 
-
+    private void Awake()
+    {
+        
+    }
     void Start()
     {
         // START OF MARTIN
         // Updates the variables using the scriptable object
-        
+
         range = characterBase.GetRange();
         attackCooldown = characterBase.GetAttackCooldown();
         damage = characterBase.GetDamage();
@@ -62,18 +74,22 @@ public class EnemyMovement : MonoBehaviour
 
 
         // END OF MARTIN
-
+        boxCollider = GetComponent<BoxCollider>();
         isGuarding = true;
         ground = LayerMask.GetMask("Ground");
+        skogLayer = LayerMask.GetMask("Skog");
         movingDirection = Vector3.forward;
         var position = transform.position; // Enemy starting position 
         respawnPosWithoutY = new Vector3(position.x, position.y, position.z);
-        position = respawnPosWithoutY;
-        transform.position = position;
+        
+       
+
+        nevMovePosition = RandomVector(-maxMoveDistans, maxMoveDistans, transform.position);
+
+
+
     }
-    
-    
-    private void FixedUpdate()
+        private void FixedUpdate()
     {
         /*
         * START OF RAYCAST, MARTINS CODE
@@ -137,14 +153,53 @@ public class EnemyMovement : MonoBehaviour
 
         if (isGrounded) //start patrolling
         {
+           
             if (isGuarding)
             {
-                if (Vector3.Distance(transform.position, respawnPosWithoutY) >= patrolRange)
-                {
-                    movingDirection = -movingDirection;
-                }
+               
 
-                rigidBody.velocity = movingDirection * moveSpeed * Time.fixedDeltaTime;
+                if (Vector3.Distance(transform.position, respawnPosWithoutY) >= maxMoveDistans)
+                {
+                    Vector3 test = transform.position + nevMovePosition;
+                    Debug.DrawLine(transform.position, test, Color.green);
+                    RaycastHit hit;
+                    //Physics.CapsuleCast(point1, point2, capsuleCollider.radius, test, out hit, 1f, playerMask)
+                    //if (Physics.CapsuleCast(point1, point2, capsuleCollider.radius, test,  1f, collisionMask))
+                    nevMovePosition = RandomVector(-maxMoveDistans, maxMoveDistans, new Vector3(transform.position.x, 0.5f, transform.position.y));
+                    if (Physics.BoxCast(boxCollider.bounds.center, transform.localScale,nevMovePosition.normalized,out hit, transform.rotation,  0.5f, skogLayer)){
+                       
+                        Debug.Log("Find skog");
+                        Vector3 temp = new Vector3(nevMovePosition.x, nevMovePosition.y, nevMovePosition.z + 5);
+                        Debug.DrawRay(transform.position, temp, Color.blue);
+                        nevMovePosition = temp;
+                    }
+                 
+                    
+                    transform.position +=nevMovePosition * moveSpeed * 0.01f * Time.deltaTime;
+                }
+                else
+                {
+                    Vector3 test = transform.position + nevMovePosition;
+                    Debug.DrawLine(transform.position, test, Color.green);
+                    RaycastHit hit;
+                    //if (Physics.CapsuleCast(point1,point2,capsuleCollider.radius,test,1f, 9))
+                    if (Physics.BoxCast(boxCollider.bounds.center, transform.localScale, nevMovePosition.normalized, out hit, transform.rotation, 0.5f, skogLayer)){
+                        Debug.Log("Find skog");
+                        
+                        Vector3 temp = new Vector3(nevMovePosition.x, nevMovePosition.y, nevMovePosition.z + 5);
+                        nevMovePosition = temp;
+                        Debug.DrawRay(transform.position, temp, Color.blue);
+                    }
+
+                    transform.position += nevMovePosition * moveSpeed * 0.01f * Time.deltaTime;
+                }
+                //float angle = Vector3.Angle(Vector3.forward, nevMovePosition);
+                
+               
+                
+               
+
+
             }
 
             if (isChasing)
@@ -180,10 +235,15 @@ public class EnemyMovement : MonoBehaviour
             else
             {
                 transform.position = Vector3.MoveTowards(transform.position, respawnPosWithoutY,
-                    chasingSpeedMultiplier * 1.5f * Time.deltaTime);
+                    chasingSpeedMultiplier  * Time.deltaTime);
             }
         }
     }
+    private Vector3 RandomVector(float min, float max, Vector3 currentPosition) //version1 lock enemy's y-axel
+    {
+        return new Vector3(UnityEngine.Random.Range(min, max), currentPosition.y, UnityEngine.Random.Range(min, max));
+    }
+
 
     private void CheckForPlayer()
     {
@@ -192,11 +252,12 @@ public class EnemyMovement : MonoBehaviour
         {
             if (coll.tag == "Player") //find Player and start chasing
             {
-                posBeforeChasing = transform.position;
+                //posBeforeChasing = transform.position;
                 chasingObject = coll.gameObject;
                 isGuarding = false;
                 isChasing = true;
             }
+            
         }
     }
 
@@ -204,6 +265,7 @@ public class EnemyMovement : MonoBehaviour
     {
         Gizmos.color = Color.black;
         Gizmos.DrawWireSphere(transform.position, detectScopeRadius);
+        Gizmos.DrawWireCube(transform.position, new Vector3());
     }
 
     public void UpdateHealth(float difference)

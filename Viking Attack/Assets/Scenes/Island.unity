@@ -220,6 +220,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &6914677 stripped
@@ -293,6 +301,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -378,6 +394,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -491,6 +515,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &22493406 stripped
@@ -557,6 +589,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &22653024 stripped
@@ -564,6 +604,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
   m_PrefabInstance: {fileID: 22653023}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &22755362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 22755363}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &22755363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22755362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1021914750}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &27183281 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -642,6 +712,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &52256411 stripped
@@ -707,6 +785,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -867,6 +953,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &67527688 stripped
@@ -932,6 +1026,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -1045,6 +1147,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &90068793 stripped
@@ -1137,6 +1247,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -1309,6 +1427,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &111171514 stripped
@@ -1374,6 +1500,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -1448,6 +1582,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -1667,6 +1809,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &130780056 stripped
@@ -1838,6 +1988,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &146153858 stripped
@@ -1922,6 +2080,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -2035,6 +2201,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &163765895 stripped
@@ -2128,6 +2302,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &172664925 stripped
@@ -2213,6 +2395,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &181406747 stripped
@@ -2286,6 +2476,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -2361,6 +2559,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &203518192 stripped
@@ -2426,6 +2632,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -2550,6 +2764,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &228441553 stripped
@@ -2654,6 +2876,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &249780301 stripped
@@ -2719,6 +2949,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -2876,6 +3114,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &283742774 stripped
@@ -2968,6 +3214,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -3112,6 +3366,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -3280,6 +3542,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &337574716 stripped
@@ -3423,6 +3693,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -3605,6 +3883,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &353114539 stripped
@@ -3670,6 +3956,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -3755,6 +4049,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -4052,6 +4354,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &408570408 stripped
@@ -4117,6 +4427,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -4221,6 +4539,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -4348,6 +4674,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &454362270 stripped
@@ -4413,6 +4747,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -4487,6 +4829,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -4573,6 +4923,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &485304863 stripped
@@ -4647,6 +5005,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &487071109 stripped
@@ -4720,6 +5086,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -5165,6 +5539,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &531846077 stripped
@@ -5295,6 +5677,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -5457,6 +5847,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &585917547 stripped
@@ -5542,6 +5940,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &588825333 stripped
@@ -5615,6 +6021,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -5701,6 +6115,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &600076719 stripped
@@ -5766,6 +6188,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -5970,6 +6400,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &622543029 stripped
@@ -6122,6 +6560,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &623886366 stripped
@@ -6196,6 +6642,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &627242208 stripped
@@ -6269,6 +6723,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -6471,6 +6933,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &651956177 stripped
@@ -6536,6 +7006,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -6611,6 +7089,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &659082654 stripped
@@ -6684,6 +7170,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -6825,6 +7319,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &670613180 stripped
@@ -6898,6 +7400,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -7137,7 +7647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2833949895709749725, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2833949895709749725, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -7186,6 +7696,10 @@ PrefabInstance:
     - target: {fileID: 5988590173649968415, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5988590173649968415, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5988590173649968415, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: m_TagString
@@ -7308,6 +7822,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &703454876 stripped
@@ -7381,6 +7903,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -7486,6 +8016,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &718590868 stripped
@@ -7559,6 +8097,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -7644,6 +8190,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -7767,6 +8321,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -7916,6 +8478,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -8084,6 +8654,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &777416057 stripped
@@ -8168,6 +8746,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -8313,6 +8899,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &794215109 stripped
@@ -8416,6 +9010,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -8572,6 +9174,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &816408959 stripped
@@ -8657,6 +9267,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &819302385 stripped
@@ -8722,6 +9340,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -8789,6 +9415,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &837800691 stripped
@@ -8855,6 +9489,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &842325417 stripped
@@ -8920,6 +9562,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -9005,6 +9655,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -9099,6 +9757,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &863831869 stripped
@@ -9191,6 +9857,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -9382,6 +10056,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &912149966 stripped
@@ -9447,6 +10129,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -9532,6 +10222,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -9626,6 +10324,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &944888141 stripped
@@ -9711,6 +10417,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &951668691 stripped
@@ -9784,6 +10498,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -9878,6 +10600,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &959010695 stripped
@@ -9951,6 +10681,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -10094,6 +10832,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &981740601 stripped
@@ -10168,6 +10914,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &982666399 stripped
@@ -10233,6 +10987,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -10319,6 +11081,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &987815108 stripped
@@ -10384,6 +11154,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -10469,6 +11247,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -10574,6 +11360,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1018957125 stripped
@@ -10581,6 +11375,150 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
   m_PrefabInstance: {fileID: 1018957124}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1021914744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1021914750}
+  - component: {fileID: 1021914749}
+  - component: {fileID: 1021914748}
+  - component: {fileID: 1021914745}
+  - component: {fileID: 1021914746}
+  - component: {fileID: 1021914747}
+  m_Layer: 0
+  m_Name: Capsule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1021914745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021914744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2288faa1187e9c409ba3db69945aad3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolRange: 5
+  groundCheck: {fileID: 22755362}
+  detectScopeRadius: 3
+  maxMoveDistans: 20
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  player: {fileID: 1521999385}
+  globalPlayerInfo: {fileID: 1521999388}
+  range: 2
+  attackCooldown: 2
+  damage: 2
+  cooldown: 2
+  characterBase: {fileID: 11400000, guid: 7480ad8c232b0b543a9379e72628b8aa, type: 2}
+  chasingSpeedMultiplier: 2
+  moveSpeed: 1
+  health: 2
+  maxHealth: 2
+--- !u!54 &1021914746
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021914744}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!65 &1021914747
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021914744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1021914748
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021914744}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d033791922b7b6c4a9c3d68c5e0470e6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1021914749
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021914744}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1021914750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021914744}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.47, y: 6.38, z: -3.54}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22755363}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1029480357 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -10658,6 +11596,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -10752,6 +11698,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1052808782 stripped
@@ -10817,6 +11771,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -11019,6 +11981,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1075071529 stripped
@@ -11092,6 +12062,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -11167,6 +12145,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1078801255 stripped
@@ -11233,6 +12219,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1080522241 stripped
@@ -11298,6 +12292,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -11534,6 +12536,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1117505605 stripped
@@ -11685,6 +12695,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1123259865 stripped
@@ -11751,6 +12769,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1126934405 stripped
@@ -11816,6 +12842,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -11959,6 +12993,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1168425949 stripped
@@ -12024,6 +13066,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -12212,6 +13262,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1196234018 stripped
@@ -12286,6 +13344,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1199982515 stripped
@@ -12351,6 +13417,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -12568,6 +13642,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1237666128 stripped
@@ -12708,6 +13790,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1242160612 stripped
@@ -12812,6 +13902,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1262852511 stripped
@@ -12886,6 +13984,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1265319050 stripped
@@ -12951,6 +14057,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -13045,6 +14159,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1268411926 stripped
@@ -13111,6 +14233,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1271956484 stripped
@@ -13176,6 +14306,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -13288,6 +14426,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -13429,6 +14575,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1302373196 stripped
@@ -13569,6 +14723,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1326530236 stripped
@@ -13692,6 +14854,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1345620125 stripped
@@ -13776,6 +14946,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -13904,6 +15082,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1366033943 stripped
@@ -13977,6 +15163,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -14062,6 +15256,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -14207,6 +15409,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1396707509 stripped
@@ -14280,6 +15490,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -14384,6 +15602,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -14626,6 +15852,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1425529338 stripped
@@ -14699,6 +15933,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -14844,6 +16086,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1439393748 stripped
@@ -14955,6 +16205,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -15107,6 +16365,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -15366,6 +16632,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1507350479 stripped
@@ -15451,6 +16725,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1512354297 stripped
@@ -15517,6 +16799,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1512893737 stripped
@@ -15563,6 +16853,17 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &1521999388 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1008048771508749607, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
+  m_PrefabInstance: {fileID: 703250861}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521999385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab9fe883b7e0eb408de94931c043a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1530060821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -15679,6 +16980,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1539830257 stripped
@@ -15752,6 +17061,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -15943,6 +17260,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1569766828 stripped
@@ -16016,6 +17341,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -16195,6 +17528,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1586749765 stripped
@@ -16268,6 +17609,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -16439,6 +17788,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1632878039 stripped
@@ -16513,6 +17870,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1639113460 stripped
@@ -16570,6 +17935,10 @@ PrefabInstance:
     - target: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318908, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16707,6 +18076,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -16871,6 +18248,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1658608048 stripped
@@ -16944,6 +18329,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -17201,6 +18594,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1702621795 stripped
@@ -17293,6 +18694,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -17524,6 +18933,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1723168257 stripped
@@ -17597,6 +19014,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -17788,6 +19213,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1744884338 stripped
@@ -17853,6 +19286,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -18016,6 +19457,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -18520,6 +19969,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1810141755 stripped
@@ -18604,6 +20061,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -18867,6 +20332,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1842433668 stripped
@@ -18941,6 +20414,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1842848862 stripped
@@ -19006,6 +20487,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -19197,6 +20686,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1868599667 stripped
@@ -19263,6 +20760,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1875055994 stripped
@@ -19328,6 +20833,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -19422,6 +20935,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &1905104774 stripped
@@ -19487,6 +21008,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -19611,6 +21140,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1919620555 stripped
@@ -19696,6 +21233,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1922643096 stripped
@@ -19761,6 +21306,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -19828,6 +21381,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1929933208 stripped
@@ -19894,6 +21455,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &1934538665 stripped
@@ -19959,6 +21528,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -20063,6 +21640,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -20175,6 +21760,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -20292,6 +21885,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -20475,6 +22076,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -20848,6 +22457,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &2060577700 stripped
@@ -20921,6 +22538,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -21074,6 +22699,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &2073470041 stripped
@@ -21139,6 +22772,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -21292,6 +22933,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &2086118199 stripped
@@ -21440,6 +23089,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &2089279627 stripped
@@ -21580,6 +23237,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &2090253008 stripped
@@ -21646,6 +23311,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &2092132303 stripped
@@ -21711,6 +23384,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -21805,6 +23486,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &2107981908 stripped
@@ -21890,6 +23579,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &2112236262 stripped
@@ -21974,6 +23671,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -22068,6 +23773,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &2127711630 stripped
@@ -22141,6 +23854,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
       propertyPath: m_Name
       value: Tree (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -22246,6 +23967,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
 --- !u!4 &2133580832 stripped
@@ -22320,6 +24049,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
+      propertyPath: m_TagString
+      value: Skog
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
 --- !u!4 &2137273743 stripped
@@ -22385,6 +24122,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
       propertyPath: m_Name
       value: Bush (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a4f7283fcc1dc4484809efb710f713, type: 3}
@@ -22486,6 +24231,14 @@ PrefabInstance:
     - target: {fileID: 1737912632094024053, guid: d1e4352f5175c75489eba067cb1ab1c1, type: 3}
       propertyPath: m_Name
       value: Bush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737912632094024053, guid: d1e4352f5175c75489eba067cb1ab1c1, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737912632094024053, guid: d1e4352f5175c75489eba067cb1ab1c1, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1e4352f5175c75489eba067cb1ab1c1, type: 3}
@@ -22719,6 +24472,14 @@ PrefabInstance:
     - target: {fileID: 4417345540027035860, guid: b432808e04cb4124b94427d5550a7983, type: 3}
       propertyPath: m_Name
       value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417345540027035860, guid: b432808e04cb4124b94427d5550a7983, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417345540027035860, guid: b432808e04cb4124b94427d5550a7983, type: 3}
+      propertyPath: m_TagString
+      value: Skog
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b432808e04cb4124b94427d5550a7983, type: 3}
