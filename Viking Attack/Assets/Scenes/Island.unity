@@ -15560,6 +15560,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dbd8ee91694e7595d1e52377c53bee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &1530060821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e331b888c024bff41b91e312d4129bf8, type: 3}
@@ -16528,9 +16531,13 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1521999385}
+    - target: {fileID: -6392840626969825405, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: characterBase
+      value: 
+      objectReference: {fileID: 11400000, guid: 7480ad8c232b0b543a9379e72628b8aa, type: 2}
     - target: {fileID: 785610499612737668, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1042335887772077725, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_IsActive
@@ -16540,6 +16547,22 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1993397788}
+    - target: {fileID: 5040495408921423005, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040495408921423005, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914985578599947032, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5914985578599947032, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_Name
       value: Bear_demo

@@ -15,7 +15,7 @@ namespace DefaultNamespace
         [SerializeField] private int damage;
         [SerializeField] private float chasingSpeedMultiplier;
         [SerializeField] private int moveSpeed;
-        [SerializeField] private float health;
+        [SerializeField] private float maxHealth;
 
         // Returns name of the item
         public string GetName()
@@ -23,9 +23,9 @@ namespace DefaultNamespace
             return name;
         }
 
-        public float GetHealth()
+        public float GetMaxHealth()
         {
-            return health;
+            return maxHealth;
         }
 
         // Returns the description of the item

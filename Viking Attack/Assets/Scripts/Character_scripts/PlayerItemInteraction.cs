@@ -17,7 +17,6 @@ public class PlayerItemInteraction : MonoBehaviour
             //Calls the function to say that the object is interacted with
             if (Input.GetMouseButtonDown(0))
             {
-                Debug.Log("JAG ATTACKERAR");
                 hit.collider.gameObject.GetComponent<EnemyMovement>().UpdateHealth(-itemBase.GetDamage());
             }
         }

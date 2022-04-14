@@ -43,6 +43,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float chasingSpeedMultiplier; // the multiplier for the movement speed of the enemy (1 if to move at same pace as the regular movement speed)
     [SerializeField] private int moveSpeed; // movement speed of the enemy
     [SerializeField] private float health;
+    [SerializeField] private float maxHealth;
 
 
     void Start()
@@ -56,7 +57,8 @@ public class EnemyMovement : MonoBehaviour
         rigidBody = GetComponent<Rigidbody>();
         chasingSpeedMultiplier = characterBase.GetChasingSpeed();
         moveSpeed = characterBase.GetMovementSpeed();
-        health = characterBase.GetHealth();
+        health = characterBase.GetMaxHealth();
+        maxHealth = characterBase.GetMaxHealth();
 
 
         // END OF MARTIN
@@ -117,6 +119,11 @@ public class EnemyMovement : MonoBehaviour
             // Tests if the correct player is attacked.
             globalPlayerInfo.UpdateHealth(-damage);
         }
+    }
+
+    public float GetMaxHealth()
+    {
+        return maxHealth;
     }
 
     void Update()
@@ -203,10 +210,15 @@ public class EnemyMovement : MonoBehaviour
     {
         
         health += difference;
+        gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
         if (health <= 0)
         {
             gameObject.GetComponent<EnemyInfo>().Kill();
         }
-        Debug.Log(health);
+    }
+
+    public float GetHealth()
+    {
+        return health;
     }
 }

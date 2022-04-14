@@ -9,7 +9,6 @@ public class PlayerHealthBar : MonoBehaviour
 {
     public Slider healthBar; // the slider 
     private GlobalPlayerInfo globalPlayerInfo;
-    public float health;    // the health of the player
     [SerializeField] private GameObject player;
     
     private void Start()
