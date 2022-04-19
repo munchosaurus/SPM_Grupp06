@@ -5,8 +5,9 @@ using System.Runtime.CompilerServices;
 using DefaultNamespace;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using Mirror;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement : NetworkBehaviour
 {
     [SerializeField] private int patrolRange;
     private Vector3 respawnPosWithoutY;
@@ -44,6 +45,14 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private int moveSpeed; // movement speed of the enemy
     [SerializeField] private float health;
     [SerializeField] private float maxHealth;
+    
+    //syncPosition ar till for att synkronisera alla spelarpositioner gentemot servern
+    [SyncVar] private Vector3 syncPosition;
+    //syncRotation ser till synkronisera alla rotationer, quaternion istallet for gimbal f�r att kunna rotera pa x-axeln men inte y-axeln
+    [SyncVar] private Quaternion syncRotation;
+    //syncHealth is supposed to function to send data about the health across the server, updates when the enemy is hit
+    [SyncVar] private float syncHealth;
+
 
 
     void Start()
@@ -134,7 +143,7 @@ public class EnemyMovement : MonoBehaviour
         {
             isGrounded = true;
         }
-
+        
         if (isGrounded) //start patrolling
         {
             if (isGuarding)
@@ -183,7 +192,20 @@ public class EnemyMovement : MonoBehaviour
                     chasingSpeedMultiplier * 1.5f * Time.deltaTime);
             }
         }
+        
+        //Foljande 2 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen.
+        CmdSetSynchedPosition(this.transform.position);
+        CmdSetSynchedRotation(this.transform.rotation);
     }
+    
+    //Kommandlinjer for att be servern om uppdateringar po rotation och position
+    [Command]
+    void CmdSetSynchedPosition(Vector3 position) => syncPosition = position;
+    [Command]
+    void CmdSetSynchedRotation(Quaternion rotation) => syncRotation = rotation;
+    
+    [Command]
+    void CmdSetSynchedHealth(float hp) => syncHealth = hp;
 
     private void CheckForPlayer()
     {
@@ -211,10 +233,12 @@ public class EnemyMovement : MonoBehaviour
         
         health += difference;
         gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
+        CmdSetSynchedHealth(this.health);
         if (health <= 0)
         {
             gameObject.GetComponent<EnemyInfo>().Kill();
         }
+        
     }
 
     public float GetHealth()

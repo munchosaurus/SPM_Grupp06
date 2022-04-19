@@ -30,13 +30,12 @@ namespace DefaultNamespace
             {
                 foreach (var hit in previousHits)
                 {
-                    if (!hits.Contains(hit)) // sets the healthbar to inactive in the case it no longer is detected by the player.
+                    if (!hits.Contains(hit) &&
+                        hit.collider !=
+                        null) // sets the healthbar to inactive in the case it no longer is detected by the player.
                     {
-                        if (hit.collider != null) // checks that the object hasn't been "killed" yet.
-                        {
-                            hit.collider.gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar")
-                                .gameObject.SetActive(false);
-                        }
+                        hit.collider.gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar")
+                            .gameObject.SetActive(false);
                     }
                 }
             }

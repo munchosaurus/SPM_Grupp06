@@ -11,6 +11,7 @@ public class MainMenuButtonManager : MonoBehaviour
     [SerializeField] private GameObject customizationScreen;
     [SerializeField] private Text chosenName;
     [SerializeField] private Image displayedImage;
+    [SerializeField] private GameObject player;
     
     // opens player customization page
     public void NewGame()
@@ -34,7 +35,7 @@ public class MainMenuButtonManager : MonoBehaviour
     public void LaunchGame()
     {
         //GlobalPlayerInfo.SetSkinColor(displayedImage.color);
-        //GlobalPlayerInfo.SetPlayerName(chosenName.text);
+        //lobalPlayerInfo.SetPlayerName(chosenName.text);
         SceneManager.LoadScene(1);
     }
 }
