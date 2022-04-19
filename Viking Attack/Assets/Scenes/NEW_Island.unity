@@ -8876,7 +8876,7 @@ PrefabInstance:
     - target: {fileID: 4494002274352960386, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: playerHealth
       value: 
-      objectReference: {fileID: 1521999386}
+      objectReference: {fileID: 0}
     - target: {fileID: 5988590173448251952, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
       propertyPath: mouseSensitivity
       value: 1.5
@@ -14572,6 +14572,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4380106678417802481, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_Name
       value: Bear
@@ -14582,7 +14586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.42
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18222,9 +18226,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1521999385}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 092cf9c498d5a974d9956b880bd75dc1, type: 3}
+  m_Script: {fileID: 11500000, guid: f5dbd8ee91694e7595d1e52377c53bee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1001 &1527390701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25248,6 +25255,10 @@ PrefabInstance:
     - target: {fileID: 469931456815381817, guid: 6a86fda6508e9a642a32846034368a15, type: 3}
       propertyPath: m_Name
       value: Island
+      objectReference: {fileID: 0}
+    - target: {fileID: 469931456815381817, guid: 6a86fda6508e9a642a32846034368a15, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 994829904723011459, guid: 6a86fda6508e9a642a32846034368a15, type: 3}
       propertyPath: m_RootOrder

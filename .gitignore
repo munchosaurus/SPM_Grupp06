@@ -71,3 +71,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /Viking Attack/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /Viking Attack/[Aa]ssets/[Ss]treamingAssets/aa/*
+Viking Attack/Assembly-CSharp.csproj
+Viking Attack/ProjectSettings/Packages/com.unity.probuilder/Settings.json
+Viking Attack/Logs/shadercompiler-AssetImportWorker0.log
