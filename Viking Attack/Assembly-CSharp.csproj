@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\Character_scripts\EnemyHealthBar.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\CharacterBase.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\StateMachine.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\PlayerActivateEnemyHealthBar.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\InteractableObjectScript.cs" />
      <Compile Include="Assets\Scripts\Inventory_scripts\PlayerHand.cs" />
@@ -84,11 +85,14 @@
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerRunState.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\Camera\CameraMovement3D.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\GeneralHelpFunctions3D.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\EnemySpawner.cs" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
+     <None Include="Assets\Mirror\Version.txt" />
+     <None Include="Assets\Mirror\Readme.txt" />
      <None Include="Assets\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
      <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
+     <None Include="Assets\Mirror\Notice.txt" />
+     <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
      <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
      <None Include="Assets\ScriptTemplates\53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
      <None Include="Assets\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
@@ -314,6 +318,27 @@
  </Reference>
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="NSubstitute">
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Mirror/Tests/Common/NSubstitute.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.CecilX">
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.CecilX.Rocks">
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Extensions">
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Mirror/Tests/Common/System.Threading.Tasks.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.CecilX.Mdb">
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.CecilX.Pdb">
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="Castle.Core">
+ <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Mirror/Tests/Common/Castle.Core.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -704,6 +729,50 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="kcp2k.csproj">
+      <Project>{edafa063-bcae-0c95-50b3-a7af6fbc0b0f}</Project>
+      <Name>kcp2k</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Editor.csproj">
+      <Project>{f384edbd-a82d-eea7-d798-a2f77d9d2d23}</Project>
+      <Name>Mirror.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Telepathy.csproj">
+      <Project>{e01939e8-bd6b-fb18-f430-2c6a5eb1facf}</Project>
+      <Name>Telepathy</Name>
+    </ProjectReference>
+    <ProjectReference Include="where-allocations.csproj">
+      <Project>{91ec39da-8541-0bd2-09fb-786a59282d77}</Project>
+      <Name>where-allocations</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Components.csproj">
+      <Project>{92ecf980-0086-fbde-26f3-c95ad1695dac}</Project>
+      <Name>Mirror.Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Examples.csproj">
+      <Project>{eb14c9fd-259b-572a-02db-d89f1d42a353}</Project>
+      <Name>Mirror.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="WeaverTestExtraAssembly.csproj">
+      <Project>{edd9c3ec-0549-22b6-e29a-1096c6bd7a7c}</Project>
+      <Name>WeaverTestExtraAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
+      <Project>{1ee8914d-e63c-4772-1911-d3fd5bc56fca}</Project>
+      <Name>Mirror.CompilerSymbols</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Authenticators.csproj">
+      <Project>{76f33460-f2b3-532b-8a3f-954e99f493e3}</Project>
+      <Name>Mirror.Authenticators</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.csproj">
+      <Project>{79e5308e-c4a0-6c5f-9e24-9bb26daf71eb}</Project>
+      <Name>Mirror</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleWebTransport.csproj">
+      <Project>{b5e63501-12a4-eea4-ca38-9af035eccba6}</Project>
+      <Name>SimpleWebTransport</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

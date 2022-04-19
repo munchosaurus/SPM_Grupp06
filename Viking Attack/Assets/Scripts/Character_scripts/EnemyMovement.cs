@@ -134,7 +134,7 @@ public class EnemyMovement : MonoBehaviour
         {
             isGrounded = true;
         }
-
+        
         if (isGrounded) //start patrolling
         {
             if (isGuarding)
