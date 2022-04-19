@@ -12,12 +12,14 @@ public class EnemyMovement : MonoBehaviour
     private Vector3 respawnPosWithoutY;
     private Rigidbody rigidBody;
     private Vector3 movingDirection;
-    [Header("GroudCheck Settings")] [SerializeField]
+    [Header("GroudCheck Settings")]
+    [SerializeField]
     private GameObject groundCheck;
     private bool isGrounded;
     private LayerMask ground;
     private Collider[] colliders;
-    [Header("Patrol Settnings")] [SerializeField]
+    [Header("Patrol Settnings")]
+    [SerializeField]
     private float detectScopeRadius;
     [SerializeField] private float maxMoveDistans;
     private bool isGuarding;
@@ -56,7 +58,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void Awake()
     {
-        
+
     }
     void Start()
     {
@@ -81,15 +83,15 @@ public class EnemyMovement : MonoBehaviour
         movingDirection = Vector3.forward;
         var position = transform.position; // Enemy starting position 
         respawnPosWithoutY = new Vector3(position.x, position.y, position.z);
-        
-       
+
+
 
         nevMovePosition = RandomVector(-maxMoveDistans, maxMoveDistans, transform.position);
 
 
 
     }
-        private void FixedUpdate()
+    private void FixedUpdate()
     {
         /*
         * START OF RAYCAST, MARTINS CODE
@@ -107,7 +109,7 @@ public class EnemyMovement : MonoBehaviour
             // Prints a line of the raycast if a player is detected.
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance,
                 Color.yellow);
-            
+
             if (hit.distance < range && cooldown > attackCooldown && hit.collider.CompareTag("Player")) // If in range and if cooldown has been passed and if the object that the raycast connects with has the tag Player.
             {
                 player = hit.collider.gameObject; // updates which player object to attack and to 
@@ -131,7 +133,7 @@ public class EnemyMovement : MonoBehaviour
     private void Attack()
     {
         if (globalPlayerInfo.IsAlive()) // checks if the player is even alive
-        {   
+        {
             // Tests if the correct player is attacked.
             globalPlayerInfo.UpdateHealth(-damage);
         }
@@ -153,10 +155,10 @@ public class EnemyMovement : MonoBehaviour
 
         if (isGrounded) //start patrolling
         {
-           
+
             if (isGuarding)
             {
-               
+
 
                 if (Vector3.Distance(transform.position, respawnPosWithoutY) >= maxMoveDistans)
                 {
@@ -166,16 +168,17 @@ public class EnemyMovement : MonoBehaviour
                     //Physics.CapsuleCast(point1, point2, capsuleCollider.radius, test, out hit, 1f, playerMask)
                     //if (Physics.CapsuleCast(point1, point2, capsuleCollider.radius, test,  1f, collisionMask))
                     nevMovePosition = RandomVector(-maxMoveDistans, maxMoveDistans, new Vector3(transform.position.x, 0.5f, transform.position.y));
-                    if (Physics.BoxCast(boxCollider.bounds.center, transform.localScale,nevMovePosition.normalized,out hit, transform.rotation,  0.5f, skogLayer)){
-                       
+                    if (Physics.BoxCast(boxCollider.bounds.center, transform.localScale, nevMovePosition.normalized, out hit, transform.rotation, 0.5f, skogLayer))
+                    {
+
                         Debug.Log("Find skog");
                         Vector3 temp = new Vector3(nevMovePosition.x, nevMovePosition.y, nevMovePosition.z + 5);
                         Debug.DrawRay(transform.position, temp, Color.blue);
                         nevMovePosition = temp;
                     }
-                 
-                    
-                    transform.position +=nevMovePosition * moveSpeed * 0.01f * Time.deltaTime;
+
+
+                    transform.position += nevMovePosition * moveSpeed * 0.01f * Time.deltaTime;
                 }
                 else
                 {
@@ -183,9 +186,10 @@ public class EnemyMovement : MonoBehaviour
                     Debug.DrawLine(transform.position, test, Color.green);
                     RaycastHit hit;
                     //if (Physics.CapsuleCast(point1,point2,capsuleCollider.radius,test,1f, 9))
-                    if (Physics.BoxCast(boxCollider.bounds.center, transform.localScale, nevMovePosition.normalized, out hit, transform.rotation, 0.5f, skogLayer)){
+                    if (Physics.BoxCast(boxCollider.bounds.center, transform.localScale, nevMovePosition.normalized, out hit, transform.rotation, 0.5f, skogLayer))
+                    {
                         Debug.Log("Find skog");
-                        
+
                         Vector3 temp = new Vector3(nevMovePosition.x, nevMovePosition.y, nevMovePosition.z + 5);
                         nevMovePosition = temp;
                         Debug.DrawRay(transform.position, temp, Color.blue);
@@ -194,10 +198,10 @@ public class EnemyMovement : MonoBehaviour
                     transform.position += nevMovePosition * moveSpeed * 0.01f * Time.deltaTime;
                 }
                 //float angle = Vector3.Angle(Vector3.forward, nevMovePosition);
-                
-               
-                
-               
+
+
+
+
 
 
             }
@@ -207,6 +211,7 @@ public class EnemyMovement : MonoBehaviour
                 if (Vector3.Distance(transform.position, respawnPosWithoutY) >=
                     patrolRange) //if enemy chasing too far, back to the position before chasing
                 {
+                    
                     isChasing = false;
                     backToDefault = true;
                 }
@@ -235,7 +240,7 @@ public class EnemyMovement : MonoBehaviour
             else
             {
                 transform.position = Vector3.MoveTowards(transform.position, respawnPosWithoutY,
-                    chasingSpeedMultiplier  * Time.deltaTime);
+                    chasingSpeedMultiplier * Time.deltaTime);
             }
         }
     }
@@ -257,7 +262,7 @@ public class EnemyMovement : MonoBehaviour
                 isGuarding = false;
                 isChasing = true;
             }
-            
+
         }
     }
 
@@ -270,7 +275,7 @@ public class EnemyMovement : MonoBehaviour
 
     public void UpdateHealth(float difference)
     {
-        
+
         health += difference;
         gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
         if (health <= 0)

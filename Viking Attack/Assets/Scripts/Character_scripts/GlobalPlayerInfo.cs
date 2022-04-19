@@ -3,7 +3,7 @@ using DefaultNamespace;
 using UnityEngine;
 
 
-// Who to blame: Martin Kings
+// WHO TO BLAME: Martin Kings
 
 // Container for all player specifics, will add experience gained, HP, level, items owned etc...
 public class GlobalPlayerInfo : MonoBehaviour
@@ -19,7 +19,7 @@ public class GlobalPlayerInfo : MonoBehaviour
     {
         health = 100;
         maxHealth = 100;
-        Cursor.lockState = CursorLockMode.Locked; // Locks the mouse cursor
+        //Cursor.lockState = CursorLockMode.Locked; // Locks the mouse cursor
     }
 
     // Gets called upon during game launch, the main menu sets the player name
