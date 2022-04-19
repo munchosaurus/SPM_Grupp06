@@ -7,18 +7,20 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using Mirror;
 
-public class EnemyMovement : NetworkBehaviour
+public class TESTREMOVE : NetworkBehaviour
 {
     [SerializeField] private int patrolRange;
     private Vector3 respawnPosWithoutY;
     private Rigidbody rigidBody;
     private Vector3 movingDirection;
-    [Header("GroudCheck Settings")] [SerializeField]
+    [Header("GroudCheck Settings")]
+    [SerializeField]
     private GameObject groundCheck;
     private bool isGrounded;
     private LayerMask ground;
     private Collider[] colliders;
-    [Header("Patrol Settnings")] [SerializeField]
+    [Header("Patrol Settnings")]
+    [SerializeField]
     private float detectScopeRadius;
     private bool isGuarding;
     private bool isChasing;
@@ -45,7 +47,7 @@ public class EnemyMovement : NetworkBehaviour
     [SerializeField] private int moveSpeed; // movement speed of the enemy
     [SerializeField] private float health;
     [SerializeField] private float maxHealth;
-    
+
     //syncPosition ar till for att synkronisera alla spelarpositioner gentemot servern
     [SyncVar] private Vector3 syncPosition;
     //syncRotation ser till synkronisera alla rotationer, quaternion istallet for gimbal f�r att kunna rotera pa x-axeln men inte y-axeln
@@ -54,12 +56,11 @@ public class EnemyMovement : NetworkBehaviour
     [SyncVar] private float syncHealth;
 
 
-
     void Start()
     {
         // START OF MARTIN
         // Updates the variables using the scriptable object
-        
+
         range = characterBase.GetRange();
         attackCooldown = characterBase.GetAttackCooldown();
         damage = characterBase.GetDamage();
@@ -79,9 +80,12 @@ public class EnemyMovement : NetworkBehaviour
         respawnPosWithoutY = new Vector3(position.x, position.y, position.z);
         position = respawnPosWithoutY;
         transform.position = position;
+        //Foljande 2 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen.
+        CmdSetSynchedPosition(this.transform.position);
+        CmdSetSynchedRotation(this.transform.rotation);
     }
-    
-    
+
+
     private void FixedUpdate()
     {
         /*
@@ -100,7 +104,7 @@ public class EnemyMovement : NetworkBehaviour
             // Prints a line of the raycast if a player is detected.
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance,
                 Color.yellow);
-            
+
             if (hit.distance < range && cooldown > attackCooldown && hit.collider.CompareTag("Player")) // If in range and if cooldown has been passed and if the object that the raycast connects with has the tag Player.
             {
                 player = hit.collider.gameObject; // updates which player object to attack and to 
@@ -114,6 +118,13 @@ public class EnemyMovement : NetworkBehaviour
          */
     }
 
+
+    //Kommandlinjer for att be servern om uppdateringar po rotation och position
+    [Command]
+    void CmdSetSynchedPosition(Vector3 position) => syncPosition = position;
+    [Command]
+    void CmdSetSynchedRotation(Quaternion rotation) => syncRotation = rotation;
+
     // Resets the attack cooldown
     private void ResetCoolDown()
     {
@@ -124,16 +135,14 @@ public class EnemyMovement : NetworkBehaviour
     private void Attack()
     {
         if (globalPlayerInfo.IsAlive()) // checks if the player is even alive
-        {   
+        {
             // Tests if the correct player is attacked.
             globalPlayerInfo.UpdateHealth(-damage);
+
         }
     }
-
-    public float GetMaxHealth()
-    {
-        return maxHealth;
-    }
+    [Command]
+    void CmdSetSynchedHealth(float hp) => syncHealth = hp;
 
     void Update()
     {
@@ -143,7 +152,7 @@ public class EnemyMovement : NetworkBehaviour
         {
             isGrounded = true;
         }
-        
+
         if (isGrounded) //start patrolling
         {
             if (isGuarding)
@@ -192,20 +201,10 @@ public class EnemyMovement : NetworkBehaviour
                     chasingSpeedMultiplier * 1.5f * Time.deltaTime);
             }
         }
-        
         //Foljande 2 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen.
         CmdSetSynchedPosition(this.transform.position);
         CmdSetSynchedRotation(this.transform.rotation);
     }
-    
-    //Kommandlinjer for att be servern om uppdateringar po rotation och position
-    [Command]
-    void CmdSetSynchedPosition(Vector3 position) => syncPosition = position;
-    [Command]
-    void CmdSetSynchedRotation(Quaternion rotation) => syncRotation = rotation;
-    
-    [Command]
-    void CmdSetSynchedHealth(float hp) => syncHealth = hp;
 
     private void CheckForPlayer()
     {
@@ -228,17 +227,24 @@ public class EnemyMovement : NetworkBehaviour
         Gizmos.DrawWireSphere(transform.position, detectScopeRadius);
     }
 
+
+    public float GetMaxHealth()
+    {
+        return maxHealth;
+        
+    }
+
     public void UpdateHealth(float difference)
     {
-        
+
         health += difference;
         gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
-        CmdSetSynchedHealth(this.health);
         if (health <= 0)
         {
             gameObject.GetComponent<EnemyInfo>().Kill();
         }
-        
+        CmdSetSynchedHealth(this.health);
+
     }
 
     public float GetHealth()
