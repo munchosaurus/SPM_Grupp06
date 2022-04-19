@@ -10,7 +10,6 @@ namespace DefaultNamespace
     {
         [SerializeField] private LayerMask layerMask; // The layermask of the enemies
         private RaycastHit[] hits; // the hits detected by the spherecast
-
         private RaycastHit[]
             previousHits; // the previous hits by the spherecast, used for comparison to determine what objects to enable and disable
 

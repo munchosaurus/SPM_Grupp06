@@ -15,7 +15,6 @@ public class EnemyHealthBar : MonoBehaviour
     private void Update()
     {
         Display(); // Runs the display method that places the Ui element in the correct place above the enemy. Will only run if active.
-        
     }
     
     // Sets the health to the desired amount
