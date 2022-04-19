@@ -196,8 +196,10 @@ public class EnemyMovement : NetworkBehaviour
         //Foljande 2 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen.
         CmdSetSynchedPosition(this.transform.position);
         CmdSetSynchedRotation(this.transform.rotation);
+        CmdSetSynchedHealth(this.health);
+
     }
-    
+
     //Kommandlinjer for att be servern om uppdateringar po rotation och position
     [Command]
     void CmdSetSynchedPosition(Vector3 position) => syncPosition = position;
@@ -233,7 +235,6 @@ public class EnemyMovement : NetworkBehaviour
         
         health += difference;
         gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
-        CmdSetSynchedHealth(this.health);
         if (health <= 0)
         {
             gameObject.GetComponent<EnemyInfo>().Kill();
