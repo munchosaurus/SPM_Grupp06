@@ -21,8 +21,7 @@ public class EnemyHealthBar : MonoBehaviour
     // Sets the health to the desired amount
     private void Start()
     {
-        SetHealth();
-        //healthBar.value = healthSource.GetComponent<EnemyMovement>().GetHealth();
+        healthBar.value = healthSource.GetComponent<EnemyMovement>().GetHealth();
         healthBar.maxValue = healthSource.GetComponent<EnemyMovement>().GetMaxHealth();
     }
     
