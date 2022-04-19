@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Tests", "Mirror.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mirror.CodeGen", "Unity.Mirror.CodeGen.csproj", "{93E54327-5358-AFBA-CAAF-7CAAB68A0DAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParrelSync", "ParrelSync.csproj", "{1EA738D6-4113-B7E8-2681-32616CC336F9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaverTestExtraAssembly", "WeaverTestExtraAssembly.csproj", "{ECC3D9ED-4905-B622-E29A-1096C6BD7A7C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Editor", "Mirror.Editor.csproj", "{BDED84F3-2DA8-A7EE-D798-A2F77D9D2D23}"
@@ -91,6 +93,10 @@ Global
 		{93E54327-5358-AFBA-CAAF-7CAAB68A0DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93E54327-5358-AFBA-CAAF-7CAAB68A0DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93E54327-5358-AFBA-CAAF-7CAAB68A0DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA738D6-4113-B7E8-2681-32616CC336F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA738D6-4113-B7E8-2681-32616CC336F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA738D6-4113-B7E8-2681-32616CC336F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA738D6-4113-B7E8-2681-32616CC336F9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ECC3D9ED-4905-B622-E29A-1096C6BD7A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ECC3D9ED-4905-B622-E29A-1096C6BD7A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECC3D9ED-4905-B622-E29A-1096C6BD7A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU

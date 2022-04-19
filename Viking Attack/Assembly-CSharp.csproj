@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\PlayerInteractionScript.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\MyRigidbody3D.cs" />
      <Compile Include="Assets\Scripts\Main_menu_scripts\MainMenuColorSelection.cs" />
+     <Compile Include="Assets\DuoTest\ParrelSync\Examples\CustomArgumentExample.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\BaseObjectInteraction.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\BridgeActivation.cs" />
      <Compile Include="Assets\Scripts\Inventory_scripts\ItemContainer.cs" />
@@ -85,6 +86,7 @@
      <None Include="Assets\Mirror\Version.txt" />
      <None Include="Assets\Mirror\Readme.txt" />
      <None Include="Assets\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
+     <None Include="Assets\DuoTest\ParrelSync\VERSION.txt" />
      <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
      <None Include="Assets\Mirror\Notice.txt" />
      <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
@@ -743,6 +745,11 @@
     <ProjectReference Include="Mirror.Examples.csproj">
       <Project>{FDC914EB-9B25-2A57-02DB-D89F1D42A353}</Project>
       <Name>Mirror.Examples</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="ParrelSync.csproj">
+      <Project>{1EA738D6-4113-B7E8-2681-32616CC336F9}</Project>
+      <Name>ParrelSync</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Mirror.Editor.csproj">
