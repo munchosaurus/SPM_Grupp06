@@ -27,7 +27,7 @@ public class CameraMovement3D : NetworkBehaviour
     }
 
     [Client]
-    void Start()
+    void OnStartLocalPlayer()
     {
 
         if (GetComponentInParent<PlayerScript3D>().firstPerson)
