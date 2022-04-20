@@ -34,6 +34,7 @@ public class EnemyMovement : MonoBehaviour
     private GlobalPlayerInfo globalPlayerInfo;
 
     // TODO: Fetch enemy information in prefab that determines range, cooldown, damage
+    // TODO: REMOVE ALL BUT THE RIGIDBODY
     // PLACEHOLDER BELOW
     [SerializeField] private float range;  // The range of the enemy attacks
     [SerializeField] private float attackCooldown; // the cooldown of the enemy attacks
@@ -44,7 +45,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private int moveSpeed; // movement speed of the enemy
     [SerializeField] private float health;
     [SerializeField] private float maxHealth;
-
+    
 
     void Start()
     {
@@ -210,7 +211,7 @@ public class EnemyMovement : MonoBehaviour
     {
         
         health += difference;
-        gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
+        //gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
         if (health <= 0)
         {
             gameObject.GetComponent<EnemyInfo>().Kill();

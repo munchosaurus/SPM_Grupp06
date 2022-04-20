@@ -8,7 +8,7 @@ using UnityEngine;
 // Container for all player specifics, will add experience gained, HP, level, items owned etc...
 public class GlobalPlayerInfo : MonoBehaviour
 {
-    public string name;
+    public string playerName;
     public Color skinColor;
     public float health;
     public float maxHealth;
@@ -25,7 +25,7 @@ public class GlobalPlayerInfo : MonoBehaviour
     // Gets called upon during game launch, the main menu sets the player name
     public void SetPlayerName(string insertedName)
     {
-        name = insertedName;
+        playerName = insertedName;
     }
 
     public float GetHealth()
@@ -47,7 +47,7 @@ public class GlobalPlayerInfo : MonoBehaviour
     // Returns the player name
     public string GetName()
     {
-        return name;
+        return playerName;
     }
 
     // Returns the player skin color

@@ -501,6 +501,7 @@ GameObject:
   - component: {fileID: 5988590173649968423}
   - component: {fileID: 1008048771508749607}
   - component: {fileID: 993307644473226796}
+  - component: {fileID: 6266807764625747208}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -663,7 +664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cab9fe883b7e0eb408de94931c043a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  playerName: 
   skinColor: {r: 0, g: 0, b: 0, a: 0}
   health: 0
   maxHealth: 0
@@ -682,6 +683,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemBase: {fileID: 11400000, guid: e42a76ee5900ffc4f93a5fbaf0dadbb4, type: 2}
+--- !u!114 &6266807764625747208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988590173649968415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dbd8ee91694e7595d1e52377c53bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  enemyHealthPrefab: {fileID: 1198097881947184180, guid: f54b288de5a1b7a4698c7c612d594b8d, type: 3}
 --- !u!1 &5988590174005083855
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3653107586566960552}
   m_Layer: 5
-  m_Name: Health_bar
+  m_Name: Player_Health_bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
