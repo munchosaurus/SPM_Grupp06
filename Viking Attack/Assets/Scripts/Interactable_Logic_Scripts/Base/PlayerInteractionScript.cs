@@ -7,12 +7,23 @@ public class PlayerInteractionScript : NetworkBehaviour
 {
     //The text that shows when hovering over an interactable object
     [SerializeField] private UnityEngine.UI.Text interactionText;
-    void Update()
+    Camera mainCamera = null;
+
+
+    public void Enter()
+    {
+    }
+    public void Start()
+    {
+        mainCamera = Camera.main;
+    }
+
+    private void Update()
     {
         if (!isLocalPlayer) return;
         //Sends a raycast to check for colliders in the InteractableObject layer
         RaycastHit hit;
-        if(Physics.SphereCast(gameObject.transform.Find("Main Camera").transform.position,0.5f,gameObject.transform.Find("Main Camera").transform.forward,out hit,1,LayerMask.GetMask("InteractableObject")))
+        if(Physics.SphereCast(mainCamera.transform.position,0.5f, mainCamera.transform.forward,out hit,1,LayerMask.GetMask("InteractableObject")))
         {
             //Changes text to the button and information that is set in the object hit
             interactionText.text = "Press: " + hit.transform.GetComponent<InteractableObjectScript>().ButtonToPress.ToString() + " to " + hit.transform.GetComponent<InteractableObjectScript>().InteractionDescription;

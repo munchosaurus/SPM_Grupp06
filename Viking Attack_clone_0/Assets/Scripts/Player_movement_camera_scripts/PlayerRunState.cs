@@ -8,16 +8,24 @@ public class PlayerRunState : PlayerState
 {
     private Camera mainCamera;
     private Vector3 input;
+    private Transform cameraTransform; //VW
+    private GameObject cameraParent;
 
     public override void Enter()
     {
-
     }
+    public void Start()
+    {
+        mainCamera = Camera.main;
+        //cameraTransform = Camera.main.gameObject.transform;
+        cameraParent = GameObject.FindWithTag("MainCamera");
+    }
+
     public override void Update()
     {
         //get player input
         input = Vector3.right * Input.GetAxisRaw("Horizontal") + Vector3.forward * Input.GetAxisRaw("Vertical");
-        input = Player.mainCamera.transform.rotation * input;
+        input = cameraParent.transform.rotation * input; //Justerar med initial-kommentarer ovan
         input = Vector3.ProjectOnPlane(input,Player.MyRigidbody3D.Grounded().normal);
         input = input.normalized * Player.acceleration;
 

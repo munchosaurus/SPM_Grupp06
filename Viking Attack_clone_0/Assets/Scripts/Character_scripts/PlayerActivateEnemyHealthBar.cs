@@ -11,22 +11,26 @@ namespace DefaultNamespace
     {
         [SerializeField] private LayerMask layerMask; // The layermask of the enemies
         private RaycastHit[] hits; // the hits detected by the spherecast
-
+         
         private RaycastHit[]
             previousHits; // the previous hits by the spherecast, used for comparison to determine what objects to enable and disable
 
-
+        private Camera mainCamera;
         private void Awake()
         {
             previousHits = new RaycastHit[] { };
+        }
+        private void Start()
+        {
+            mainCamera = Camera.main;
         }
 
         void FixedUpdate()
         {
             if (!isLocalPlayer) return;
             // All enemies detected by the SphereCast
-            hits = Physics.SphereCastAll(gameObject.transform.Find("Main Camera").transform.position, 3,
-                gameObject.transform.Find("Main Camera").transform.forward, 10, layerMask);
+            hits = Physics.SphereCastAll(mainCamera.transform.position, 3,
+                mainCamera.transform.forward, 10, layerMask);
 
             if (previousHits.Length >
                 0) // makes sure that the previousHits array contains objects before iterating through it.

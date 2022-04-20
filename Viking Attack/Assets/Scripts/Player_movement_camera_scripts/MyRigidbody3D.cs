@@ -116,6 +116,7 @@ public class MyRigidbody3D : NetworkBehaviour
             }
             normalForce += GetComponent<GeneralHelpFunctions3D>().CalculateNormalForce(velocity, hit.normal);
             velocity += normalForce;
+
             UpdateVelocity();
         }
         return normalForce;
