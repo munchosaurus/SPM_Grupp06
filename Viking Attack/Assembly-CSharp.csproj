@@ -86,6 +86,8 @@
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerRunState.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\Camera\CameraMovement3D.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\GeneralHelpFunctions3D.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\FriendlyNameDisplay.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\PlayerActivateFriendlyPlayerName.cs" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
      <None Include="Assets\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
