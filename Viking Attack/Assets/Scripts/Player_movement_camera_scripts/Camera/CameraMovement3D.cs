@@ -61,39 +61,7 @@ public class CameraMovement3D : NetworkBehaviour
 
         }
     }
-    
-    /*void Awake()
-    {
-        mainCamera = GameObject.FindGameObjectWithTag("CameraMain").GetComponent<Camera>();
-    }
 
-    
-    void Start()
-    {
-        if (!isLocalPlayer) return;
-
-        if (GetComponentInParent<PlayerScript3D>().firstPerson)
-        {
-            whereToPut = firstPersonPosition;
-            cameraPosition = whereToPut.transform.localPosition;
-        }
-        else
-        {
-            whereToPut = thirdPersonPosition;
-            cameraPosition = whereToPut.transform.localPosition;
-
-        }
-        cameraTransform = GameObject.FindGameObjectWithTag("CameraMain").gameObject.transform;  //Find main camera which is part of the scene instead of the prefab
-        cameraTransform.parent = whereToPut.transform;  //Make the camera a child of the mount point
-        cameraTransform.position = whereToPut.transform.position;  //Set position/rotation same as the mount point
-
-
-        /*mainCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
-        mainCamera.transform.parent = GameObject.FindWithTag("Player").transform;#1#
-        //Sets camera position to firstperson if variable is true in PlayerScript3D
-
-    }*/
-    
     void Update()
     {
         if (!isLocalPlayer) return;

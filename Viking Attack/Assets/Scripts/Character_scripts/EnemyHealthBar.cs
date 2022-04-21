@@ -8,29 +8,35 @@ using UnityEngine.UI;
 // This script will make a GUITexture follow a transform (object placed above the enemy).
 public class EnemyHealthBar : MonoBehaviour
 {
-    [SerializeField] private Transform target; // the gameobject.transform that the UI should follow 
-    [SerializeField] Slider healthBar; // the slider 
+    [SerializeField] public Transform target; // the gameobject.transform that the UI should follow 
+    [SerializeField] public Slider healthBar; // the slider 
     [SerializeField] private GameObject healthSource; // the enemy gameobject
-
+    [SerializeField] private int instanceID; // the ID of the enemy spotted in the activation script placed on the player
+    
+    
     private void Update()
     {
-        Display(); // Runs the display method that places the Ui element in the correct place above the enemy. Will only run if active.
-        
-    }
-    
-    // Sets the health to the desired amount
-    private void Start()
-    {
         SetHealth();
-        //healthBar.value = healthSource.GetComponent<EnemyMovement>().GetHealth();
-        healthBar.maxValue = healthSource.GetComponent<EnemyMovement>().GetMaxHealth();
+        Display(); // Runs the display method that places the Ui element in the correct place above the enemy. Will only run if active.
     }
-    
+
+    public void SetHealthSource(GameObject hs)
+    {
+        healthSource = hs;
+    }
 
     // Updates the health number of the slider
     public void SetHealth()
     {
-        healthBar.value = healthSource.GetComponent<EnemyMovement>().GetHealth();
+        if (healthSource != null)
+        {
+            healthBar.value = healthSource.GetComponent<EnemyMovement>().GetHealth();
+        }
+    }
+    
+    public int GetPersonalInstanceID()
+    {
+        return instanceID;
     }
     
     public void Display()
@@ -38,6 +44,14 @@ public class EnemyHealthBar : MonoBehaviour
         var wantedPos = GameObject.FindGameObjectWithTag("CameraMain").GetComponent<Camera>().WorldToScreenPoint (target.position);
         gameObject.transform.position = wantedPos;
     }
+
+
+    public void Setup(Transform parent, Transform t, Transform enemy, EnemyInfo enemyInfo)
+    {
+        transform.SetParent(parent.Find("UI"));
+        target = t;
+        SetHealthSource(enemy.gameObject);
+        healthBar.maxValue = enemyInfo.maxHealth;
+        instanceID = enemy.gameObject.GetInstanceID();
+    }
 }
-
-

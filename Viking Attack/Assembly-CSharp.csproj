@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\Character_scripts\EnemyHealthBar.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\CharacterBase.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\StateMachine.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\EnemyHealthBarController.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\PlayerActivateEnemyHealthBar.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\InteractableObjectScript.cs" />
@@ -81,6 +82,7 @@
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\LeverInteraction.cs" />
      <Compile Include="Assets\Scripts\Main_menu_scripts\MainMenuButtonManager.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerState.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\EnemyVitalController.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\BaseObjectActivation.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\State.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerRunState.cs" />

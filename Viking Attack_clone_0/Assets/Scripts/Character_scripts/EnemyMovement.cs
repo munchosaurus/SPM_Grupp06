@@ -51,7 +51,7 @@ public class EnemyMovement : NetworkBehaviour
     //syncRotation ser till synkronisera alla rotationer, quaternion istallet for gimbal f�r att kunna rotera pa x-axeln men inte y-axeln
     [SyncVar] private Quaternion syncRotation;
     //syncHealth is supposed to function to send data about the health across the server, updates when the enemy is hit
-    [SyncVar] private float syncHealth;
+    [SyncVar][SerializeField] private float syncHealth;
 
 
     void Start()
@@ -165,6 +165,7 @@ public class EnemyMovement : NetworkBehaviour
                 }
                 else
                 {
+                    if (chasingObject.Equals(null)) return;
                     Vector3 facePlayer = new Vector3(chasingObject.transform.position.x, transform.position.y,
                         chasingObject.transform.position.z);
                     transform.LookAt(facePlayer);
@@ -192,7 +193,7 @@ public class EnemyMovement : NetworkBehaviour
             }
         }
         
-        //Foljande 2 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen.
+        //Foljande 3 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen samt HP
         CmdSetSynchedPosition(this.transform.position);
         CmdSetSynchedRotation(this.transform.rotation);
         CmdSetSynchedHealth(this.health);
@@ -204,7 +205,7 @@ public class EnemyMovement : NetworkBehaviour
     void CmdSetSynchedPosition(Vector3 position) => syncPosition = position;
     [Command]
     void CmdSetSynchedRotation(Quaternion rotation) => syncRotation = rotation;
-    [Command]
+    [Command(requiresAuthority = false)]
     void CmdSetSynchedHealth(float hp) => syncHealth = hp;
 
     private void CheckForPlayer()
@@ -227,17 +228,16 @@ public class EnemyMovement : NetworkBehaviour
         Gizmos.color = Color.black;
         Gizmos.DrawWireSphere(transform.position, detectScopeRadius);
     }
-
+    
     public void UpdateHealth(float difference)
     {
-        
         health += difference;
         gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
         if (health <= 0)
         {
             gameObject.GetComponent<EnemyInfo>().Kill();
         }
-        CmdSetSynchedHealth(this.health);
+        CmdSetSynchedHealth(difference);
 
     }
 
