@@ -11,23 +11,12 @@ public class EnemyHealthBar : MonoBehaviour
     [SerializeField] public Transform target; // the gameobject.transform that the UI should follow 
     [SerializeField] public Slider healthBar; // the slider 
     [SerializeField] private GameObject healthSource; // the enemy gameobject
-
-
-    public EnemyHealthBar(Transform t, GameObject hs)
-    {
-        target = t;
-        healthSource = hs;
-    }
+    [SerializeField] public int instanceID; // the ID of the enemy spotted in the activation script placed on the player
+    
     private void Update()
     {
-        //SetHealth();
+        SetHealth();
         Display(); // Runs the display method that places the Ui element in the correct place above the enemy. Will only run if active.
-    }
-    
-    // Sets the health to the desired amount
-    private void Start()
-    {
-        healthBar = gameObject.GetComponent<Slider>();
     }
 
     public void SetHealthSource(GameObject hs)
@@ -38,13 +27,25 @@ public class EnemyHealthBar : MonoBehaviour
     // Updates the health number of the slider
     public void SetHealth()
     {
-        healthBar.value = healthSource.GetComponent<EnemyMovement>().GetHealth();
+        if (healthSource != null)
+        {
+            healthBar.value = healthSource.GetComponent<EnemyMovement>().GetHealth();
+        }
     }
     
     public void Display()
     {
         var wantedPos = Camera.main.WorldToScreenPoint (target.position);
         gameObject.transform.position = wantedPos;
+    }
+
+    public void Setup(Transform parent, Transform t, Transform enemy, EnemyInfo enemyInfo)
+    {
+        transform.SetParent(parent.Find("UI"));
+        target = t;
+        SetHealthSource(enemy.gameObject);
+        healthBar.maxValue = enemyInfo.maxHealth;
+        instanceID = enemy.gameObject.GetInstanceID();
     }
 }
 

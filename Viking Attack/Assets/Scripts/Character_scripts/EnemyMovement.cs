@@ -209,9 +209,7 @@ public class EnemyMovement : MonoBehaviour
 
     public void UpdateHealth(float difference)
     {
-        
         health += difference;
-        //gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
         if (health <= 0)
         {
             gameObject.GetComponent<EnemyInfo>().Kill();
