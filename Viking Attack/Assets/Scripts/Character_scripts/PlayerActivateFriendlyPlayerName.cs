@@ -34,6 +34,7 @@ namespace DefaultNamespace
 
         private void FixedUpdate()
         {
+            // All friendly players detected by the SphereCast
             hits = Physics.SphereCastAll
             (gameObject.transform.Find("Main Camera").transform.position,
                 6,
@@ -42,13 +43,14 @@ namespace DefaultNamespace
                 layerMask);
 
             
+            // makes sure that the previousHits array contains objects before iterating through it.
             if (previousHits.Length > 0)
             {
                 foreach (var previousHit in previousHits)
                 {
-                    bool shouldRemove = CheckForHit(previousHit.collider.gameObject.GetInstanceID());
+                    bool shouldDisable = CheckForHit(previousHit.collider.gameObject.GetInstanceID());
 
-                    if (shouldRemove)
+                    if (shouldDisable)
                     {
                         foreach (var go in instancesOfFriendlyNames)
                         {
@@ -65,11 +67,10 @@ namespace DefaultNamespace
             // Handles instances of the health bar to remove
             if (instancesToDisable.Count > 0)
             {
-                foreach (var goToRemove in instancesToDisable)
+                foreach (var goToDisable in instancesToDisable)
                 {
-                    instancesOfFriendliesSpotted.Remove(goToRemove.GetComponent<FriendlyNameDisplay>().GetPersonalInstanceID());
-                    instancesOfFriendlyNames.Remove(goToRemove);
-                    Destroy(goToRemove);
+                    instancesOfFriendliesSpotted.Remove(goToDisable.GetComponent<FriendlyNameDisplay>().GetPersonalInstanceID());
+                    goToDisable.SetActive(false);
                 }
 
                 instancesToDisable.Clear(); // clears after the objects have been handled
@@ -80,9 +81,25 @@ namespace DefaultNamespace
             {
                 if (instancesOfFriendliesSpotted.Contains(hit.transform.gameObject.GetInstanceID()) == false && hit.collider.gameObject.GetInstanceID() != gameObject.GetInstanceID())
                 {
+                    bool alreadyExists = false; 
                     
-                    GameObject go = SetupFriendlyName(hit);
-                    instancesOfFriendlyNames.Add(go);
+                    foreach (var friendlyName in instancesOfFriendlyNames)
+                    {
+                        //  Will set the found healthBar to active if it already exists, else a new one will be created
+                        if (hit.collider.gameObject.GetInstanceID() == friendlyName.gameObject.GetComponent<FriendlyNameDisplay>().GetPersonalInstanceID())
+                        {
+                            friendlyName.SetActive(true);
+                            alreadyExists = true;
+                            break;
+                        }
+                    }
+
+                    if (!alreadyExists)
+                    {
+                        GameObject go = SetupFriendlyName(hit);
+                        instancesOfFriendlyNames.Add(go);
+                    }
+
 
                     // Adds to all enemy instances (saves the instanceID)
                     instancesOfFriendliesSpotted.Add(hit.transform.gameObject.GetInstanceID());

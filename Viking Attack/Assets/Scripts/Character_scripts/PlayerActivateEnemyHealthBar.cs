@@ -22,16 +22,21 @@ namespace DefaultNamespace
         // the previous hits by the spherecast, used for comparison to determine what objects to enable and disable
         private RaycastHit[] previousHits;
         
+        // The instanceIDs of all enemies spotted in each frame
         private List<int> instancesOfEnemiesSpotted;
+        
+        // All Enemy health bars that exist and belong to an enemy
         private List<GameObject> instancesOfEnemyHealthBars;
-        private List<GameObject> instancesToRemove;
+        
+        // Will be updated when health bars are to be deactivated
+        private List<GameObject> instancesToDisable;
 
 
         private void Awake()
         {
             instancesOfEnemiesSpotted = new List<int>();
             instancesOfEnemyHealthBars = new List<GameObject>();
-            instancesToRemove = new List<GameObject>();
+            instancesToDisable = new List<GameObject>();
             previousHits = new RaycastHit[] { };
         }
 
@@ -51,16 +56,16 @@ namespace DefaultNamespace
                 foreach (var previousHit in previousHits) // loops through all hits in the previous frame
                 {   
                     // checks if the previousHit shouldn't have the health bar left
-                    bool shouldRemove = CheckForHit(previousHit.collider.transform.gameObject.GetInstanceID());
+                    bool shouldDisable = CheckForHit(previousHit.collider.transform.gameObject.GetInstanceID());
 
-                    if (shouldRemove)
+                    if (shouldDisable)
                     {
                         foreach (GameObject go in instancesOfEnemyHealthBars)
                         {
                             if (previousHit.transform.gameObject.GetInstanceID() ==
-                                go.GetComponent<EnemyHealthBar>().instanceID)
+                                go.GetComponent<EnemyHealthBar>().GetPersonalInstanceID())
                             {
-                                instancesToRemove.Add(go);
+                                instancesToDisable.Add(go);
                             }
                         }
                     }
@@ -68,31 +73,45 @@ namespace DefaultNamespace
             }
 
             // Handles instances of the health bar to remove
-            if (instancesToRemove.Count > 0)
+            if (instancesToDisable.Count > 0)
             {
-                foreach (var goToRemove in instancesToRemove)
+                foreach (var goToDisable in instancesToDisable)
                 {
-                    instancesOfEnemiesSpotted.Remove(goToRemove.GetComponent<EnemyHealthBar>().instanceID);
-                    instancesOfEnemyHealthBars.Remove(goToRemove);
-                    Destroy(goToRemove);
+                    instancesOfEnemiesSpotted.Remove(goToDisable.GetComponent<EnemyHealthBar>().GetPersonalInstanceID());
+                    goToDisable.SetActive(false);
                 }
 
-                instancesToRemove.Clear(); // clears after the objects have been handled
+                instancesToDisable.Clear(); // clears after the objects have been handled
             }
 
             // Instantiates an health bar for each enemy in sight if one is missing
             foreach (var hit in hits)
             {
+                // if the enemy wasn't spotted in the previous frame, will simply update previousHits and move to the next frame
                 if (instancesOfEnemiesSpotted.Contains(hit.transform.gameObject.GetInstanceID()) == false)
                 {
-                    GameObject go = SetupHealthBar(hit);
-                    instancesOfEnemyHealthBars.Add(go);
+                    bool alreadyExists = false; 
+                    foreach (var healthBar in instancesOfEnemyHealthBars)
+                    {
+                        //  Will set the found healthBar to active if it already exists, else a new one will be created
+                        if (hit.collider.gameObject.GetInstanceID() == healthBar.gameObject.GetComponent<EnemyHealthBar>().GetPersonalInstanceID())
+                        {
+                            healthBar.SetActive(true);
+                            alreadyExists = true;
+                            break;
+                        }
+                    }
+
+                    if (!alreadyExists)
+                    {
+                        GameObject go = SetupHealthBar(hit);
+                        instancesOfEnemyHealthBars.Add(go);
+                    }
 
                     // Adds to all enemy instances (saves the instanceID)
                     instancesOfEnemiesSpotted.Add(hit.transform.gameObject.GetInstanceID());
                 }
             }
-
             previousHits = hits;
         }
 

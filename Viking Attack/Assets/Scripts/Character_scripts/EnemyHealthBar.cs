@@ -11,7 +11,7 @@ public class EnemyHealthBar : MonoBehaviour
     [SerializeField] public Transform target; // the gameobject.transform that the UI should follow 
     [SerializeField] public Slider healthBar; // the slider 
     [SerializeField] private GameObject healthSource; // the enemy gameobject
-    [SerializeField] public int instanceID; // the ID of the enemy spotted in the activation script placed on the player
+    [SerializeField] private int instanceID; // the ID of the enemy spotted in the activation script placed on the player
     
     private void Update()
     {
@@ -31,6 +31,11 @@ public class EnemyHealthBar : MonoBehaviour
         {
             healthBar.value = healthSource.GetComponent<EnemyMovement>().GetHealth();
         }
+    }
+    
+    public int GetPersonalInstanceID()
+    {
+        return instanceID;
     }
     
     public void Display()
