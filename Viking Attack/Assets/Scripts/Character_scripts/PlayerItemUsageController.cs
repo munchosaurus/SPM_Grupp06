@@ -30,7 +30,11 @@ public class PlayerItemUsageController : NetworkBehaviour
                         mainCamera.transform.forward, out hit, itemBase.GetRange(),
                         LayerMask.GetMask("Enemy")))
                 {
-                    hit.collider.gameObject.GetComponent<EnemyMovement>().UpdateHealth(-itemBase.GetDamage());
+                    //hit.collider.gameObject.GetComponent<EnemyMovement>().UpdateHealth(-itemBase.GetDamage());
+                    float currentHealth =
+                        hit.collider.gameObject.GetComponent<EnemyVitalController>().getCurrentHealth();
+                    hit.collider.gameObject.GetComponent<EnemyVitalController>()
+                        .CmdUpdateHealth(-itemBase.GetDamage());
                 }
             }
             else if (itemBase.GetType() == ItemBase.Type.Tool) // checks to see if the itembase is a tool in the playerhand

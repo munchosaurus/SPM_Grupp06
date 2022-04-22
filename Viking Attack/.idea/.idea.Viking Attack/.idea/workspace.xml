@@ -4,45 +4,28 @@
     <list default="true" id="2a06ba6d-4c30-4cf4-b2a8-0693737cc81f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Viking Attack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Viking Attack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D_Whiteboxing/M_Placeholder/Skeleton.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D_Whiteboxing/M_Placeholder/Skeleton.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Bear.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Bear.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/NEW_Island.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NEW_Island.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyHealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyHealthBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Bear.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Bear.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/Camera/CameraMovement3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/Camera/CameraMovement3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyVitalController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyVitalController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/PlayerItemUsageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character_scripts/PlayerItemUsageController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/3D_Whiteboxing/M_Placeholder/Skeleton.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/3D_Whiteboxing/M_Placeholder/Skeleton.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Prefabs/Characters/Bear.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Prefabs/Characters/Bear.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Prefabs/Characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Prefabs/Characters/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scenes/NEW_Island.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scenes/NEW_Island.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Character_scripts/EnemyHealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Character_scripts/EnemyHealthBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Character_scripts/EnemyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Character_scripts/EnemyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Character_scripts/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Character_scripts/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Player_movement_camera_scripts/Camera/CameraMovement3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Player_movement_camera_scripts/Camera/CameraMovement3D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/01/01354dba0d4218e935c459d7cbef9056" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/1c/1c0ab7c7511e5856a09ac514c1a77175" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/30/30fbf9244b80cbdc651210c44b32a75d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/6d/6d8dc5e5d5c1c7a5f4b5d5b90098a80b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/7b/7bf9116a16011815c53762e7fbb2b2fc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/8f/8f48dae8d715b900fa405b7a17630384" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/a2/a25b374def4976b3be7ec50aee2a88d6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/c1/c18d5f460ad370a2219303c73f9d1b7a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/d5/d5601b953f7153082a525cd0e96f41bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/Artifacts/e1/e1e8261952fdefe7295a8cd4ba87b52e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Viking Attack_clone_0/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Viking Attack_clone_0/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +41,18 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c0b1a99a69f44c7d8cbe9502c41e881018200/07/77f67c84/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Network/Mirror/Examples/Tanks/Scripts/FaceCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/CharacterBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyHealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/GlobalPlayerInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/CharacterBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Canvas/CreateSceneUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactable_Logic_Scripts/Base/PlayerInteractionScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Main_menu_scripts/MainMenuButtonManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Network/Mirror/Examples/Tanks/Scripts/FaceCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/GlobalPlayerInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/MyRigidbody3D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/PlayerJumpState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/EnemyHealthBarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/PlayerRunState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/PlayerScript3D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Canvas/CreateSceneUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Player_movement_camera_scripts/PlayerScript3D.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -84,17 +66,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe" />
@@ -154,6 +131,7 @@
       <workItem from="1650534130768" duration="10906000" />
       <workItem from="1650553968153" duration="3540000" />
       <workItem from="1650557564235" duration="980000" />
+      <workItem from="1650625859225" duration="7103000" />
     </task>
     <servers />
   </component>

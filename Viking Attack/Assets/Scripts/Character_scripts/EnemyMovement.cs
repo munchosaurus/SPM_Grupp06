@@ -49,9 +49,9 @@ public class EnemyMovement : NetworkBehaviour
     //syncPosition ar till for att synkronisera alla spelarpositioner gentemot servern
     [SyncVar] private Vector3 syncPosition;
     //syncRotation ser till synkronisera alla rotationer, quaternion istallet for gimbal f�r att kunna rotera pa x-axeln men inte y-axeln
-    [SyncVar] private Quaternion syncRotation;
+    [SyncVar][SerializeField] private Quaternion syncRotation;
     //syncHealth is supposed to function to send data about the health across the server, updates when the enemy is hit
-    [SyncVar][SerializeField] private float syncHealth;
+    //[SyncVar][SerializeField] private float syncHealth;
 
 
     void Start()
@@ -66,9 +66,11 @@ public class EnemyMovement : NetworkBehaviour
         chasingSpeedMultiplier = characterBase.GetChasingSpeed();
         moveSpeed = characterBase.GetMovementSpeed();
         health = characterBase.GetMaxHealth();
+        // syncHealth = health;
         maxHealth = characterBase.GetMaxHealth();
+        
 
-
+        
         // END OF MARTIN
 
         isGuarding = true;
@@ -111,6 +113,7 @@ public class EnemyMovement : NetworkBehaviour
         /*
          * END OF RAYCAST, MARTINS CODE
          */
+        
     }
 
     // Resets the attack cooldown
@@ -136,6 +139,15 @@ public class EnemyMovement : NetworkBehaviour
 
     void Update()
     {
+        
+        // if (!isLocalPlayer)
+        // {
+        //     base.transform.position = syncPosition;
+        //     base.transform.rotation = syncRotation;
+        //     
+        //     return;
+        // }
+        
         colliders = Physics.OverlapBox(groundCheck.transform.position, new Vector3(0.1f, 0.1f, 0.1f),
             Quaternion.identity, ground); //Check if we are on the Ground
         if (colliders.Length > 0) //when we find the ground
@@ -194,10 +206,8 @@ public class EnemyMovement : NetworkBehaviour
         }
         
         //Foljande 3 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen samt HP
-        CmdSetSynchedPosition(this.transform.position);
-        CmdSetSynchedRotation(this.transform.rotation);
-        CmdSetSynchedHealth(this.health);
-
+        CmdSetSynchedPosition(transform.position);
+        CmdSetSynchedRotation(transform.rotation);
     }
 
     //Kommandlinjer for att be servern om uppdateringar po rotation och position
@@ -205,8 +215,10 @@ public class EnemyMovement : NetworkBehaviour
     void CmdSetSynchedPosition(Vector3 position) => syncPosition = position;
     [Command]
     void CmdSetSynchedRotation(Quaternion rotation) => syncRotation = rotation;
-    [Command(requiresAuthority = false)]
-    void CmdSetSynchedHealth(float hp) => syncHealth = hp;
+    //
+    // [Command]
+    // void CmdSetSynchedHealth(float hleath) => syncHealth = health;
+
 
     private void CheckForPlayer()
     {
@@ -233,11 +245,12 @@ public class EnemyMovement : NetworkBehaviour
     {
         health += difference;
         gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
+        //CmdSetSynchedHealth(health);
+        //gameObject.transform.GetComponent<EnemyVitalController>().CmdUpdateHealth(health);
         if (health <= 0)
         {
             gameObject.GetComponent<EnemyInfo>().Kill();
         }
-        CmdSetSynchedHealth(difference);
 
     }
 

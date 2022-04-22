@@ -18,6 +18,6 @@ MonoBehaviour:
   range: 2
   attackCooldown: 0.8
   damage: 15
-  chasingSpeedMultiplier: 1
-  moveSpeed: 150
+  chasingSpeedMultiplier: 0
+  moveSpeed: 0
   maxHealth: 15

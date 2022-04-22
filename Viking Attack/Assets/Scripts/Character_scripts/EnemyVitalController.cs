@@ -30,12 +30,14 @@ public class EnemyVitalController : NetworkBehaviour
     }
 
     [Command(requiresAuthority = false)]
-    void CmdUpdateHealth(float change) => UpdateHealth(change);
+    public void CmdUpdateHealth(float change) => UpdateHealth(change);
 
     private void UpdateHealth(float change)
     {
+        
         if (base.isServer)
         {
+            Debug.Log("I am in" + change);
             //clampa värdet så vi inte kan få mer hp än maxvärdet
             currentHealth = Mathf.Clamp(currentHealth += change, -Mathf.Infinity, maxHealth);
 
@@ -47,6 +49,11 @@ public class EnemyVitalController : NetworkBehaviour
         }
         else
             CmdUpdateHealth(change);
+    }
+
+    public float getCurrentHealth()
+    {
+        return currentHealth;
     }
 
     //andra script kan registrera på detta event
