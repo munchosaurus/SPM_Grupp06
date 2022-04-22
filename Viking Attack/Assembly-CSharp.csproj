@@ -53,7 +53,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Inventory_scripts\ItemBase.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Player\GameController.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\PlayerInteractionScript.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\MyRigidbody3D.cs" />
      <Compile Include="Assets\Scripts\Main_menu_scripts\MainMenuColorSelection.cs" />
@@ -61,36 +61,36 @@
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\BaseObjectInteraction.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\BridgeActivation.cs" />
      <Compile Include="Assets\Scripts\Inventory_scripts\ItemContainer.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\EnemyInfo.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemyInfo.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerBaseState.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\PlayerItemUsageController.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Player\PlayerItemUsageController.cs" />
      <Compile Include="Assets\Scripts\SaveScripter.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\PlayerActivateFriendlyPlayerName.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\PlayerHealthBar.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Player\PlayerActivateFriendlyPlayerName.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Player\PlayerHealthBar.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerScript3D.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\EnemyHealthBar.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemyHealthBar.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\CharacterBase.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\StateMachine.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\EnemyHealthBarController.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\FriendlyNameDisplay.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\EnemySpawner.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\PlayerActivateEnemyHealthBar.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemyHealthBarController.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Player\FriendlyNameDisplay.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Player\PlayerActivateEnemyHealthBar.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\InteractableObjectScript.cs" />
      <Compile Include="Assets\Scripts\Inventory_scripts\PlayerHand.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerJumpState.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\GlobalPlayerInfo.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Player\GlobalPlayerInfo.cs" />
      <Compile Include="Assets\Scripts\Inventory_scripts\Item.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\EnemyMovement.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\LeverInteraction.cs" />
      <Compile Include="Assets\Scripts\Main_menu_scripts\MainMenuButtonManager.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerState.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\EnemyVitalController.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemyVitalController.cs" />
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\Base\BaseObjectActivation.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\State.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerRunState.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\Camera\CameraMovement3D.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\GeneralHelpFunctions3D.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemyAttack.cs" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
      <None Include="Assets\Network\Mirror\Version.txt" />
@@ -327,16 +327,16 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="Mono.CecilX.Rocks">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Network/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Network/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
  </Reference>
  <Reference Include="Mono.CecilX.Pdb">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Network/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Network/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
  </Reference>
  <Reference Include="Mono.CecilX">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Network/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Network/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
  </Reference>
  <Reference Include="Mono.CecilX.Mdb">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Network/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Assets/Network/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -684,46 +684,46 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/maki0704/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Martin/Documents/GitHub/SPM_Grupp06/Viking Attack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

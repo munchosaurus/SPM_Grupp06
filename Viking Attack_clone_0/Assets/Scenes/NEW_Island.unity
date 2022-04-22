@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,10 +134,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -200,10 +196,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -265,10 +257,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -339,7 +327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 100744353}
   m_Layer: 0
-  m_Name: Bear
+  m_Name: 'Bear (Missing Prefab with guid: 9829b6b70e84ad8419837ad5ebc3f570)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -355,10 +343,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -421,10 +405,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -496,10 +476,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 80
@@ -562,10 +538,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -627,10 +599,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -702,10 +670,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -767,10 +731,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -958,10 +918,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -1023,10 +979,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -1090,10 +1042,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 166
@@ -1156,10 +1104,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 94
@@ -1221,10 +1165,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -1296,10 +1236,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -1361,10 +1297,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -1436,10 +1368,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -1510,10 +1438,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 92
@@ -1576,10 +1500,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 140
@@ -1641,10 +1561,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -1822,13 +1738,13 @@ Transform:
   m_PrefabInstance: {fileID: 100744352}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15553297}
-  m_LocalRotation: {x: -0.37659308, y: -0.59847945, z: -0.59847945, w: 0.37659308}
-  m_LocalPosition: {x: 141.3, y: 18.22, z: -77.44}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1317846879}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -115.64}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &100864834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1839,10 +1755,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -1914,10 +1826,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -1987,10 +1895,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -2128,10 +2032,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -2256,10 +2156,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -2330,10 +2226,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 169
@@ -2396,10 +2288,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -2461,10 +2349,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -2536,10 +2420,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 138
@@ -2610,10 +2490,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -2675,10 +2551,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -2750,10 +2622,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 122
@@ -2815,10 +2683,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -2882,10 +2746,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 114
@@ -2947,10 +2807,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -3084,10 +2940,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 96
@@ -3149,10 +3001,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -3216,10 +3064,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -3281,10 +3125,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -3348,10 +3188,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3413,10 +3249,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -3480,10 +3312,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -3545,10 +3373,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -3620,10 +3444,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 148
@@ -3686,10 +3506,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 146
@@ -3750,7 +3566,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 289396533}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Bushes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3954,10 +3770,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -4027,10 +3839,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -4102,10 +3910,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 132
@@ -4176,10 +3980,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 115
@@ -4242,10 +4042,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 157
@@ -4307,10 +4103,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -4382,10 +4174,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 104
@@ -4447,10 +4235,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -4522,10 +4306,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 104
@@ -4596,10 +4376,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 159
@@ -4661,10 +4437,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -4790,10 +4562,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -4863,10 +4631,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -4938,10 +4702,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -5003,10 +4763,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -5078,10 +4834,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -5152,10 +4904,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 101
@@ -5217,10 +4965,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -5292,10 +5036,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -5366,10 +5106,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -5432,10 +5168,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 151
@@ -5497,10 +5229,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -5604,10 +5332,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 123
@@ -5678,10 +5402,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -5751,10 +5471,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -5893,10 +5609,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 136
@@ -6021,10 +5733,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -6086,10 +5794,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -6153,10 +5857,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -6218,10 +5918,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -6293,10 +5989,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 124
@@ -6358,10 +6050,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -6425,10 +6113,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -6490,10 +6174,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -6565,10 +6245,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -6630,10 +6306,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -6759,10 +6431,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -6824,10 +6492,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -6899,10 +6563,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -6972,10 +6632,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -7109,10 +6765,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7183,10 +6835,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -7248,10 +6896,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -7323,10 +6967,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -7389,10 +7029,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 84
@@ -7454,10 +7090,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -7591,10 +7223,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -7656,10 +7284,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -7731,10 +7355,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -7796,10 +7416,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -7871,10 +7487,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 109
@@ -7936,10 +7548,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -8011,10 +7619,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -8085,10 +7689,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -8151,10 +7751,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -8216,10 +7812,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -8291,10 +7883,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 140
@@ -8365,10 +7953,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 106
@@ -8431,10 +8015,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -8495,7 +8075,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 648076690}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8730,10 +8310,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 126
@@ -8795,10 +8371,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -8932,10 +8504,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 127
@@ -8997,10 +8565,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -9126,10 +8690,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -9199,10 +8759,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -9289,93 +8845,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.9098, y: 4.492063, z: 20.724863}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1245914505}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &720557973
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 720557976}
-  - component: {fileID: 720557975}
-  - component: {fileID: 720557974}
-  m_Layer: 0
-  m_Name: MainCamera
-  m_TagString: CameraMain
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &720557974
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720557973}
-  m_Enabled: 0
---- !u!20 &720557975
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720557973}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &720557976
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720557973}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9, y: 19.243233, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &721488120
 PrefabInstance:
@@ -9450,10 +8922,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -9524,10 +8992,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 112
@@ -9589,10 +9053,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -9663,10 +9123,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -9800,10 +9256,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 161
@@ -9936,10 +9388,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -10001,10 +9449,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -10076,10 +9520,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -10149,10 +9589,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -10250,10 +9686,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 94
@@ -10323,10 +9755,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -10456,10 +9884,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -10511,6 +9935,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
   m_PrefabInstance: {fileID: 810729397}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &816190159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 816190160}
+  - component: {fileID: 816190162}
+  - component: {fileID: 816190161}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &816190160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816190159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 16.86, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &816190161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816190159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f3aebfc43ae4b408b00745396cf3aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  enemyPrefabToSpawn: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+  stop: 0
+--- !u!114 &816190162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816190159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 4130411785
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 
+  hasSpawned: 0
 --- !u!1001 &831748878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10521,10 +10010,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -10658,10 +10143,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -10723,10 +10204,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -10868,10 +10345,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -10942,10 +10415,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -11007,10 +10476,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -11082,10 +10547,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 162
@@ -11147,10 +10608,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -11222,10 +10679,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 130
@@ -11287,10 +10740,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -11361,10 +10810,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -11498,10 +10943,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -11571,10 +11012,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -11646,10 +11083,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -11719,10 +11152,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -11794,10 +11223,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -11860,10 +11285,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -11925,10 +11346,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -12000,10 +11417,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 150
@@ -12065,10 +11478,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -12164,10 +11573,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -12282,63 +11687,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1779836023532286563, guid: d181335e30e43dd449176478dc559375, type: 3}
   m_PrefabInstance: {fileID: 995385239}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &996710369
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2374773513409739928, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_Name
-      value: PlayerModel
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.827499
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.5416722
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.3218975
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.4777144
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.4777144
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5213339
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5213339
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3152294619295475234, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 95
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 808da47edbaa3a74da6471f4c8f94755, type: 3}
 --- !u!1001 &997305737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12349,10 +11697,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -12416,10 +11760,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 103
@@ -12481,10 +11821,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -12555,10 +11891,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -12692,10 +12024,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 120
@@ -12758,10 +12086,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 158
@@ -12823,10 +12147,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -12898,10 +12218,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 125
@@ -12963,10 +12279,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -13037,10 +12349,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -13166,10 +12474,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -13231,10 +12535,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -13306,10 +12606,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 147
@@ -13371,10 +12667,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -13445,10 +12737,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -13600,7 +12888,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1102440989
 PrefabInstance:
@@ -13673,7 +12961,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1108792199}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Enviroment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13708,10 +12996,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -13836,7 +13120,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1126049804
 PrefabInstance:
@@ -13848,10 +13132,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -13977,10 +13257,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -14050,10 +13326,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -14125,10 +13397,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -14191,10 +13459,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -14254,6 +13518,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
   m_PrefabInstance: {fileID: 1172379945}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1183309962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1183309965}
+  - component: {fileID: 1183309964}
+  - component: {fileID: 1183309963}
+  m_Layer: 0
+  m_Name: MainCamera
+  m_TagString: CameraMain
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1183309963
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183309962}
+  m_Enabled: 0
+--- !u!20 &1183309964
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183309962}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1183309965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183309962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.324975, y: -3.94384, z: 3.6314964}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1184203244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14264,10 +13611,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -14339,10 +13682,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 117
@@ -14412,10 +13751,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -14487,10 +13822,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 95
@@ -14561,10 +13892,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -14627,10 +13954,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -14690,91 +14013,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
   m_PrefabInstance: {fileID: 1197882413}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1204616543
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1078430519148682724, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: onlineScene
-      value: Assets/Scenes/NEW_Island.unity
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682724, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: offlineScene
-      value: Assets/Scenes/Main_menu.unity
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682724, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: maxConnections
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682724, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: serverTickRate
-      value: 80
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682724, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: spawnPrefabs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682724, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: spawnPrefabs.Array.data[0]
-      value: 
-      objectReference: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -34.152393
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.577095
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.4716854
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682729, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: m_Name
-      value: NetworkManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078430519148682731, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
-      propertyPath: Interval
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
 --- !u!1001 &1212225239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14848,10 +14086,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 108
@@ -14914,10 +14148,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -14979,10 +14209,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -15054,10 +14280,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 98
@@ -15119,10 +14341,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -15194,10 +14412,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -15259,10 +14473,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -15385,76 +14595,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 561577284148894554, guid: 44df024c77f48764c8ab559a42a144c5, type: 3}
   m_PrefabInstance: {fileID: 1244000576}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1245914504
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 702296479}
-    m_Modifications:
-    - target: {fileID: 791254781668399720, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: sceneId
-      value: 2468638968
-      objectReference: {fileID: 0}
-    - target: {fileID: 791254781668399720, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: serverOnly
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_Name
-      value: Bear
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -48.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -20.724863
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
---- !u!4 &1245914505 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6653956862289318910, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
-  m_PrefabInstance: {fileID: 1245914504}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1258547190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15465,10 +14605,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -15532,10 +14668,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -15597,10 +14729,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -15726,10 +14854,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 149
@@ -15792,10 +14916,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -15857,10 +14977,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -15931,10 +15047,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -16068,10 +15180,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 109
@@ -16141,10 +15249,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -16216,10 +15320,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -16281,10 +15381,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -16418,10 +15514,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -16522,10 +15614,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -16595,10 +15683,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -16732,10 +15816,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -16797,10 +15877,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -16934,10 +16010,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -17007,10 +16079,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -17082,10 +16150,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -17147,10 +16211,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -17214,10 +16274,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 95
@@ -17279,10 +16335,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -17353,7 +16405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1747882591}
   m_Layer: 0
-  m_Name: Bear
+  m_Name: 'Bear (Missing Prefab with guid: 9829b6b70e84ad8419837ad5ebc3f570)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17369,10 +16421,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -17435,10 +16483,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -17510,10 +16554,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -17583,10 +16623,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -17658,10 +16694,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -17731,10 +16763,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -17806,10 +16834,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 118
@@ -17871,10 +16895,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -17946,10 +16966,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -18011,10 +17027,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -18086,10 +17098,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -18159,10 +17167,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -18234,10 +17238,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -18299,10 +17299,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -18366,10 +17362,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 134
@@ -18432,10 +17424,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 105
@@ -18497,10 +17485,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -18642,10 +17626,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 129
@@ -18707,10 +17687,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -18836,10 +17812,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -18901,10 +17873,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -18968,10 +17936,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 155
@@ -19034,10 +17998,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 153
@@ -19099,10 +18059,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -19236,10 +18192,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -19301,10 +18253,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -19376,10 +18324,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -19450,10 +18394,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 128
@@ -19515,10 +18455,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -19722,10 +18658,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -19787,10 +18719,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -19924,10 +18852,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -19989,10 +18913,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -20064,10 +18984,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 141
@@ -20129,10 +19045,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -20274,10 +19186,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 163
@@ -20340,10 +19248,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 116
@@ -20405,10 +19309,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -20480,10 +19380,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 134
@@ -20553,10 +19449,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -20628,10 +19520,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 132
@@ -20693,10 +19581,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -20760,10 +19644,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 89
@@ -20826,10 +19706,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 133
@@ -20891,10 +19767,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -20966,10 +19838,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -21021,6 +19889,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
   m_PrefabInstance: {fileID: 1697100103}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1697433107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1078430519148682724, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: playerPrefab
+      value: 
+      objectReference: {fileID: 5988590173649968415, guid: 8f21620885d13714387404aeadb47b0b, type: 3}
+    - target: {fileID: 1078430519148682724, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: spawnPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682724, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: spawnPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 6653956862289318906, guid: 80522e53aa967a74bbfe7184b84308dc, type: 3}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -34.152393
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.577095
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4716854
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682725, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682729, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: m_Name
+      value: NetworkManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078430519148682731, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
+      propertyPath: Interval
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7525bb1c586e6654abc9aff84429035c, type: 3}
 --- !u!1001 &1703422658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21031,10 +19972,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -21098,10 +20035,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 143
@@ -21163,10 +20096,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -21230,10 +20159,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 154
@@ -21295,10 +20220,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -21370,10 +20291,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -21435,10 +20352,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -21555,13 +20468,13 @@ Transform:
   m_PrefabInstance: {fileID: 1747882590}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387594981}
-  m_LocalRotation: {x: 0.5534329, y: -0.4401273, z: -0.4401273, w: -0.5534329}
-  m_LocalPosition: {x: -96.2, y: 5.4302845, z: -6.3}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1317846879}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -283.012}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1759551969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21572,10 +20485,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -21639,10 +20548,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 131
@@ -21704,10 +20609,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -21778,10 +20679,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -21915,10 +20812,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 164
@@ -22043,10 +20936,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -22116,10 +21005,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -22191,10 +21076,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -22265,10 +21146,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 145
@@ -22330,10 +21207,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -22405,10 +21278,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -22478,10 +21347,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -22587,10 +21452,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -22660,10 +21521,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -22735,10 +21592,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -22808,10 +21661,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -22883,10 +21732,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 110
@@ -22948,10 +21793,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -23015,10 +21856,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 167
@@ -23080,10 +21917,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -23147,10 +21980,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 168
@@ -23212,10 +22041,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -23349,10 +22174,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 121
@@ -23414,10 +22235,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -23489,10 +22306,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -23562,10 +22375,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -23699,10 +22508,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 137
@@ -23764,10 +22569,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -23901,10 +22702,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 55
@@ -24029,10 +22826,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -24103,10 +22896,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 171
@@ -24168,10 +22957,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -24235,10 +23020,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -24301,10 +23082,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -24366,10 +23143,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -24441,10 +23214,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 142
@@ -24507,10 +23276,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 99
@@ -24572,10 +23337,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -24709,10 +23470,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -24774,10 +23531,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -24847,7 +23600,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4682320643596193319, guid: 9829b6b70e84ad8419837ad5ebc3f570, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4682320643596193319, guid: 9829b6b70e84ad8419837ad5ebc3f570, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24902,13 +23655,13 @@ Transform:
   m_PrefabInstance: {fileID: 2049118982}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096383998}
-  m_LocalRotation: {x: -0.37659308, y: -0.59847945, z: -0.59847945, w: 0.37659308}
-  m_LocalPosition: {x: 135.06, y: 18.22, z: -62.65}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1317846879}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -115.64}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2049915771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24919,10 +23672,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -24994,10 +23743,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 160
@@ -25059,10 +23804,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -25196,10 +23937,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 123
@@ -25261,10 +23998,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -25390,10 +24123,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -25464,10 +24193,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -25529,7 +24254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2049118983}
   m_Layer: 0
-  m_Name: Bear
+  m_Name: 'Bear (Missing Prefab with guid: 9829b6b70e84ad8419837ad5ebc3f570)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25545,10 +24270,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -25620,10 +24341,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -25685,10 +24402,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -25760,10 +24473,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 152
@@ -25825,10 +24534,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
@@ -25892,10 +24597,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -25957,10 +24658,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -26070,10 +24767,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 135
@@ -26143,10 +24836,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -26280,10 +24969,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -26354,10 +25039,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush
       objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -26419,10 +25100,6 @@ PrefabInstance:
     - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_Name
       value: Tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 4892492919873327433, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5237247451065846771, guid: 07c77a2ffe3eb8b49bfc6800147c39af, type: 3}
       propertyPath: m_RootOrder
@@ -26709,10 +25386,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water
       objectReference: {fileID: 0}
-    - target: {fileID: 2903407794065380453, guid: b632d05765ce59040ab2b783b3fd8c49, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b632d05765ce59040ab2b783b3fd8c49, type: 3}
 --- !u!1001 &3185604303823134418
@@ -26847,10 +25520,6 @@ PrefabInstance:
     - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_Name
       value: Bush
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474718673372838254, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4283906851767952340, guid: 5122dc4f1c0f16b49a7b2bf45b3ea068, type: 3}
       propertyPath: m_RootOrder

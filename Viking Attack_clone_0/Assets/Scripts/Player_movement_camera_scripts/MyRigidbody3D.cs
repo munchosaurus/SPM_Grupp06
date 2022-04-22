@@ -27,6 +27,7 @@ public class MyRigidbody3D : NetworkBehaviour
         //Set collisionMask to hit everything except self
         collisionMask = ~(1 << gameObject.layer);
         capsuleCollider = GetComponent<CapsuleCollider>();
+        NetworkServer.SpawnObjects();
     }
 
     void Update()

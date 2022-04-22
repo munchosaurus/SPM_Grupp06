@@ -10,7 +10,7 @@ namespace DefaultNamespace
     public class CharacterBase : ScriptableObject
     {
         [SerializeField] private Type type;
-        [SerializeField] private string name;
+        [SerializeField] private string characterName;
         [SerializeField] private string description;
         [SerializeField] private float range;
         [SerializeField] private float attackCooldown;
@@ -22,7 +22,7 @@ namespace DefaultNamespace
         // Returns name of the item
         public string GetName()
         {
-            return name;
+            return characterName;
         }
 
         public float GetMaxHealth()

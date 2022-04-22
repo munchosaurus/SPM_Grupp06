@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 5988590173185455047}
   m_Layer: 5
   m_Name: UI
-  m_TagString: Untagged
+  m_TagString: PlayerUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -300,7 +300,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5988590173185455045}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -406,6 +406,7 @@ GameObject:
   - component: {fileID: -2930158909875343975}
   - component: {fileID: 174002659582352452}
   - component: {fileID: 2287701396143008687}
+  - component: {fileID: -4742521611354210552}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -573,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cab9fe883b7e0eb408de94931c043a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  playerName: NameTest
   skinColor: {r: 0, g: 0, b: 0, a: 0}
   health: 0
   maxHealth: 0
@@ -611,6 +612,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 256
+  enemyHealthPrefab: {fileID: 1198097881947184180, guid: f54b288de5a1b7a4698c7c612d594b8d, type: 3}
 --- !u!114 &-2930158909875343975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -645,7 +647,6 @@ MonoBehaviour:
   firstPersonPosition: {fileID: 5988590173403348295}
   thirdPersonPosition: {fileID: 5988590174005083855}
   mouseSensitivity: 1
-  player: {fileID: 5988590173649968415}
 --- !u!54 &2287701396143008687
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -662,6 +663,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-4742521611354210552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988590173649968415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9bc5e4e3b204c9dbd81cdfbf406332e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  friendlyNamePrefab: {fileID: 8948183428120134570, guid: ffe9784b091208f488d4643a701b1530, type: 3}
 --- !u!1 &5988590174005083855
 GameObject:
   m_ObjectHideFlags: 0

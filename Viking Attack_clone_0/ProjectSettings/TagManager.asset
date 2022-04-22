@@ -8,6 +8,7 @@ TagManager:
   - FirstPerson
   - ThirdPerson
   - CameraMain
+  - PlayerUI
   layers:
   - Default
   - TransparentFX

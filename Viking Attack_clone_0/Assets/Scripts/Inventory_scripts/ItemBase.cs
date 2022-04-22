@@ -15,7 +15,7 @@ namespace DefaultNamespace
         
         
         [SerializeField] private Type type;
-        [SerializeField] private string name;
+        [SerializeField] private string itemName;
         [SerializeField] private string description;
         [SerializeField] private int damage; // only interesting if weapon
         [SerializeField] private float range;
@@ -39,7 +39,7 @@ namespace DefaultNamespace
         // Returns name of the item
         public string GetName()
         {
-            return name;
+            return itemName;
         }
         
         // Returns the amount healed when using the item
