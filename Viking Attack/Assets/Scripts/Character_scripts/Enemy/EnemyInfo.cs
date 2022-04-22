@@ -35,6 +35,7 @@ namespace DefaultNamespace
 
         public void Kill()
         {
+            //TODO ADD EVENT LISTENER HERE, NEEDS TO FIND ALL LISTENERS FOR ENEMY DEATHS
             gameObject.SetActive(false);
         }
 

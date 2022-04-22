@@ -31,9 +31,11 @@ public class EnemyMovement : NetworkBehaviour
     [SerializeField] private CharacterBase characterBase; // the scriptable object that we fetch all the variables from
 
     // Syncs the position of the object to the server
-    [SyncVar][SerializeField] private Vector3 syncPosition;
+    [SyncVar]
+    [SerializeField] private Vector3 syncPosition;
     // Syncs the rotaion of the object to the server
-    [SyncVar][SerializeField] private Quaternion syncRotation;
+    [SyncVar]
+    [SerializeField] private Quaternion syncRotation;
 
 
     void Start()
@@ -41,9 +43,6 @@ public class EnemyMovement : NetworkBehaviour
         rigidBody = GetComponent<Rigidbody>();
         chasingSpeedMultiplier = characterBase.GetChasingSpeed();
         moveSpeed = characterBase.GetMovementSpeed();
-        
-        // END OF MARTIN
-
         isGuarding = true;
         ground = LayerMask.GetMask("Ground");
         movingDirection = Vector3.forward;
@@ -96,9 +95,7 @@ public class EnemyMovement : NetworkBehaviour
             {
                 CheckForPlayer();
             }
-            //Foljande 2 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen samt HP
-            CmdSetSynchedPosition(transform.position);
-            CmdSetSynchedRotation(transform.rotation);
+
         }
 
         if (backToDefault)
@@ -114,6 +111,9 @@ public class EnemyMovement : NetworkBehaviour
                     chasingSpeedMultiplier * 1.5f * Time.deltaTime);
             }
         }
+        //Foljande 2 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen samt HP
+        CmdSetSynchedPosition(transform.position);
+        CmdSetSynchedRotation(transform.rotation);
     }
 
     //Kommandlinjer for att be servern om uppdateringar po rotation och position
@@ -135,6 +135,11 @@ public class EnemyMovement : NetworkBehaviour
                 isChasing = true;
             }
         }
+    }
+
+    void SetPosition(Vector3 pos)
+    {
+        transform.position = pos;
     }
 
     void OnDrawGizmos()

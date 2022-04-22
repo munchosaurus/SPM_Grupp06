@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/Player/GlobalPlayerInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/Enemy/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/Enemy/EnemyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Viking Attack_clone_0/Assets/Scripts/Character_scripts/Player/PlayerActivateFriendlyPlayerName.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/Player/PlayerItemUsageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player_movement_camera_scripts/MyRigidbody3D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character_scripts/CharacterBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -111,7 +112,7 @@
       <workItem from="1650557564235" duration="980000" />
       <workItem from="1650625859225" duration="8149000" />
       <workItem from="1650644924819" duration="1268000" />
-      <workItem from="1650649619306" duration="5799000" />
+      <workItem from="1650649619306" duration="7832000" />
     </task>
     <servers />
   </component>

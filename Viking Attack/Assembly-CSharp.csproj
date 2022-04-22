@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Interactable_Logic_Scripts\BridgeActivation.cs" />
      <Compile Include="Assets\Scripts\Inventory_scripts\ItemContainer.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemyInfo.cs" />
+     <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerBaseState.cs" />
      <Compile Include="Assets\Scripts\Character_scripts\Player\PlayerItemUsageController.cs" />
      <Compile Include="Assets\Scripts\SaveScripter.cs" />
@@ -90,7 +91,6 @@
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\PlayerRunState.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\Camera\CameraMovement3D.cs" />
      <Compile Include="Assets\Scripts\Player_movement_camera_scripts\GeneralHelpFunctions3D.cs" />
-     <Compile Include="Assets\Scripts\Character_scripts\Enemy\EnemyAttack.cs" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
      <None Include="Assets\Network\Mirror\Version.txt" />

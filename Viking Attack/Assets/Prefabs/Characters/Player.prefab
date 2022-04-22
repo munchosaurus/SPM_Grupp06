@@ -532,7 +532,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b67ef9b689dad1a44ab396f08916aa91, type: 2}
   - {fileID: 11400000, guid: 4e4bfb8b1a8ce0b4b86d45adb98c4ec1, type: 2}
   jumpForce: 30
-  acceleration: 0.5
+  acceleration: 1
   firstPerson: 1
 --- !u!114 &5988590173649968414
 MonoBehaviour:
@@ -675,6 +675,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9bc5e4e3b204c9dbd81cdfbf406332e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
   layerMask:
     serializedVersion: 2
     m_Bits: 8
