@@ -17,7 +17,7 @@ public class GlobalPlayerInfo : MonoBehaviour
 
     private void Awake()
     {
-        gameObject.transform.Find("UI").GetComponent<Canvas>().enabled = true;
+        
         health = 100;
         maxHealth = 100;
         //Cursor.lockState = CursorLockMode.Locked; // Locks the mouse cursor

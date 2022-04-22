@@ -16,6 +16,7 @@ public class CameraMovement3D : NetworkBehaviour
     void Awake()
     {
         mainCamera = GameObject.FindGameObjectWithTag("CameraMain").GetComponent<Camera>();
+
     }
 
     public override void OnStartLocalPlayer()
@@ -33,6 +34,8 @@ public class CameraMovement3D : NetworkBehaviour
 
             }
         }
+        // Enables the own object of the player
+        gameObject.transform.Find("UI").GetComponent<Canvas>().enabled = true;
     }
 
     public override void OnStopLocalPlayer()

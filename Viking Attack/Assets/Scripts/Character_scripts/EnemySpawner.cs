@@ -7,7 +7,8 @@ using UnityEngine;
 public class EnemySpawner : NetworkBehaviour
 
 {
-    [SerializeField] private GameObject ball;
+    [Header("Drag the prefab you want to spawn in this spawner here")]
+    [SerializeField] private GameObject enemyPrefabToSpawn;
     [SerializeField] private bool stop;
     
     private IEnumerator EnemySpawn()
@@ -15,12 +16,8 @@ public class EnemySpawner : NetworkBehaviour
         
         while (!stop)
         {
-            Debug.Log("Hej");
-            var enemy = Instantiate(ball, gameObject.transform);
+            var enemy = Instantiate(enemyPrefabToSpawn, gameObject.transform);
             NetworkServer.Spawn(enemy);
-            
-            
-            
             yield return new WaitForSeconds(10);
         }
     }
