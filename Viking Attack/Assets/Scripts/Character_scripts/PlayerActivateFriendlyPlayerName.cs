@@ -29,6 +29,10 @@ namespace DefaultNamespace
         private void Awake()
         {
 
+            if (isLocalPlayer)
+            {
+                return;
+            }
             //gameObject.GetComponentInChildren<Canvas>().enabled = true;
             instancesToDisable = new List<GameObject>();
             instancesOfFriendliesSpotted = new List<uint>();
@@ -39,11 +43,18 @@ namespace DefaultNamespace
 
         private void FixedUpdate()
         {
+            if (!isLocalPlayer)
+            {
+                return;
+            }
+            
             // All friendly players detected by the SphereCast
             hits = Physics.SphereCastAll(mainCamera.transform.position, 3,
                 mainCamera.transform.forward, 10, layerMask);
 
 
+            
+            
             // makes sure that the previousHits array contains objects before iterating through it.
             if (previousHits.Length > 0)
             {
