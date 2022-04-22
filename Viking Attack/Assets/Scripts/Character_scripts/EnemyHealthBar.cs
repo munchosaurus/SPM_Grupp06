@@ -12,7 +12,6 @@ public class EnemyHealthBar : MonoBehaviour
     [SerializeField] public Slider healthBar; // the slider 
     [SerializeField] private GameObject healthSource; // the enemy gameobject
     [SerializeField] private int instanceID; // the ID of the enemy spotted in the activation script placed on the player
-
     [SerializeField]
     private Camera mainCamera;
     private void Update()

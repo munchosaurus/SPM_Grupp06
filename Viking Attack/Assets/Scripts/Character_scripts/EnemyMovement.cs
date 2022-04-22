@@ -211,9 +211,9 @@ public class EnemyMovement : NetworkBehaviour
     }
 
     //Kommandlinjer for att be servern om uppdateringar po rotation och position
-    [Command]
+    [Command(requiresAuthority = false)]
     void CmdSetSynchedPosition(Vector3 position) => syncPosition = position;
-    [Command]
+    [Command(requiresAuthority = false)]
     void CmdSetSynchedRotation(Quaternion rotation) => syncRotation = rotation;
     //
     // [Command]

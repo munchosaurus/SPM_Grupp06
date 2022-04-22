@@ -11,7 +11,7 @@ public class FriendlyNameDisplay : MonoBehaviour
     [SerializeField] private Text text;
     [SerializeField] private GameObject nameSource;
     [SerializeField] private int instanceID;
-    private Camera mainCamera;
+    [SerializeField] private Camera mainCamera;
 
     public void Update()
     {

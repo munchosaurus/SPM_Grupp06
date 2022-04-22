@@ -37,6 +37,7 @@ namespace DefaultNamespace
 
         private void FixedUpdate()
         {
+            //Debug.Log(gameObject.GetInstanceID());
             // All friendly players detected by the SphereCast
             hits = Physics.SphereCastAll(mainCamera.transform.position, 3,
                 mainCamera.transform.forward, 10, layerMask);
@@ -56,6 +57,7 @@ namespace DefaultNamespace
                             if (previousHit.transform.gameObject.GetInstanceID() ==
                                 go.GetComponent<FriendlyNameDisplay>().GetPersonalInstanceID())
                             {
+                                Debug.Log(go.GetComponent<FriendlyNameDisplay>().GetPersonalInstanceID());
                                 instancesToDisable.Add(go);
                             }
                         }
