@@ -1,7 +1,7 @@
-
+using System;
 using DefaultNamespace;
 using UnityEngine;
-
+using Mirror;
 
 // WHO TO BLAME: Martin Kings
 
@@ -14,15 +14,21 @@ public class GlobalPlayerInfo : MonoBehaviour
     public float maxHealth;
     public ItemBase[] items;
     public bool alive = true;
+    private Canvas playerUI;
 
     private void Awake()
     {
+        playerUI = GameObject.FindGameObjectWithTag("PlayerUI").GetComponent<Canvas>();
+        if (playerUI != null)
+        {
+            playerUI.transform.SetParent(transform);
+
+        }
         health = 100;
         maxHealth = 100;
         //Cursor.lockState = CursorLockMode.Locked; // Locks the mouse cursor
     }
 
-    // Gets called upon during game launch, the main menu sets the player name
     public void SetPlayerName(string insertedName)
     {
         playerName = insertedName;
@@ -55,7 +61,7 @@ public class GlobalPlayerInfo : MonoBehaviour
     {
         return skinColor;
     }
-    
+
     // Checks if the player is alive
     public bool IsAlive()
     {
@@ -66,7 +72,7 @@ public class GlobalPlayerInfo : MonoBehaviour
     public void UpdateHealth(float difference)
     {
         health += difference;
-        gameObject.transform.Find("UI").gameObject.transform.Find("Health_bar").gameObject.transform.Find("Health_bar_slider").gameObject.GetComponent<PlayerHealthBar>().SetHealth();
+        // Updates the slider value
+        gameObject.GetComponent<PlayerHealthBar>().SetHealth(health);
     }
-
 }

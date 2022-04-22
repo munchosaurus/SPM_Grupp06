@@ -30,7 +30,7 @@ public class PlayerInteractionScript : NetworkBehaviour
         }else
         {
             //Set text to nothing
-            interactionText.text = "";   
+            //interactionText.text = "";   
         }
     }
 }

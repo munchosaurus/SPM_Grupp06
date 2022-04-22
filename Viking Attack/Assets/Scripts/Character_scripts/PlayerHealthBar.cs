@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,19 +9,18 @@ using UnityEngine.UI;
 public class PlayerHealthBar : MonoBehaviour
 {
     public Slider healthBar; // the slider 
-    private GlobalPlayerInfo globalPlayerInfo; // contains the global info of the current player
-    [SerializeField] private GameObject player; // the current player object
-    
+
     private void Start()
     {
-        globalPlayerInfo = player.GetComponent<GlobalPlayerInfo>(); // fetches the globalplayerinfo from the player
-        healthBar = GetComponent<Slider>();
-        healthBar.value = globalPlayerInfo.GetHealth();
+        
+        healthBar = GameObject.FindGameObjectWithTag("health_bar").gameObject.GetComponent<Slider>();
+        healthBar.maxValue = gameObject.GetComponent<GlobalPlayerInfo>().GetMaxHealth();
+        healthBar.value = gameObject.GetComponent<GlobalPlayerInfo>().GetHealth();
     }
 
     // Updates the value of the slider to the players current health (will be called upon when being attacked, healed etc)
-    public void SetHealth()
+    public void SetHealth(float health)
     {
-        healthBar.value = globalPlayerInfo.health;
+        healthBar.value = health;
     }
 }
