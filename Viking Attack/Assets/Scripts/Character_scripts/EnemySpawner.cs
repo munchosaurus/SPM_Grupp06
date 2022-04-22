@@ -9,6 +9,7 @@ public class EnemySpawner : NetworkBehaviour
 {
     [SerializeField] private GameObject ball;
     [SerializeField] private bool stop;
+    
     private IEnumerator EnemySpawn()
     {
         

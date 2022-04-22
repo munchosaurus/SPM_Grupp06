@@ -12,7 +12,9 @@ public class EnemyHealthBar : MonoBehaviour
     [SerializeField] public Slider healthBar; // the slider 
     [SerializeField] private GameObject healthSource; // the enemy gameobject
     [SerializeField] private int instanceID; // the ID of the enemy spotted in the activation script placed on the player
-    
+
+    [SerializeField]
+    private Camera mainCamera;
     private void Update()
     {
         SetHealth();
@@ -29,7 +31,7 @@ public class EnemyHealthBar : MonoBehaviour
     {
         if (healthSource != null)
         {
-            healthBar.value = healthSource.GetComponent<EnemyMovement>().GetHealth();
+            healthBar.value = healthSource.GetComponent<EnemyVitalController>().getCurrentHealth();
         }
     }
     
@@ -38,19 +40,22 @@ public class EnemyHealthBar : MonoBehaviour
         return instanceID;
     }
     
-    public void Display()
+    public void Display( )
     {
-        var wantedPos = Camera.main.WorldToScreenPoint (target.position);
+        
+        var wantedPos = mainCamera.WorldToScreenPoint (target.position);
         gameObject.transform.position = wantedPos;
     }
 
-    public void Setup(Transform parent, Transform t, Transform enemy, EnemyInfo enemyInfo)
+    public void Setup(Transform parent, Transform t, Transform enemy, EnemyInfo enemyInfo, Camera mainCam)
     {
         transform.SetParent(parent.Find("UI"));
         target = t;
         SetHealthSource(enemy.gameObject);
         healthBar.maxValue = enemyInfo.maxHealth;
         instanceID = enemy.gameObject.GetInstanceID();
+        mainCamera = mainCam;
+
     }
 }
 

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
 using System.Linq;
 using System.Security;
+using Mirror;
 using UnityEngine;
 
 namespace DefaultNamespace
 {
     // WHO TO BLAME: Martin Kings
-    public class PlayerActivateEnemyHealthBar : MonoBehaviour
+    public class PlayerActivateEnemyHealthBar : NetworkBehaviour
     {
         // The layermask of the enemies
         [SerializeField] private LayerMask layerMask;
@@ -31,6 +32,8 @@ namespace DefaultNamespace
         // Will be updated when health bars are to be deactivated
         private List<GameObject> instancesToDisable;
 
+        private Camera mainCamera;
+
 
         private void Awake()
         {
@@ -38,17 +41,15 @@ namespace DefaultNamespace
             instancesOfEnemyHealthBars = new List<GameObject>();
             instancesToDisable = new List<GameObject>();
             previousHits = new RaycastHit[] { };
+            mainCamera = GameObject.FindGameObjectWithTag("CameraMain").GetComponent<Camera>();
         }
 
         void FixedUpdate()
         {
+            if (!isLocalPlayer) return;
             // All enemies detected by the SphereCast
-            hits = Physics.SphereCastAll
-            (gameObject.transform.Find("Main Camera").transform.position,
-                3,
-                gameObject.transform.Find("Main Camera").transform.forward,
-                10,
-                layerMask);
+            hits = Physics.SphereCastAll(mainCamera.transform.position, 3,
+                mainCamera.transform.forward, 10, layerMask);
 
             // makes sure that the previousHits array contains objects before iterating through it.
             if (previousHits.Length > 0)
@@ -124,7 +125,7 @@ namespace DefaultNamespace
             var go = Instantiate(enemyHealthPrefab,
                 gameObject.transform); // creates the health bar instance
             
-            go.GetComponent<EnemyHealthBar>().Setup(gameObject.transform, uiTargetToFollow, enemy, enemy.GetComponent<EnemyInfo>());
+            go.GetComponent<EnemyHealthBar>().Setup(gameObject.transform, uiTargetToFollow, enemy, enemy.GetComponent<EnemyInfo>(), mainCamera);
 
 
             return go;

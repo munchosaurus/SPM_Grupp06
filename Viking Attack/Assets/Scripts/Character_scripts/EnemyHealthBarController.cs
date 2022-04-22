@@ -12,7 +12,7 @@ public class EnemyHealthBarController : MonoBehaviour
 
     void OnHealthChanged(float valueInPercent)
     {
-        bar.fillAmount = valueInPercent;
+        //bar.fillAmount = valueInPercent;
         //bartext.text = $"{value}";
     }
 }

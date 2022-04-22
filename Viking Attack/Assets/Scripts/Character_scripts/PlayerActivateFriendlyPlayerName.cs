@@ -23,6 +23,8 @@ namespace DefaultNamespace
         private List<int> instancesOfFriendliesSpotted;
 
         private List<GameObject> instancesToDisable;
+        
+        private Camera mainCamera;
 
         private void Awake()
         {
@@ -30,17 +32,14 @@ namespace DefaultNamespace
             instancesOfFriendliesSpotted = new List<int>();
             instancesOfFriendlyNames = new List<GameObject>();
             previousHits = new RaycastHit[] { };
+            mainCamera = GameObject.FindGameObjectWithTag("CameraMain").GetComponent<Camera>();
         }
 
         private void FixedUpdate()
         {
             // All friendly players detected by the SphereCast
-            hits = Physics.SphereCastAll
-            (gameObject.transform.Find("Main Camera").transform.position,
-                6,
-                gameObject.transform.Find("Main Camera").transform.forward,
-                60,
-                layerMask);
+            hits = Physics.SphereCastAll(mainCamera.transform.position, 3,
+                mainCamera.transform.forward, 10, layerMask);
 
             
             // makes sure that the previousHits array contains objects before iterating through it.
