@@ -416,7 +416,7 @@ MonoBehaviour:
   moveSpeed: 0
   health: 0
   maxHealth: 0
-  syncHealth: 0
+  syncRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &-6392840626969825405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneId: 0
-  serverOnly: 0
+  serverOnly: 1
   visible: 0
   m_AssetId: 80522e53aa967a74bbfe7184b84308dc
   hasSpawned: 0

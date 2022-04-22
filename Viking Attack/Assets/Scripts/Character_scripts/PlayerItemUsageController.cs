@@ -30,9 +30,6 @@ public class PlayerItemUsageController : NetworkBehaviour
                         mainCamera.transform.forward, out hit, itemBase.GetRange(),
                         LayerMask.GetMask("Enemy")))
                 {
-                    //hit.collider.gameObject.GetComponent<EnemyMovement>().UpdateHealth(-itemBase.GetDamage());
-                    float currentHealth =
-                        hit.collider.gameObject.GetComponent<EnemyVitalController>().getCurrentHealth();
                     hit.collider.gameObject.GetComponent<EnemyVitalController>()
                         .CmdUpdateHealth(-itemBase.GetDamage());
                 }
