@@ -3,14 +3,12 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 /Viking\ Attack/[Ll]ibrary/
-/Viking\ Attack/Library/ScriptAssemblies/
 /Viking\ Attack/[Tt]emp/
 /Viking\ Attack/[Oo]bj/
 /Viking\ Attack/[Bb]uild/
 /Viking\ Attack/[Bb]uilds/
 /Viking\ Attack/[Ll]ogs/
 /Viking\ Attack/[Uu]ser[Ss]ettings/
-/Viking\ Attack/.idea/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -79,6 +77,3 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /Viking\ Attack/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /Viking\ Attack/[Aa]ssets/[Ss]treamingAssets/aa/*
-/Viking\ Attack/Assembly-CSharp.csproj
-/Viking\ Attack/ProjectSettings/Packages/com.unity.probuilder/Settings.json
-/Viking\ Attack/Logs/shadercompiler-AssetImportWorker0.log
