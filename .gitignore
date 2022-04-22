@@ -3,6 +3,7 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 /Viking\ Attack/[Ll]ibrary/
+/Viking\ Attack/Library/ScriptAssemblies/
 /Viking\ Attack/[Tt]emp/
 /Viking\ Attack/[Oo]bj/
 /Viking\ Attack/[Bb]uild/
