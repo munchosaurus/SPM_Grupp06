@@ -1,7 +1,5 @@
-using System;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 namespace DefaultNamespace
 {
@@ -11,12 +9,19 @@ namespace DefaultNamespace
     // Contains the base information for all items. Will later on be used to determine action when used.
     public class ItemBase : ScriptableObject
     {
+        
+        
+        // WHO TO BLAME: Martin Kings
+        
+        
         [SerializeField] private Type type;
-        [SerializeField] private string name;
+        [SerializeField] private string itemName;
         [SerializeField] private string description;
         [SerializeField] private int damage; // only interesting if weapon
+        [SerializeField] private float range;
         [SerializeField] private int healAmount; // only interesting if food
         [SerializeField] private Sprite sprite; // the icon shown when interacting with the item
+        [SerializeField] private bool stackable; // if the item can be stacked in the inventory or the player bar
 
 
         
@@ -25,11 +30,16 @@ namespace DefaultNamespace
         {
             return damage;
         }
-    
+
+        public float GetRange()
+        {
+            return range;
+        }
+
         // Returns name of the item
         public string GetName()
         {
-            return name;
+            return itemName;
         }
         
         // Returns the amount healed when using the item
