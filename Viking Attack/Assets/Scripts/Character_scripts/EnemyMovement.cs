@@ -5,8 +5,9 @@ using System.Runtime.CompilerServices;
 using DefaultNamespace;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using Mirror;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyMovement : NetworkBehaviour
 {
     [SerializeField] private int patrolRange;
     private Vector3 respawnPosWithoutY;
@@ -34,7 +35,6 @@ public class EnemyMovement : MonoBehaviour
     private GlobalPlayerInfo globalPlayerInfo;
 
     // TODO: Fetch enemy information in prefab that determines range, cooldown, damage
-    // TODO: REMOVE ALL BUT THE RIGIDBODY
     // PLACEHOLDER BELOW
     [SerializeField] private float range;  // The range of the enemy attacks
     [SerializeField] private float attackCooldown; // the cooldown of the enemy attacks
@@ -46,6 +46,13 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float health;
     [SerializeField] private float maxHealth;
     
+    //syncPosition ar till for att synkronisera alla spelarpositioner gentemot servern
+    [SyncVar] private Vector3 syncPosition;
+    //syncRotation ser till synkronisera alla rotationer, quaternion istallet for gimbal f�r att kunna rotera pa x-axeln men inte y-axeln
+    [SyncVar][SerializeField] private Quaternion syncRotation;
+    //syncHealth is supposed to function to send data about the health across the server, updates when the enemy is hit
+    //[SyncVar][SerializeField] private float syncHealth;
+
 
     void Start()
     {
@@ -59,9 +66,11 @@ public class EnemyMovement : MonoBehaviour
         chasingSpeedMultiplier = characterBase.GetChasingSpeed();
         moveSpeed = characterBase.GetMovementSpeed();
         health = characterBase.GetMaxHealth();
+        // syncHealth = health;
         maxHealth = characterBase.GetMaxHealth();
+        
 
-
+        
         // END OF MARTIN
 
         isGuarding = true;
@@ -72,8 +81,8 @@ public class EnemyMovement : MonoBehaviour
         position = respawnPosWithoutY;
         transform.position = position;
     }
-    
-    
+
+
     private void FixedUpdate()
     {
         /*
@@ -104,6 +113,7 @@ public class EnemyMovement : MonoBehaviour
         /*
          * END OF RAYCAST, MARTINS CODE
          */
+        
     }
 
     // Resets the attack cooldown
@@ -129,13 +139,22 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+        
+        // if (!isLocalPlayer)
+        // {
+        //     base.transform.position = syncPosition;
+        //     base.transform.rotation = syncRotation;
+        //     
+        //     return;
+        // }
+        
         colliders = Physics.OverlapBox(groundCheck.transform.position, new Vector3(0.1f, 0.1f, 0.1f),
             Quaternion.identity, ground); //Check if we are on the Ground
         if (colliders.Length > 0) //when we find the ground
         {
             isGrounded = true;
         }
-
+        
         if (isGrounded) //start patrolling
         {
             if (isGuarding)
@@ -158,6 +177,7 @@ public class EnemyMovement : MonoBehaviour
                 }
                 else
                 {
+                    if (chasingObject.Equals(null)) return;
                     Vector3 facePlayer = new Vector3(chasingObject.transform.position.x, transform.position.y,
                         chasingObject.transform.position.z);
                     transform.LookAt(facePlayer);
@@ -184,7 +204,21 @@ public class EnemyMovement : MonoBehaviour
                     chasingSpeedMultiplier * 1.5f * Time.deltaTime);
             }
         }
+        
+        //Foljande 3 rader skickar ett kommando till servern och da andrar antingen positionen eller rotationen samt HP
+        CmdSetSynchedPosition(transform.position);
+        CmdSetSynchedRotation(transform.rotation);
     }
+
+    //Kommandlinjer for att be servern om uppdateringar po rotation och position
+    [Command]
+    void CmdSetSynchedPosition(Vector3 position) => syncPosition = position;
+    [Command]
+    void CmdSetSynchedRotation(Quaternion rotation) => syncRotation = rotation;
+    //
+    // [Command]
+    // void CmdSetSynchedHealth(float hleath) => syncHealth = health;
+
 
     private void CheckForPlayer()
     {
@@ -206,14 +240,18 @@ public class EnemyMovement : MonoBehaviour
         Gizmos.color = Color.black;
         Gizmos.DrawWireSphere(transform.position, detectScopeRadius);
     }
-
+    
     public void UpdateHealth(float difference)
     {
         health += difference;
+        gameObject.transform.Find("Parent").gameObject.transform.Find("Health_bar").gameObject.GetComponent<EnemyHealthBar>().SetHealth();
+        //CmdSetSynchedHealth(health);
+        //gameObject.transform.GetComponent<EnemyVitalController>().CmdUpdateHealth(health);
         if (health <= 0)
         {
             gameObject.GetComponent<EnemyInfo>().Kill();
         }
+
     }
 
     public float GetHealth()

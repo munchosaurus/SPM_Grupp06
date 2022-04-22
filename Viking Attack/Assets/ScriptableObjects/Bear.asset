@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Bear
   m_EditorClassIdentifier: 
   type: 1
-  characterName: 
+  name: Bear
   description: ROAR
   range: 2
   attackCooldown: 0.8
   damage: 15
-  chasingSpeedMultiplier: 1
-  moveSpeed: 5
+  chasingSpeedMultiplier: 0
+  moveSpeed: 0
   maxHealth: 15
