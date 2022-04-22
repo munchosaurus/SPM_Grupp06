@@ -202,6 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fee410f36ef05ce4cac5b50d54fe4abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leverShaft: {fileID: 5599726869007842685}
   roatitionSpeed: 300
   activationObject: {fileID: 0}
 --- !u!1 &5599726868774233276

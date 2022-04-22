@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class LeverInteraction : BaseObjectInteraction
 {
+    [SerializeField] private GameObject leverShaft;
     [SerializeField] private float roatitionSpeed;
     //The object that the lever is activating
     [SerializeField] private GameObject activationObject;
@@ -31,12 +32,12 @@ public class LeverInteraction : BaseObjectInteraction
     // Sets the default targetRotation to current LeverShaftPivot rotation
     private void Start()
     {
-        targetRotation = transform.Find("LeverShaftPivot").transform.rotation;
+        targetRotation = leverShaft.transform.localRotation;
     }
 
     void Update()
     {
         //Moves the lever in a motion (Not teleporting)
-        transform.Find("LeverShaftPivot").transform.rotation = Quaternion.RotateTowards(transform.Find("LeverShaftPivot").transform.rotation, targetRotation, roatitionSpeed * Time.deltaTime);
+        leverShaft.transform.rotation = Quaternion.RotateTowards(leverShaft.transform.rotation, targetRotation, roatitionSpeed * Time.deltaTime);
     }
 }
