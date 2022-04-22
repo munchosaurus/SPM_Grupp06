@@ -645,7 +645,7 @@ MonoBehaviour:
   firstPersonPosition: {fileID: 5988590173403348295}
   thirdPersonPosition: {fileID: 5988590174005083855}
   mouseSensitivity: 1
-  player: {fileID: 5988590173649968415}
+  player: {fileID: 0}
 --- !u!54 &2287701396143008687
 Rigidbody:
   m_ObjectHideFlags: 0

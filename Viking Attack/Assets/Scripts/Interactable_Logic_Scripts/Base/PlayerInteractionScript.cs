@@ -8,10 +8,6 @@ public class PlayerInteractionScript : NetworkBehaviour
     //The text that shows when hovering over an interactable object
     [SerializeField] private UnityEngine.UI.Text interactionText;
     [SerializeField] private Camera mainCamera;
-
-    public void Enter()
-    {
-    }
     public void Start()
     {
         mainCamera = GameObject.FindGameObjectWithTag("CameraMain").GetComponent<Camera>();

@@ -8,15 +8,10 @@ public class CameraMovement3D : NetworkBehaviour
     [SerializeField]private GameObject firstPersonPosition;
     [SerializeField]private GameObject thirdPersonPosition;
     [SerializeField] float mouseSensitivity = 1;
-    [SerializeField] GameObject player;
     private float rotationX;
     private float rotationY;
     private Vector3 cameraPosition;
-    private Camera mainCamera;
-
-    private GameObject whereToPut;
-    private Transform cameraTransform;
-    
+    private Camera mainCamera;    
     
     void Awake()
     {
@@ -27,24 +22,16 @@ public class CameraMovement3D : NetworkBehaviour
     {
         if (mainCamera != null)
         {
+            mainCamera.transform.SetParent(transform);
             if (GetComponentInParent<PlayerScript3D>().firstPerson)
             {
-                whereToPut = firstPersonPosition;
-                cameraPosition = whereToPut.transform.localPosition;
+                cameraPosition = firstPersonPosition.transform.localPosition;
             }
             else
             {
-                whereToPut = thirdPersonPosition;
-                cameraPosition = whereToPut.transform.localPosition;
+                cameraPosition = thirdPersonPosition.transform.localPosition;
 
             }
-            // configure and make camera a child of player with 3rd person offset
-            mainCamera.orthographic = false;
-            mainCamera.transform.SetParent(transform);
-            mainCamera.transform.localPosition = cameraPosition;
-            mainCamera.transform.localEulerAngles = new Vector3(10f, 0f, 0f);
-            cameraTransform = mainCamera.gameObject.transform;  //Find main camera which is part of the scene instead of the prefab
-
         }
     }
 
@@ -69,7 +56,7 @@ public class CameraMovement3D : NetworkBehaviour
         rotationX -= Input.GetAxisRaw("Mouse Y") * mouseSensitivity;
         rotationY += Input.GetAxisRaw("Mouse X") * mouseSensitivity;
         rotationX = Mathf.Clamp(rotationX, -89, 89);
-        cameraTransform.rotation = Quaternion.Euler(rotationX, rotationY, 0f);
+        mainCamera.transform.rotation = Quaternion.Euler(rotationX, rotationY, 0f);
         
     }
 
@@ -77,15 +64,15 @@ public class CameraMovement3D : NetworkBehaviour
     {
         if (!isLocalPlayer) return;
         //Looks if camera hits a collider and if it's true change position of camera to hit position
-        Vector3 cameraOffset = transform.rotation * cameraPosition;
+        Vector3 cameraOffset = mainCamera.transform.rotation * cameraPosition;
         RaycastHit hit;
-        if (Physics.SphereCast(whereToPut.transform.position, 0.1f, cameraOffset, out hit, cameraOffset.magnitude, ~(1 << whereToPut.gameObject.layer)))
+        if (Physics.SphereCast(mainCamera.transform.parent.transform.position, 0.1f, cameraOffset, out hit, cameraOffset.magnitude, ~(1 << mainCamera.transform.parent.gameObject.layer)))
         {
-            mainCamera.transform.position = transform.transform.position + cameraOffset.normalized * hit.distance;
+            mainCamera.transform.position = mainCamera.transform.parent.transform.position + cameraOffset.normalized * hit.distance;
         }
         else
         {
-            mainCamera.transform.position = whereToPut.transform.position + cameraOffset;
+            mainCamera.transform.position = mainCamera.transform.parent.transform.position + cameraOffset;
         }
     }
 }
