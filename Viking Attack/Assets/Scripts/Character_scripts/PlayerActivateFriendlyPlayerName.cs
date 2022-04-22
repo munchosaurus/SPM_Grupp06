@@ -80,6 +80,7 @@ namespace DefaultNamespace
             {
                 if (instancesOfFriendliesSpotted.Contains(hit.transform.gameObject.GetInstanceID()) == false && hit.collider.gameObject.GetInstanceID() != gameObject.GetInstanceID())
                 {
+                    
                     bool alreadyExists = false; 
                     
                     foreach (var friendlyName in instancesOfFriendlyNames)
@@ -95,6 +96,7 @@ namespace DefaultNamespace
 
                     if (!alreadyExists)
                     {
+                        Debug.Log(hit.collider.gameObject.GetInstanceID());
                         GameObject go = SetupFriendlyName(hit);
                         instancesOfFriendlyNames.Add(go);
                     }
@@ -112,9 +114,9 @@ namespace DefaultNamespace
         {
             var player = hit.collider.transform;
             var go = Instantiate(friendlyNamePrefab,
-                gameObject.transform); // creates the health bar instance
+                gameObject.transform); // creates the friendlt name text instance
             
-            go.GetComponent<FriendlyNameDisplay>().Setup(gameObject.transform, player, player.GetComponent<GlobalPlayerInfo>());
+            go.GetComponent<FriendlyNameDisplay>().Setup(gameObject.transform, player, player.GetComponent<GlobalPlayerInfo>(), mainCamera);
 
 
             return go;

@@ -11,6 +11,7 @@ public class FriendlyNameDisplay : MonoBehaviour
     [SerializeField] private Text text;
     [SerializeField] private GameObject nameSource;
     [SerializeField] private int instanceID;
+    private Camera mainCamera;
 
     public void Update()
     {
@@ -19,8 +20,12 @@ public class FriendlyNameDisplay : MonoBehaviour
     
     public void Display()
     {
-        var wantedPos = Camera.main.WorldToScreenPoint (target.position);
+        if (mainCamera == null)
+            return;
+        
+        var wantedPos = mainCamera.WorldToScreenPoint (target.position);
         gameObject.transform.position = wantedPos;
+
     }
 
     public int GetPersonalInstanceID()
@@ -28,12 +33,13 @@ public class FriendlyNameDisplay : MonoBehaviour
         return instanceID;
     }
     
-    public void Setup(Transform parent, Transform player, GlobalPlayerInfo playerInfo)
+    public void Setup(Transform parent, Transform player, GlobalPlayerInfo playerInfo, Camera mainCam)
     {
         transform.SetParent(parent.Find("UI"));
         nameSource = player.gameObject;
         target = player.Find("Overhead").gameObject.transform;
         instanceID = player.gameObject.GetInstanceID();
         text.text = playerInfo.GetName();
+        mainCamera = mainCam;
     }
 }
